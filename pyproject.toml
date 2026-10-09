@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "datapipeline-ast-guard"
+version = "0.1.0"
+description = "Static AST guardrails for LLM-generated PySpark / Polars code: no execution, SARIF + JSON output, CI-blocking exit codes."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "PCSchmidt" }]
+dependencies = ["click>=8.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "hypothesis>=6.100", "mypy>=1.10", "ruff>=0.5"]
+
+[project.scripts]
+agent-lint = "datapipeline_ast_guard.cli:main"
+datapipeline-ast-guard = "datapipeline_ast_guard.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/datapipeline_ast_guard"]
+
+[tool.mypy]
+strict = true
+python_version = "3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

@@ -74,3 +74,14 @@ def test_cli_exit_codes(tmp_path: Path) -> None:
 def test_never_raises_on_arbitrary_text(src: str) -> None:
     for f in analyze_source(src):
         assert f.line >= 1
+
+
+def test_string_and_path_joins_are_not_dataframe_joins() -> None:
+    # Regression: ordinary Python joins were flagged as keyless DataFrame joins (critical).
+    assert ids("x = ', '.join(names)") == []
+    assert ids("x = f'{a}-'.join(parts)") == []
+    assert ids("p = os.path.join(a)") == []
+    assert ids("x = sep.join([a, b])") == []
+    assert ids("x = sep.join(str(i) for i in xs)") == []
+    # still flagged: a bare receiver with a bare argument is indistinguishable from a DataFrame join
+    assert ids("orders.join(customers)") == ["AG002"]

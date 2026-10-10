@@ -12,6 +12,10 @@
 
 ## Verified today
 
-- 9 tests pass, including a hypothesis test that arbitrary text never raises.
+- 10 tests pass, including a hypothesis test that arbitrary text never raises and a regression test for string/path joins.
 - `mypy --strict` and `ruff` clean.
 - SARIF output has the 2.1.0 structure and correct 1-based line/column.
+
+## Development finding
+
+While writing the README I tested `", ".join(names)` and found AG002 flagged it as a keyless DataFrame join (critical, so it would block CI). Fixed for string-literal receivers, `os.path.join` and list/generator arguments, with a regression test. `sep.join(parts)` is still flagged because it cannot be told from a DataFrame join without type information. This is the kind of false positive the planned labelled corpus is meant to measure; it was found by inspection, not by measurement.

@@ -59,7 +59,23 @@ def _kw(call: ast.Call, name: str) -> ast.expr | None:
     return None
 
 
+_NOT_A_DATAFRAME_ARG = (ast.List, ast.Tuple, ast.Set, ast.ListComp, ast.SetComp, ast.GeneratorExp)
+
+
+def _looks_like_string_or_path_join(call: ast.Call) -> bool:
+    """`", ".join(xs)`, `f"..".join(xs)`, `os.path.join(a)`, `sep.join([...])` are not DataFrame joins."""
+    assert isinstance(call.func, ast.Attribute)
+    recv = call.func.value
+    if isinstance(recv, (ast.Constant, ast.JoinedStr)):
+        return True
+    if isinstance(recv, ast.Attribute) and recv.attr == "path":  # os.path / posixpath-style
+        return True
+    return bool(call.args) and isinstance(call.args[0], _NOT_A_DATAFRAME_ARG)
+
+
 def _is_cross_or_keyless_join(call: ast.Call) -> bool:
+    if _looks_like_string_or_path_join(call):
+        return False
     how = _kw(call, "how")
     if isinstance(how, ast.Constant) and how.value == "cross":
         return True

@@ -1,0 +1,462 @@
+{
+ "AG001|rparkr/polars-intro:polars_intro/polars_intro.py|520": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|mrjsj/msfabricutils:src/msfabricutils/etl/helpers/get_max_column_value.py|33": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|jmcurbelo/pyspark-ingenieria-de-datos:Secci\u00f3n 4/Lectura 19.py|18": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|AutoViML/featurewiz_polars:featurewiz_polars/featurewiz_polars.py|487": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|snowflakedb/snowpark-python:src/snowflake/snowpark/_internal/polars_backend.py|87": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|AutoViML/featurewiz_polars:featurewiz_polars/featurewiz_polars.py|472": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|mattiasthalen/adventure-works:streamlit/dashboard.py|86": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|rayyan17/jobAnalytics_and_search:data_lake/indeed_jobs.py|60": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|pranav-walimbe/PyCanopy:bench/spatial_bench/profiler_utils.py|222": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|5j9/tsetmc:tsetmc/market_watch.py|675": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|mahmoudparsian/pyspark-algorithms:code/chap05/rdd_transformation_mappartitions_handle_empty_partitions.py|161": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|TurboWay/pybigdata:spark/demo_spark.py|31": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|pranav-walimbe/PyCanopy:bench/spatial_bench/queries/pycanopy/q01.py|28": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|nicolaivicol/otto-recommender:model/w2vec_aids.py|37": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|ciaren-labs/Ciaren:backend/app/engine/transformations/ml/feature_engineering.py|291": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG001|alexott/databricks-playground:database-diagram-builder/database-diagram-builder-notebook.py|154": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|capeprivacy/cape-dataframes:cape_dataframes/spark/transformations/tokenizer_test.py|13": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|Mohith-akash/Global-News-Intel-Platform:etl/pipeline_polars.py|120": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|AutoViML/featurewiz_polars:examples/fs_mrmr_comparison.py|21": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|mahmoudparsian/pyspark-algorithms:code/chap05/rdd_transformation_mappartitions_handle_empty_partitions.py|164": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|IsaacCheng9/quant-trading-strategy-backtester:src/quant_trading_strategy_backtester/strategies/pairs_trading.py|108": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|AutoViML/featurewiz_polars:featurewiz_polars/featurewiz_polars.py|527": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|TurboWay/pybigdata:spark/demo_spark.py|56": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|dogukannulu/streaming_data_processing:read_and_write_initial_data/read_and_write_spark.py|101": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|PFund-Software-Ltd/pfeed:src/pfeed/_etl/market.py|86": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|ciaren-labs/Ciaren:backend/app/engine/transformations/ml/feature_engineering.py|105": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG001|PFund-Software-Ltd/pfeed:src/pfeed/sources/alphafund/data_handler.py|79": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|Mohith-akash/Global-News-Intel-Platform:etl/pipeline_polars.py|633": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|intake/akimbo:src/akimbo/polars.py|41": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|zjohn77/lightning-mlflow-hf:lightning_mlflow/data/lex_glue.py|120": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG001|alibaba/feathub:python/feathub/processors/spark/dataframe_builder/source_sink_utils.py|136": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|mahmoudparsian/pyspark-algorithms:code/chap04/DNA-FASTA-V1/run_dna_base_count_ver_1.py|73": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|rayyan17/jobAnalytics_and_search:data_lake/stackoverflow_dev.py|35": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|rayyan17/jobAnalytics_and_search:data_lake/indeed_jobs.py|47": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|rparkr/polars-intro:polars_intro/polars_intro.py|786": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|Quantco/diffly:diffly/comparison.py|823": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|jmcurbelo/pyspark-ingenieria-de-datos:Secci\u00f3n 4/Lectura 19.py|28": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|Quantco/diffly:diffly/comparison.py|310": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|rayyan17/jobAnalytics_and_search:data_lake/indeed_jobs.py|32": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|Quantco/diffly:diffly/comparison.py|826": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|flyteorg/flytekit:plugins/flytekit-polars/flytekitplugins/polars/sd_transformers.py|124": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|feng-li/dlsa:dlsa/dlsa.py|34": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|MTSWebServices/onetl:onetl/connection/db_connection/greenplum/connection.py|545": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|rparkr/polars-intro:polars_intro/polars_intro.py|359": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|aws-samples/emr-serverless-samples:examples/pyspark/custom-images/noaa_slugplot.py|48": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|ciaren-labs/Ciaren:backend/app/engine/transformations/ml/feature_engineering.py|161": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG001|mahmoudparsian/pyspark-algorithms:code/chap05/rdd_transformation_mappartitions_handle_empty_partitions.py|173": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|schumannx/full-stack-data-engineering:glue/jobs/processed_dims.py|34": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|ciaren-labs/Ciaren:backend/app/engine/backends/polars_engine.py|105": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|mrjsj/msfabricutils:src/msfabricutils/etl/helpers/get_min_column_value.py|33": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|Mohith-akash/Global-News-Intel-Platform:etl/pipeline_polars.py|376": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|ciaren-labs/Ciaren:backend/app/engine/backends/polars_engine.py|143": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|AutoViML/featurewiz_polars:featurewiz_polars/featurewiz_polars.py|373": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|MTSWebServices/onetl:onetl/connection/db_connection/greenplum/connection.py|523": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|ciaren-labs/Ciaren:backend/app/engine/backends/polars_engine.py|107": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|rparkr/polars-intro:polars_intro/polars_intro.py|487": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|AutoViML/featurewiz_polars:featurewiz_polars/featurewiz_polars.py|489": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|AutoViML/featurewiz_polars:featurewiz_polars/featurewiz_polars.py|371": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG001|alibaba/pilotscope:pilotscope/DBController/SparkSQLController.py|366": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG001|TurboWay/pybigdata:spark/demo_spark.py|44": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG002|TurboWay/pybigdata:spark/demo_spark.py|55": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG002|parafoxia/analytix:analytix/reports/interfaces.py|269": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG002|alibaba/feathub:python/feathub/online_stores/memory_online_store.py|176": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|alexott/databricks-playground:database-diagram-builder/database-diagram-builder-notebook.py|25": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|edkreuk/FMD_FRAMEWORK:src/NB_FMD_LOAD_DEMO_DATA.Notebook/notebook-content.py|62": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|hoangsonww/End-to-End-Data-Pipeline:storage/aws_s3_influxdb.py|96": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|microsoft/LakeBench:src/lakebench/engines/fabric_data_warehouse.py|135": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|uhussain/WebCrawlerForInflation:athena/trim_file.py|11": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dataength/automating-your-data-pipeline-with-apache-airflow:mnt/airflow/dags/store_lookup_pipeline.py|17": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|aws-samples/emr-serverless-samples:examples/pyspark/custom-images/noaa_slugplot.py|33": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|trannhatnguyen2/NYC_Taxi_Data_Pipeline:stream_processing/streaming_to_datalake.py|158": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|feng-li/dlsa:projects/logistic_dlsa.py|9": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|easysql/easy_sql:easy_sql/local_spark.py|25": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|anna-geller/prefect-streaming:realtime-poc/real_time_flow.py|39": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|ris-tlp/audiophile-e2e-pipeline:airflow/tasks/validate_sanitize_bronze.py|80": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|pranav-walimbe/PyCanopy:bench/spatial_bench/profiler_utils.py|25": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|airscholar/e2e-data-engineering:spark_stream.py|153": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|iobruno/data-engineering-labs:module5-batch-processing/fhv_zones_gcs.py|102": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|dogukannulu/streaming_data_processing:spark_streaming/spark_to_minio.py|45": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|anna-geller/prefect-streaming:realtime-poc/real_time_flow_with_slack_alert.py|43": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|capitalone/locopy:locopy/redshift.py|343": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/02_batch_read_kafka.py|112": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|dogukannulu/streaming_data_processing:read_and_write_initial_data/read_and_write_spark.py|102": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|dogukannulu/streaming_data_processing:read_and_write_initial_data/read_and_write_pandas.py|9": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|trannhatnguyen2/NYC_Taxi_Data_Pipeline:stream_processing/streaming_to_datalake.py|159": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|easysql/easy_sql:easy_sql/local_spark.py|48": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|thanhENC/e2e-data-platform:docker/spark/spark-apps/EL_OLTP/humanresources/EL_OLTP_hu_employeedepartmenthistory.py|27": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|trannhatnguyen2/NYC_Taxi_Data_Pipeline:stream_processing/read_parquet_streaming.py|34": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|thanhENC/e2e-data-platform:docker/spark/spark-apps/EL_OLTP/person/EL_OLTP_pe.py|28": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/07_batch_read_kafka.py|97": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|thomhopmans/pythom:6_deploy_spark_cluster_on_aws/spark_example/wordcount.py|29": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dogukannulu/streaming_data_processing:read_and_write_initial_data/read_and_write_pandas.py|62": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/13_batch_read_results_avro.py|98": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|dogukannulu/streaming_data_processing:spark_streaming/spark_to_minio.py|15": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/02_batch_read_kafka.py|114": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|trannhatnguyen2/NYC_Taxi_Data_Pipeline:scripts/transform_data.py|169": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dogukannulu/streaming_data_processing:read_and_write_initial_data/read_and_write_spark.py|13": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/02_batch_read_kafka.py|46": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/13_batch_read_results_avro.py|48": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|alexott/databricks-playground:database-diagram-builder/database-diagram-builder-notebook.py|219": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/07_batch_read_kafka.py|54": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dogukannulu/streaming_data_processing:read_and_write_initial_data/read_and_write_spark.py|25": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|thomhopmans/pythom:6_deploy_spark_cluster_on_aws/spark_example/wordcount.py|39": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/13_batch_read_results_avro.py|102": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|dataength/automating-your-data-pipeline-with-apache-airflow:mnt/airflow/dags/scripts/forex_processing.py|17": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/13_batch_read_results_avro.py|100": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/02_batch_read_kafka.py|102": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|GoogleCloudPlatform/cortex-data-foundation:src/k9/src/trends/trends.py|42": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|learningOrchestra/mlToolKits:microservices/projection_image/server.py|32": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|iobruno/data-engineering-labs:module5-batch-processing/fhv_zones_gcs.py|66": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|ris-tlp/audiophile-e2e-pipeline:airflow/tasks/validate_sanitize_bronze.py|81": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dogukannulu/streaming_data_processing:spark_streaming/spark_to_minio.py|145": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/kafka-connect-msk-demo:pyspark/pyspark_scripts/07_batch_read_kafka.py|99": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|feng-li/dlsa:projects/logistic_dlsa.py|107": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|iobruno/data-engineering-labs:module5-batch-processing/fhv_zones_gcs.py|70": {
+  "faithful": "yes",
+  "actionable": "no"
+ }
+}

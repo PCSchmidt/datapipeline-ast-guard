@@ -64,11 +64,12 @@ def clone(full: str) -> tuple[str, str | None]:
             ["git", "clone", "--depth", "1", "-q", f"https://github.com/{full}.git", str(dest)],
             capture_output=True,
             text=True,
+            check=False,
         )
         if r.returncode != 0:
             return full, None
     sha = subprocess.run(
-        ["git", "-C", str(dest), "rev-parse", "HEAD"], capture_output=True, text=True
+        ["git", "-C", str(dest), "rev-parse", "HEAD"], capture_output=True, text=True, check=False
     ).stdout.strip()
     return full, sha or None
 

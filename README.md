@@ -1,5 +1,7 @@
 # datapipeline-ast-guard — a pre-merge safety check for AI-written data pipeline code
 
+![CI](https://github.com/PCSchmidt/datapipeline-ast-guard/actions/workflows/ci.yml/badge.svg)
+
 **Status: v0.1, portfolio project.** Three rules, JSON and SARIF output, CLI and tests are complete. **Detection quality on real agent-written pipelines has not been measured yet**; that is the main open item ([Limitations](#limitations), [docs/RESULTS.md](docs/RESULTS.md)).
 
 ```text

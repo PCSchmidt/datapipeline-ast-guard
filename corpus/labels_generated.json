@@ -1,0 +1,454 @@
+{
+ "L01__gemma": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 49,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L01__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L01__mistral": {
+  "parses": false,
+  "positives": []
+ },
+ "L01__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S01__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S01__llama": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 9,
+    "rule": "AG003"
+   }
+  ]
+ },
+ "S01__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S01__qwen": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 18,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 28,
+    "rule": "AG003"
+   }
+  ]
+ },
+ "S02__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S02__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S02__mistral": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 10,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 11,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 28,
+    "rule": "AG003"
+   }
+  ]
+ },
+ "S02__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S03__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S03__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S03__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S03__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S04__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S04__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S04__mistral": {
+  "parses": false,
+  "positives": []
+ },
+ "S04__qwen": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 36,
+    "rule": "AG001"
+   },
+   {
+    "actionable": false,
+    "line": 37,
+    "rule": "AG001"
+   },
+   {
+    "actionable": false,
+    "line": 38,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "S05__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S05__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S05__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S05__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S06__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S06__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S06__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S06__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S07__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S07__llama": {
+  "parses": false,
+  "positives": []
+ },
+ "S07__mistral": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 13,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 19,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 35,
+    "rule": "AG003"
+   }
+  ]
+ },
+ "S07__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S08__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S08__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S08__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S08__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S09__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S09__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S09__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S09__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S10__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S10__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S10__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S10__qwen": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 23,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "S11__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S11__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S11__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S11__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S12__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S12__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S12__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S12__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S13__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S13__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S13__mistral": {
+  "parses": false,
+  "positives": []
+ },
+ "S13__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S14__gemma": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 51,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "S14__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S14__mistral": {
+  "parses": false,
+  "positives": []
+ },
+ "S14__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S15__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S15__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S15__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S15__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S16__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S16__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S16__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S16__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S17__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S17__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S17__mistral": {
+  "parses": false,
+  "positives": []
+ },
+ "S17__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S18__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S18__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S18__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S18__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S19__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "S19__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "S19__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S19__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "S20__gemma": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 14,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 15,
+    "rule": "AG003"
+   }
+  ]
+ },
+ "S20__llama": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 15,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 28,
+    "rule": "AG003"
+   }
+  ]
+ },
+ "S20__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "S20__qwen": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 11,
+    "rule": "AG003"
+   },
+   {
+    "actionable": true,
+    "line": 12,
+    "rule": "AG003"
+   }
+  ]
+ }
+}

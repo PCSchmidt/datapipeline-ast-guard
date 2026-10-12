@@ -183,6 +183,120 @@
   "parses": true,
   "positives": []
  },
+ "L11__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L11__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L11__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L11__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L12__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L12__llama": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 23,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L12__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L12__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L13__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L13__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L13__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L13__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L14__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L14__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L14__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L14__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L15__gemma": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 29,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L15__llama": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 22,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L15__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L15__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "P01__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "P01__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "P01__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "P01__qwen": {
+  "parses": true,
+  "positives": []
+ },
  "S01__gemma": {
   "parses": true,
   "positives": []

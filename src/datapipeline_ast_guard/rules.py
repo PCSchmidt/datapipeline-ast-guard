@@ -25,7 +25,7 @@ class Finding:
 
 RULES: dict[str, tuple[Severity, str]] = {
     "AG000": (Severity.CRITICAL, "File does not parse"),
-    "AG001": (Severity.CRITICAL, "Unbounded collect()/toPandas() with no preceding limit()/head()"),
+    "AG001": (Severity.WARNING, "Unbounded collect()/toPandas() with no preceding limit()/head()"),
     "AG002": (Severity.CRITICAL, "Cross join, or join without explicit equality keys"),
     "AG003": (Severity.WARNING, "Hard-coded file-system path"),
 }
@@ -45,6 +45,10 @@ _KEY_KWARGS = (
     "condition",
     "predicates",
 )
+# AG002 v2 (docs/PROTOCOL_V2.md): an explicit cross join is reported when the file imports one of these;
+# a keyless `.join(other)` is only a Cartesian product in PySpark (pandas joins on the index, Polars needs `on`).
+_DATAFRAME_LIBS = {"pyspark", "pandas", "polars", "pyarrow", "duckdb", "ibis"}
+_KEYLESS_MESSAGE = "Join without explicit keys (a Cartesian product in PySpark)"
 _ARGUMENT_FREE_BUILTINS = {
     "map",
     "sorted",
@@ -125,31 +129,46 @@ def _looks_like_string_or_path_join(call: ast.Call) -> bool:
     )  # `sep.join(map(str, xs))`
 
 
-def _is_cross_or_keyless_join(call: ast.Call) -> bool:
+def _join_form(call: ast.Call) -> str | None:
+    """ "cross" for an explicit cross join, "keyless" for a join with no keys, else None."""
     if _looks_like_string_or_path_join(call):
-        return False
+        return None
     how = _kw(call, "how")
     if isinstance(how, ast.Constant) and how.value == "cross":
-        return True
+        return "cross"
     if any(_kw(call, k) is not None for k in _KEY_KWARGS):
-        return False
+        return None
     # A DataFrame join takes the other frame: `thread.join()` / `queue.join()` / `proc.join(timeout=5)` do not.
     if not call.args and _kw(call, "other") is None and _kw(call, "right") is None:
-        return False
+        return None
     # PySpark join(other, on, how) / Polars join(other, on): a second positional arg names keys.
-    return len(call.args) < 2
+    return "keyless" if len(call.args) < 2 else None
+
+
+def _imported_roots(tree: ast.AST) -> set[str]:
+    roots: set[str] = set()
+    for node in ast.walk(tree):
+        if isinstance(node, ast.Import):
+            roots.update(a.name.split(".")[0] for a in node.names)
+        elif isinstance(node, ast.ImportFrom) and node.module and node.level == 0:
+            roots.add(node.module.split(".")[0])
+    return roots
 
 
 class _Visitor(ast.NodeVisitor):
-    def __init__(self, path: str) -> None:
+    def __init__(self, path: str, imports: set[str] | None = None) -> None:
         self.path = path
+        self._imports = imports or set()
         self.findings: list[Finding] = []
         # Names assigned from a bounded frame (`small = df.limit(5)`), one set per scope, so that a later
         # `small.collect()` is recognised as bounded.
         self._bounded: list[set[str]] = [set()]
 
-    def _add(self, rule: str, node: ast.AST) -> None:
+    def _add(
+        self, rule: str, node: ast.AST, severity: Severity | None = None, message: str | None = None
+    ) -> None:
         sev, msg = RULES[rule]
+        sev, msg = severity or sev, message or msg
         line = getattr(node, "lineno", 1)
         col = getattr(node, "col_offset", 0)
         self.findings.append(Finding(rule, sev, msg, self.path, line, col))
@@ -202,8 +221,7 @@ class _Visitor(ast.NodeVisitor):
             attr = node.func.attr
             if attr in _MATERIALISERS and not self._bounds(node) and not self._is_non_dataset(node):
                 self._add("AG001", node)
-            if attr == "crossJoin" or (attr == "join" and _is_cross_or_keyless_join(node)):
-                self._add("AG002", node)
+            self._check_join(node, attr)
             if (
                 attr in _STRING_TEST_METHODS
             ):  # `uri.startswith("file://")` tests a scheme, it names no path
@@ -215,6 +233,15 @@ class _Visitor(ast.NodeVisitor):
                     self.visit(kw)
                 return
         self.generic_visit(node)
+
+    def _check_join(self, node: ast.Call, attr: str) -> None:
+        if not self._imports & _DATAFRAME_LIBS:
+            return
+        form = "cross" if attr == "crossJoin" else (_join_form(node) if attr == "join" else None)
+        if form == "cross":
+            self._add("AG002", node)
+        elif form == "keyless" and "pyspark" in self._imports:
+            self._add("AG002", node, Severity.WARNING, _KEYLESS_MESSAGE)
 
     @staticmethod
     def _is_non_dataset(node: ast.Call) -> bool:
@@ -269,7 +296,7 @@ def analyze_source(source: str, path: str = "<string>") -> list[Finding]:
     except (SyntaxError, ValueError) as exc:
         line = getattr(exc, "lineno", None) or 1
         return [Finding("AG000", Severity.CRITICAL, f"Cannot parse: {exc}", path, line, 0)]
-    visitor = _Visitor(path)
+    visitor = _Visitor(path, _imported_roots(tree))
     visitor.visit(tree)
     muted = _suppressed(source)
     kept = [f for f in visitor.findings if f.rule_id not in muted.get(f.line, set())]

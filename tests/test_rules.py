@@ -15,6 +15,9 @@ def ids(src: str) -> list[str]:
     return [f.rule_id for f in analyze_source(src)]
 
 
+SPARK = "import pyspark\n"  # AG002 only reports joins in files that import a dataframe library (v2)
+
+
 def test_bare_collect_and_topandas_flagged() -> None:
     assert ids("rows = df.collect()") == ["AG001"]
     assert ids("pdf = df.filter(x).toPandas()") == ["AG001"]
@@ -26,12 +29,12 @@ def test_limit_before_collect_ok() -> None:
 
 
 def test_cross_join_and_missing_keys() -> None:
-    assert ids("a.crossJoin(b)") == ["AG002"]
-    assert ids("a.join(b)") == ["AG002"]
-    assert ids("a.join(b, how='cross')") == ["AG002"]
-    assert ids("a.join(b, 'id')") == []
-    assert ids("a.join(b, on='id', how='left')") == []
-    assert ids("a.join(b, a.id == b.id)") == []
+    assert ids(SPARK + "a.crossJoin(b)") == ["AG002"]
+    assert ids(SPARK + "a.join(b)") == ["AG002"]
+    assert ids(SPARK + "a.join(b, how='cross')") == ["AG002"]
+    assert ids(SPARK + "a.join(b, 'id')") == []
+    assert ids(SPARK + "a.join(b, on='id', how='left')") == []
+    assert ids(SPARK + "a.join(b, a.id == b.id)") == []
 
 
 def test_hardcoded_paths() -> None:
@@ -55,19 +58,22 @@ def test_syntax_error_is_critical_not_crash() -> None:
 def test_sarif_shape() -> None:
     doc = json.loads(to_sarif(analyze_source("df.collect()", "a/b.py")))
     res = doc["runs"][0]["results"][0]
-    assert doc["version"] == "2.1.0" and res["ruleId"] == "AG001" and res["level"] == "error"
+    assert doc["version"] == "2.1.0" and res["ruleId"] == "AG001" and res["level"] == "warning"
     assert res["locations"][0]["physicalLocation"]["region"]["startLine"] == 1
 
 
 def test_cli_exit_codes(tmp_path: Path) -> None:
-    (tmp_path / "bad.py").write_text("df.collect()\n")
+    (tmp_path / "bad.py").write_text("import pyspark\na.crossJoin(b)\n")
     (tmp_path / "ok.py").write_text("df.limit(1).collect()\n")
-    (tmp_path / "warn.py").write_text("open('/data/x.csv')\n")
+    (tmp_path / "warn.py").write_text("open('/data/x.csv')\ndf.collect()\n")
     runner = CliRunner()
     assert runner.invoke(main, [str(tmp_path / "ok.py")]).exit_code == 0
     assert runner.invoke(main, [str(tmp_path / "warn.py")]).exit_code == 0
     assert runner.invoke(main, [str(tmp_path / "bad.py")]).exit_code == 1
     assert runner.invoke(main, [str(tmp_path), "--format", "sarif"]).exit_code == 1
+    # --fail-on: warnings can gate too, and `never` reports without failing
+    assert runner.invoke(main, [str(tmp_path / "warn.py"), "--fail-on", "warning"]).exit_code == 1
+    assert runner.invoke(main, [str(tmp_path / "bad.py"), "--fail-on", "never"]).exit_code == 0
 
 
 @given(st.text(max_size=300))
@@ -84,7 +90,7 @@ def test_string_and_path_joins_are_not_dataframe_joins() -> None:
     assert ids("x = sep.join([a, b])") == []
     assert ids("x = sep.join(str(i) for i in xs)") == []
     # still flagged: a bare receiver with a bare argument is indistinguishable from a DataFrame join
-    assert ids("orders.join(customers)") == ["AG002"]
+    assert ids(SPARK + "orders.join(customers)") == ["AG002"]
 
 
 # ---- regression tests for defects found on the development half of the evaluation (docs/PROTOCOL.md) ----
@@ -94,7 +100,9 @@ def test_thread_and_queue_joins_are_not_dataframe_joins() -> None:
     assert ids("worker.join()") == []
     assert ids("worker.join(timeout=5)") == []
     assert ids("jobs.join()") == []
-    assert ids("a.join(other=b)") == ["AG002"]  # a DataFrame join given by keyword is still keyless
+    assert ids(SPARK + "a.join(other=b)") == [
+        "AG002"
+    ]  # a DataFrame join given by keyword is still keyless
 
 
 def test_alternative_key_keywords_count_as_keys() -> None:
@@ -107,7 +115,9 @@ def test_alternative_key_keywords_count_as_keys() -> None:
 def test_join_of_a_builtin_iterator_is_a_string_join() -> None:
     assert ids("text = sep.join(map(str, xs))") == []
     assert ids("text = sep.join(sorted(names))") == []
-    assert ids("text = sep.join(parts)") == ["AG002"]  # still ambiguous without types (documented)
+    assert ids(SPARK + "text = sep.join(parts)") == [
+        "AG002"
+    ]  # still ambiguous without types (documented)
 
 
 def test_path_fragments_are_not_hardcoded_paths() -> None:
@@ -149,3 +159,28 @@ def test_a_bound_on_an_earlier_statement_is_tracked_within_a_scope() -> None:
         "AG001"
     ]  # other scope
     assert ids("rows = other.collect()") == ["AG001"]
+
+
+# ---- v2 (docs/PROTOCOL_V2.md): severity and AG002 scope ----
+
+
+def severities(src: str) -> list[tuple[str, str]]:
+    return [(f.rule_id, f.severity.value) for f in analyze_source(src)]
+
+
+def test_ag001_is_a_warning() -> None:
+    assert severities("df.collect()") == [("AG001", "warning")]
+
+
+def test_keyless_join_is_reported_only_for_pyspark_files_as_a_warning() -> None:
+    assert severities("import pyspark\na.join(b)") == [("AG002", "warning")]
+    assert severities("from pyspark.sql import functions as F\na.join(b)") == [("AG002", "warning")]
+    for lib in ("pandas", "polars", "pyarrow", "duckdb"):
+        assert ids(f"import {lib}\na.join(b)") == [], lib  # index join / not the Cartesian hazard
+    assert ids("a.join(b)") == []  # no dataframe import: not evidence of a DataFrame
+
+
+def test_explicit_cross_join_stays_critical_in_any_dataframe_file() -> None:
+    assert severities("import pyspark\na.crossJoin(b)") == [("AG002", "critical")]
+    assert severities("import polars as pl\na.join(b, how='cross')") == [("AG002", "critical")]
+    assert ids("a.crossJoin(b)") == []  # without a dataframe import there is no evidence

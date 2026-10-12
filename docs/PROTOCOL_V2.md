@@ -52,4 +52,4 @@ Same single rater who wrote the tool. 300 files from a convenience sample of les
 
 ## Deviations
 
-(none yet)
+1. **Collected corpus F has 288 files, not 300 (2026-10-12, before the tool was run on it).** The Polars stratum could supply only 88 files under the 3-per-repository cap (38 repositories had Polars files in the star band); PySpark and pandas gave 100 each. 116 repositories in all. I did not relax the cap or widen the band to reach 300.

@@ -1,0 +1,230 @@
+{
+ "audit": {
+  "v0-as-shipped": {
+   "pooled": {
+    "AG001": {
+     "findings_audited": 104,
+     "faithful": [
+      86,
+      89,
+      0.905524807212106,
+      0.9884709877763475
+     ],
+     "actionable": [
+      9,
+      104,
+      0.04619542485248201,
+      0.15633866217886766
+     ],
+     "unclear": 15
+    },
+    "AG002": {
+     "findings_audited": 15,
+     "faithful": [
+      1,
+      14,
+      0.012721886112291648,
+      0.3146926955395781
+     ],
+     "actionable": [
+      0,
+      15,
+      -2.2096511667503485e-17,
+      0.20388926630434784
+     ],
+     "unclear": 1
+    },
+    "AG003": {
+     "findings_audited": 87,
+     "faithful": [
+      50,
+      87,
+      0.4698369712299657,
+      0.67326927084415
+     ],
+     "actionable": [
+      8,
+      87,
+      0.04733232597752604,
+      0.1710874288484568
+     ],
+     "unclear": 0
+    }
+   },
+   "per_half": {
+    "dev": {
+     "AG001": {
+      "n": 60,
+      "faithful_yes": 49,
+      "actionable_no": 54,
+      "faithful_unclear": 9,
+      "actionable_yes": 6,
+      "faithful_no": 2
+     },
+     "AG002": {
+      "n": 8,
+      "faithful_no": 6,
+      "actionable_no": 8,
+      "faithful_unclear": 1,
+      "faithful_yes": 1
+     },
+     "AG003": {
+      "n": 38,
+      "faithful_no": 21,
+      "actionable_no": 31,
+      "faithful_yes": 17,
+      "actionable_yes": 7
+     }
+    },
+    "test": {
+     "AG001": {
+      "n": 44,
+      "faithful_yes": 37,
+      "actionable_no": 41,
+      "actionable_yes": 3,
+      "faithful_unclear": 6,
+      "faithful_no": 1
+     },
+     "AG002": {
+      "n": 7,
+      "faithful_no": 7,
+      "actionable_no": 7
+     },
+     "AG003": {
+      "n": 49,
+      "faithful_yes": 33,
+      "actionable_no": 48,
+      "actionable_yes": 1,
+      "faithful_no": 16
+     }
+    }
+   }
+  },
+  "v1-after-dev": {
+   "pooled": {
+    "AG001": {
+     "findings_audited": 104,
+     "faithful": [
+      89,
+      91,
+      0.9233668616945964,
+      0.9939521206928793
+     ],
+     "actionable": [
+      10,
+      104,
+      0.05306939630901405,
+      0.1680104096285833
+     ],
+     "unclear": 13
+    },
+    "AG002": {
+     "findings_audited": 5,
+     "faithful": [
+      0,
+      4,
+      0.0,
+      0.48990002040399916
+     ],
+     "actionable": [
+      0,
+      5,
+      -3.139202815737979e-17,
+      0.43449149475208104
+     ],
+     "unclear": 1
+    },
+    "AG003": {
+     "findings_audited": 51,
+     "faithful": [
+      49,
+      51,
+      0.8678345101373474,
+      0.9891791437312488
+     ],
+     "actionable": [
+      8,
+      51,
+      0.08169125888021325,
+      0.2801070839835981
+     ],
+     "unclear": 0
+    }
+   },
+   "per_half": {
+    "dev": {
+     "AG001": {
+      "n": 60,
+      "faithful_yes": 52,
+      "actionable_no": 53,
+      "actionable_yes": 7,
+      "faithful_unclear": 7,
+      "faithful_no": 1
+     },
+     "AG002": {
+      "n": 3,
+      "faithful_no": 2,
+      "actionable_no": 3,
+      "faithful_unclear": 1
+     },
+     "AG003": {
+      "n": 17,
+      "faithful_yes": 17,
+      "actionable_no": 10,
+      "actionable_yes": 7
+     }
+    },
+    "test": {
+     "AG001": {
+      "n": 44,
+      "faithful_yes": 37,
+      "actionable_no": 41,
+      "actionable_yes": 3,
+      "faithful_unclear": 6,
+      "faithful_no": 1
+     },
+     "AG002": {
+      "n": 2,
+      "faithful_no": 2,
+      "actionable_no": 2
+     },
+     "AG003": {
+      "n": 34,
+      "faithful_yes": 32,
+      "actionable_no": 33,
+      "faithful_no": 2,
+      "actionable_yes": 1
+     }
+    }
+   }
+  }
+ },
+ "generated": {
+  "by_model": {
+   "qwen": {
+    "scripts": 50,
+    "parses": 50
+   },
+   "mistral": {
+    "scripts": 50,
+    "parses": 43,
+    "does_not_parse": 6,
+    "no_code_block": 1
+   },
+   "llama": {
+    "scripts": 50,
+    "parses": 47,
+    "does_not_parse": 2,
+    "no_code_block": 1
+   },
+   "gemma": {
+    "scripts": 50,
+    "parses": 50
+   }
+  },
+  "positives": {
+   "AG001": 12,
+   "AG003": 15
+  }
+ }
+}

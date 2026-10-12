@@ -1,0 +1,1699 @@
+{
+ "rules_rev": "v0-as-shipped",
+ "corpus": "human",
+ "split": "test",
+ "seconds": 0.46441609994508326,
+ "lines": 41800,
+ "files": [
+  {
+   "id": "runawayhorse001/LearningApacheSpark:pyspark/ml/evaluation.py",
+   "framework": "pyspark",
+   "repo": "runawayhorse001/LearningApacheSpark",
+   "lines": 451,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "runawayhorse001/LearningApacheSpark:pyspark/mllib/stat/test.py",
+   "framework": "pyspark",
+   "repo": "runawayhorse001/LearningApacheSpark",
+   "lines": 83,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Nike-Inc/koheesio:src/koheesio/spark/transformations/row_number_dedup.py",
+   "framework": "pyspark",
+   "repo": "Nike-Inc/koheesio",
+   "lines": 143,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "runawayhorse001/LearningApacheSpark:pyspark/mllib/linalg/distributed.py",
+   "framework": "pyspark",
+   "repo": "runawayhorse001/LearningApacheSpark",
+   "lines": 1390,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "feast-dev/feast:sdk/python/feast/transformation/spark_transformation.py",
+   "framework": "pyspark",
+   "repo": "feast-dev/feast",
+   "lines": 126,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/efficient_data_processing_spark:data-processing-spark/2-apache-spark-basics/spark-data-processing-101/read_data.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/efficient_data_processing_spark",
+   "lines": 153,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/data_engineering_best_practices:adventureworks/pipelines/utils/create_fake_data.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/data_engineering_best_practices",
+   "lines": 94,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fedspendingtransparency/usaspending-api:usaspending_api/download/management/commands/generate_spark_download.py",
+   "framework": "pyspark",
+   "repo": "fedspendingtransparency/usaspending-api",
+   "lines": 362,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 129,
+     "col": 30,
+     "end_line": 131
+    },
+    {
+     "rule": "AG003",
+     "line": 281,
+     "col": 34,
+     "end_line": 281
+    }
+   ]
+  },
+  {
+   "id": "fedspendingtransparency/usaspending-api:usaspending_api/download/delta_downloads/transaction_contract_monthly.py",
+   "framework": "pyspark",
+   "repo": "fedspendingtransparency/usaspending-api",
+   "lines": 383,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fedspendingtransparency/usaspending-api:usaspending_api/common/helpers/spark_helpers.py",
+   "framework": "pyspark",
+   "repo": "fedspendingtransparency/usaspending-api",
+   "lines": 690,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/efficient_data_processing_spark:data-processing-spark/2-apache-spark-basics/spark-data-processing-101/views.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/efficient_data_processing_spark",
+   "lines": 71,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fedspendingtransparency/usaspending-api:usaspending_api/etl/management/commands/load_query_to_delta.py",
+   "framework": "pyspark",
+   "repo": "fedspendingtransparency/usaspending-api",
+   "lines": 449,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 102,
+     "col": 20,
+     "end_line": 102
+    },
+    {
+     "rule": "AG003",
+     "line": 102,
+     "col": 73,
+     "end_line": 102
+    }
+   ]
+  },
+  {
+   "id": "runawayhorse001/LearningApacheSpark:pyspark/taskcontext.py",
+   "framework": "pyspark",
+   "repo": "runawayhorse001/LearningApacheSpark",
+   "lines": 226,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "runawayhorse001/LearningApacheSpark:pyspark/broadcast.py",
+   "framework": "pyspark",
+   "repo": "runawayhorse001/LearningApacheSpark",
+   "lines": 194,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "quintoandar/butterfree:butterfree/transform/transformations/spark_function_transform.py",
+   "framework": "pyspark",
+   "repo": "quintoandar/butterfree",
+   "lines": 175,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mlrun/mlrun:mlrun/data_types/to_pandas.py",
+   "framework": "pyspark",
+   "repo": "mlrun/mlrun",
+   "lines": 280,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 118,
+     "col": 26,
+     "end_line": 118
+    },
+    {
+     "rule": "AG001",
+     "line": 148,
+     "col": 36,
+     "end_line": 148
+    },
+    {
+     "rule": "AG001",
+     "line": 252,
+     "col": 19,
+     "end_line": 252
+    }
+   ]
+  },
+  {
+   "id": "josephmachado/efficient_data_processing_spark:capstone/rainforest/etl/interface/daily_category_report.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/efficient_data_processing_spark",
+   "lines": 15,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/efficient_data_processing_spark:capstone/rainforest/etl/gold/daily_order_metrics.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/efficient_data_processing_spark",
+   "lines": 148,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 21,
+     "col": 28,
+     "end_line": 21
+    },
+    {
+     "rule": "AG001",
+     "line": 119,
+     "col": 16,
+     "end_line": 119
+    }
+   ]
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/spark/backend.py",
+   "framework": "pyspark",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 53,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Nike-Inc/koheesio:src/koheesio/spark/readers/memory.py",
+   "framework": "pyspark",
+   "repo": "Nike-Inc/koheesio",
+   "lines": 125,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fedspendingtransparency/usaspending-api:usaspending_api/common/etl/spark.py",
+   "framework": "pyspark",
+   "repo": "fedspendingtransparency/usaspending-api",
+   "lines": 981,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 213,
+     "col": 95,
+     "end_line": 213
+    },
+    {
+     "rule": "AG003",
+     "line": 690,
+     "col": 28,
+     "end_line": 690
+    },
+    {
+     "rule": "AG001",
+     "line": 825,
+     "col": 17,
+     "end_line": 825
+    },
+    {
+     "rule": "AG003",
+     "line": 901,
+     "col": 33,
+     "end_line": 901
+    },
+    {
+     "rule": "AG003",
+     "line": 943,
+     "col": 21,
+     "end_line": 943
+    }
+   ]
+  },
+  {
+   "id": "josephmachado/data_engineering_best_practices:adventureworks/ddl/create_interface_views.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/data_engineering_best_practices",
+   "lines": 38,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Nike-Inc/koheesio:src/koheesio/spark/transformations/strings/replace.py",
+   "framework": "pyspark",
+   "repo": "Nike-Inc/koheesio",
+   "lines": 109,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/efficient_data_processing_spark:data-processing-spark/5-data-storage/reading-data/read_data_from_external_storage.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/efficient_data_processing_spark",
+   "lines": 35,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 15,
+     "col": 8,
+     "end_line": 15
+    },
+    {
+     "rule": "AG003",
+     "line": 18,
+     "col": 28,
+     "end_line": 18
+    }
+   ]
+  },
+  {
+   "id": "Nike-Inc/koheesio:src/koheesio/spark/utils/dataframe.py",
+   "framework": "pyspark",
+   "repo": "Nike-Inc/koheesio",
+   "lines": 181,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrpowers-io/quinn:quinn/functions.py",
+   "framework": "pyspark",
+   "repo": "mrpowers-io/quinn",
+   "lines": 393,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrpowers-io/quinn:quinn/dataframe_validator.py",
+   "framework": "pyspark",
+   "repo": "mrpowers-io/quinn",
+   "lines": 123,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/data_engineering_best_practices:adventureworks/pipelines/sales_mart.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/data_engineering_best_practices",
+   "lines": 441,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 45,
+     "col": 44,
+     "end_line": 45
+    }
+   ]
+  },
+  {
+   "id": "mlrun/mlrun:mlrun/feature_store/api.py",
+   "framework": "pyspark",
+   "repo": "mlrun/mlrun",
+   "lines": 840,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 694,
+     "col": 23,
+     "end_line": 694
+    }
+   ]
+  },
+  {
+   "id": "cartershanklin/pyspark-cheatsheet:notebook_initialization_code.py",
+   "framework": "pyspark",
+   "repo": "cartershanklin/pyspark-cheatsheet",
+   "lines": 45,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 9,
+     "col": 17,
+     "end_line": 9
+    }
+   ]
+  },
+  {
+   "id": "quintoandar/butterfree:butterfree/hooks/hookable_component.py",
+   "framework": "pyspark",
+   "repo": "quintoandar/butterfree",
+   "lines": 149,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Nike-Inc/koheesio:src/koheesio/spark/readers/rest_api.py",
+   "framework": "pyspark",
+   "repo": "Nike-Inc/koheesio",
+   "lines": 137,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrpowers-io/quinn:quinn/dataframe_helpers.py",
+   "framework": "pyspark",
+   "repo": "mrpowers-io/quinn",
+   "lines": 165,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 42,
+     "col": 34,
+     "end_line": 42
+    },
+    {
+     "rule": "AG001",
+     "line": 46,
+     "col": 34,
+     "end_line": 46
+    },
+    {
+     "rule": "AG001",
+     "line": 61,
+     "col": 15,
+     "end_line": 61
+    },
+    {
+     "rule": "AG001",
+     "line": 63,
+     "col": 30,
+     "end_line": 63
+    },
+    {
+     "rule": "AG001",
+     "line": 83,
+     "col": 32,
+     "end_line": 83
+    },
+    {
+     "rule": "AG001",
+     "line": 94,
+     "col": 42,
+     "end_line": 94
+    }
+   ]
+  },
+  {
+   "id": "uber/petastorm:examples/spark_dataset_converter/tensorflow_converter_example.py",
+   "framework": "pyspark",
+   "repo": "uber/petastorm",
+   "lines": 117,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 75,
+     "col": 19,
+     "end_line": 75
+    },
+    {
+     "rule": "AG001",
+     "line": 99,
+     "col": 15,
+     "end_line": 99
+    }
+   ]
+  },
+  {
+   "id": "vincentclaes/datajob:examples/data_pipeline_pyspark/glue_job/glue_pyspark_example.py",
+   "framework": "pyspark",
+   "repo": "vincentclaes/datajob",
+   "lines": 49,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "uber/petastorm:examples/hello_world/petastorm_dataset/pyspark_hello_world.py",
+   "framework": "pyspark",
+   "repo": "uber/petastorm",
+   "lines": 57,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 26,
+     "col": 36,
+     "end_line": 26
+    },
+    {
+     "rule": "AG001",
+     "line": 49,
+     "col": 21,
+     "end_line": 51
+    }
+   ]
+  },
+  {
+   "id": "uber/petastorm:examples/hello_world/petastorm_dataset/generate_petastorm_dataset.py",
+   "framework": "pyspark",
+   "repo": "uber/petastorm",
+   "lines": 67,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 43,
+     "col": 42,
+     "end_line": 43
+    }
+   ]
+  },
+  {
+   "id": "uber/petastorm:petastorm/spark/spark_dataset_converter.py",
+   "framework": "pyspark",
+   "repo": "uber/petastorm",
+   "lines": 737,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG002",
+     "line": 358,
+     "col": 8,
+     "end_line": 358
+    },
+    {
+     "rule": "AG002",
+     "line": 406,
+     "col": 8,
+     "end_line": 406
+    },
+    {
+     "rule": "AG003",
+     "line": 459,
+     "col": 23,
+     "end_line": 459
+    },
+    {
+     "rule": "AG003",
+     "line": 460,
+     "col": 23,
+     "end_line": 460
+    },
+    {
+     "rule": "AG003",
+     "line": 461,
+     "col": 23,
+     "end_line": 461
+    },
+    {
+     "rule": "AG003",
+     "line": 462,
+     "col": 24,
+     "end_line": 462
+    },
+    {
+     "rule": "AG003",
+     "line": 462,
+     "col": 57,
+     "end_line": 462
+    },
+    {
+     "rule": "AG003",
+     "line": 465,
+     "col": 22,
+     "end_line": 465
+    },
+    {
+     "rule": "AG003",
+     "line": 467,
+     "col": 14,
+     "end_line": 467
+    },
+    {
+     "rule": "AG003",
+     "line": 467,
+     "col": 38,
+     "end_line": 467
+    },
+    {
+     "rule": "AG003",
+     "line": 468,
+     "col": 24,
+     "end_line": 468
+    },
+    {
+     "rule": "AG003",
+     "line": 469,
+     "col": 14,
+     "end_line": 469
+    },
+    {
+     "rule": "AG003",
+     "line": 469,
+     "col": 38,
+     "end_line": 469
+    },
+    {
+     "rule": "AG003",
+     "line": 480,
+     "col": 39,
+     "end_line": 480
+    },
+    {
+     "rule": "AG002",
+     "line": 639,
+     "col": 8,
+     "end_line": 639
+    },
+    {
+     "rule": "AG002",
+     "line": 661,
+     "col": 12,
+     "end_line": 661
+    }
+   ]
+  },
+  {
+   "id": "mlrun/mlrun:examples/spark-function.py",
+   "framework": "pyspark",
+   "repo": "mlrun/mlrun",
+   "lines": 45,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "quintoandar/butterfree:butterfree/extract/pre_processing/explode_json_column_transform.py",
+   "framework": "pyspark",
+   "repo": "quintoandar/butterfree",
+   "lines": 87,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "uber/petastorm:examples/imagenet/generate_petastorm_imagenet.py",
+   "framework": "pyspark",
+   "repo": "uber/petastorm",
+   "lines": 145,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 49,
+     "col": 29,
+     "end_line": 49
+    }
+   ]
+  },
+  {
+   "id": "quintoandar/butterfree:butterfree/constants/data_type.py",
+   "framework": "pyspark",
+   "repo": "quintoandar/butterfree",
+   "lines": 44,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jonesberg/DataAnalysisWithPythonAndPySpark:code/Ch14/custom_feature.py",
+   "framework": "pyspark",
+   "repo": "jonesberg/DataAnalysisWithPythonAndPySpark",
+   "lines": 251,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jonesberg/DataAnalysisWithPythonAndPySpark:code/Ch02/word_count_submit.py",
+   "framework": "pyspark",
+   "repo": "jonesberg/DataAnalysisWithPythonAndPySpark",
+   "lines": 25,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aws-samples/aws-etl-orchestrator:glue-scripts/process_sales_data.py",
+   "framework": "pyspark",
+   "repo": "aws-samples/aws-etl-orchestrator",
+   "lines": 75,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "quintoandar/butterfree:butterfree/transform/feature_set.py",
+   "framework": "pyspark",
+   "repo": "quintoandar/butterfree",
+   "lines": 486,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "blaylockbk/SynopticPy:src/synoptic/services.py",
+   "framework": "polars",
+   "repo": "blaylockbk/SynopticPy",
+   "lines": 793,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rootSunc/CNEquity:src/cnequity/steps/structure.py",
+   "framework": "polars",
+   "repo": "rootSunc/CNEquity",
+   "lines": 474,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 83,
+     "col": 19,
+     "end_line": 83
+    },
+    {
+     "rule": "AG001",
+     "line": 85,
+     "col": 8,
+     "end_line": 85
+    },
+    {
+     "rule": "AG001",
+     "line": 465,
+     "col": 12,
+     "end_line": 465
+    },
+    {
+     "rule": "AG001",
+     "line": 473,
+     "col": 15,
+     "end_line": 473
+    }
+   ]
+  },
+  {
+   "id": "rootSunc/CNEquity:src/cnequity/derive/action_factors.py",
+   "framework": "polars",
+   "repo": "rootSunc/CNEquity",
+   "lines": 101,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rootSunc/CNEquity:src/cnequity/derive/market_breadth.py",
+   "framework": "polars",
+   "repo": "rootSunc/CNEquity",
+   "lines": 187,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rootSunc/CNEquity:src/cnequity/quality/intraday_checks.py",
+   "framework": "polars",
+   "repo": "rootSunc/CNEquity",
+   "lines": 426,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 86,
+     "col": 19,
+     "end_line": 86
+    },
+    {
+     "rule": "AG001",
+     "line": 110,
+     "col": 16,
+     "end_line": 110
+    },
+    {
+     "rule": "AG001",
+     "line": 138,
+     "col": 8,
+     "end_line": 138
+    },
+    {
+     "rule": "AG001",
+     "line": 225,
+     "col": 8,
+     "end_line": 225
+    },
+    {
+     "rule": "AG001",
+     "line": 365,
+     "col": 11,
+     "end_line": 365
+    }
+   ]
+  },
+  {
+   "id": "biodatageeks/polars-bio:polars_bio/sql.py",
+   "framework": "polars",
+   "repo": "biodatageeks/polars-bio",
+   "lines": 1378,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "MarcoGorelli/polars-plugins-tutorial:perf_list.py",
+   "framework": "polars",
+   "repo": "MarcoGorelli/polars-plugins-tutorial",
+   "lines": 40,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/polars/polars_flavor.py",
+   "framework": "polars",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 107,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rootSunc/CNEquity:src/cnequity/adapters/eastmoney/shareholders.py",
+   "framework": "polars",
+   "repo": "rootSunc/CNEquity",
+   "lines": 583,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ebonnal/streamable:streamable/_stream.py",
+   "framework": "polars",
+   "repo": "ebonnal/streamable",
+   "lines": 1344,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "wukan1986/polars_ta:polars_ta/tdx/choice.py",
+   "framework": "polars",
+   "repo": "wukan1986/polars_ta",
+   "lines": 30,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "MarcoGorelli/polars-plugins-tutorial:run.py",
+   "framework": "polars",
+   "repo": "MarcoGorelli/polars-plugins-tutorial",
+   "lines": 78,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "biodatageeks/polars-bio:.claude/skills/gff-gtf-pushdown-regression/scripts/bench_pushdown.py",
+   "framework": "polars",
+   "repo": "biodatageeks/polars-bio",
+   "lines": 235,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 108,
+     "col": 8,
+     "end_line": 108
+    },
+    {
+     "rule": "AG001",
+     "line": 115,
+     "col": 8,
+     "end_line": 115
+    }
+   ]
+  },
+  {
+   "id": "biodatageeks/polars-bio:polars_bio/range_op_io.py",
+   "framework": "polars",
+   "repo": "biodatageeks/polars-bio",
+   "lines": 452,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 403,
+     "col": 13,
+     "end_line": 403
+    }
+   ]
+  },
+  {
+   "id": "wukan1986/polars_ta:polars_ta/wq/half_life.py",
+   "framework": "polars",
+   "repo": "wukan1986/polars_ta",
+   "lines": 27,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "wukan1986/polars_ta:polars_ta/utils/factor.py",
+   "framework": "polars",
+   "repo": "wukan1986/polars_ta",
+   "lines": 78,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "harrystuart/flintml:src/common-lib/flint/flint/catalog.py",
+   "framework": "polars",
+   "repo": "harrystuart/flintml",
+   "lines": 577,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 65,
+     "col": 28,
+     "end_line": 65
+    },
+    {
+     "rule": "AG003",
+     "line": 65,
+     "col": 49,
+     "end_line": 65
+    },
+    {
+     "rule": "AG003",
+     "line": 86,
+     "col": 10,
+     "end_line": 86
+    },
+    {
+     "rule": "AG003",
+     "line": 162,
+     "col": 14,
+     "end_line": 162
+    },
+    {
+     "rule": "AG003",
+     "line": 183,
+     "col": 25,
+     "end_line": 183
+    },
+    {
+     "rule": "AG003",
+     "line": 212,
+     "col": 46,
+     "end_line": 212
+    },
+    {
+     "rule": "AG003",
+     "line": 243,
+     "col": 18,
+     "end_line": 243
+    },
+    {
+     "rule": "AG003",
+     "line": 288,
+     "col": 10,
+     "end_line": 288
+    },
+    {
+     "rule": "AG003",
+     "line": 344,
+     "col": 10,
+     "end_line": 344
+    },
+    {
+     "rule": "AG003",
+     "line": 385,
+     "col": 14,
+     "end_line": 385
+    },
+    {
+     "rule": "AG003",
+     "line": 414,
+     "col": 24,
+     "end_line": 414
+    },
+    {
+     "rule": "AG001",
+     "line": 445,
+     "col": 11,
+     "end_line": 445
+    },
+    {
+     "rule": "AG003",
+     "line": 499,
+     "col": 14,
+     "end_line": 499
+    },
+    {
+     "rule": "AG003",
+     "line": 530,
+     "col": 42,
+     "end_line": 530
+    },
+    {
+     "rule": "AG003",
+     "line": 554,
+     "col": 18,
+     "end_line": 554
+    }
+   ]
+  },
+  {
+   "id": "digital-go-jp/administrative-procedures-mcp:src/admin_procedures/response.py",
+   "framework": "polars",
+   "repo": "digital-go-jp/administrative-procedures-mcp",
+   "lines": 1148,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "blaylockbk/SynopticPy:src/synoptic/json_parsers.py",
+   "framework": "polars",
+   "repo": "blaylockbk/SynopticPy",
+   "lines": 448,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 111,
+     "col": 11,
+     "end_line": 111
+    }
+   ]
+  },
+  {
+   "id": "wukan1986/polars_ta:polars_ta/performance/returns.py",
+   "framework": "polars",
+   "repo": "wukan1986/polars_ta",
+   "lines": 23,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "wukan1986/polars_ta:polars_ta/noise.py",
+   "framework": "polars",
+   "repo": "wukan1986/polars_ta",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "azukds/tubular:tubular/_utils.py",
+   "framework": "polars",
+   "repo": "azukds/tubular",
+   "lines": 367,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 33,
+     "col": 12,
+     "end_line": 33
+    },
+    {
+     "rule": "AG001",
+     "line": 77,
+     "col": 23,
+     "end_line": 77
+    }
+   ]
+  },
+  {
+   "id": "biodatageeks/polars-bio:benchmark-scripts/parse_drift.py",
+   "framework": "polars",
+   "repo": "biodatageeks/polars-bio",
+   "lines": 137,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 63,
+     "col": 8,
+     "end_line": 63
+    }
+   ]
+  },
+  {
+   "id": "astronomer/agents:skills/analyzing-data/scripts/connectors.py",
+   "framework": "polars",
+   "repo": "astronomer/agents",
+   "lines": 814,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "biodatageeks/polars-bio:polars_bio/range_utils.py",
+   "framework": "polars",
+   "repo": "biodatageeks/polars-bio",
+   "lines": 49,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 38,
+     "col": 53,
+     "end_line": 38
+    }
+   ]
+  },
+  {
+   "id": "atsushi-green/ds-ai-coding-skills:scripts/skill_eval/datasets.py",
+   "framework": "polars",
+   "repo": "atsushi-green/ds-ai-coding-skills",
+   "lines": 288,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "furechan/mplchart:src/mplchart/expressions/volatility.py",
+   "framework": "polars",
+   "repo": "furechan/mplchart",
+   "lines": 101,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "azukds/tubular:tubular/mapping.py",
+   "framework": "polars",
+   "repo": "azukds/tubular",
+   "lines": 591,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Daniel15568/percentify:percentify/stats.py",
+   "framework": "polars",
+   "repo": "Daniel15568/percentify",
+   "lines": 1043,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 103,
+     "col": 11,
+     "end_line": 103
+    }
+   ]
+  },
+  {
+   "id": "harrystuart/flintml:src/common-lib/flint/flint/delta.py",
+   "framework": "polars",
+   "repo": "harrystuart/flintml",
+   "lines": 168,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "azukds/tubular:tubular/types.py",
+   "framework": "polars",
+   "repo": "azukds/tubular",
+   "lines": 127,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "furechan/mplchart:src/mplchart/dataview.py",
+   "framework": "polars",
+   "repo": "furechan/mplchart",
+   "lines": 332,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/io.py",
+   "framework": "polars",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 681,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "feast-dev/feast:sdk/python/feast/infra/compute_engines/backends/polars_backend.py",
+   "framework": "polars",
+   "repo": "feast-dev/feast",
+   "lines": 50,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "oreilles/polars-st:polars_st/sugar.py",
+   "framework": "polars",
+   "repo": "oreilles/polars-st",
+   "lines": 652,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 602,
+     "col": 11,
+     "end_line": 602
+    }
+   ]
+  },
+  {
+   "id": "furechan/mplchart:src/mplchart/expressions/trend.py",
+   "framework": "polars",
+   "repo": "furechan/mplchart",
+   "lines": 59,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrcanlaco/PeakPulse-AI:src/dao_vang/alpha_lab/triple_barrier.py",
+   "framework": "pandas",
+   "repo": "mrcanlaco/PeakPulse-AI",
+   "lines": 286,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrcanlaco/PeakPulse-AI:src/dao_vang/experiments/walk_forward.py",
+   "framework": "pandas",
+   "repo": "mrcanlaco/PeakPulse-AI",
+   "lines": 408,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrcanlaco/PeakPulse-AI:src/dao_vang/validation/metrics.py",
+   "framework": "pandas",
+   "repo": "mrcanlaco/PeakPulse-AI",
+   "lines": 278,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrcanlaco/PeakPulse-AI:src/dao_vang/scanner/research_v3.py",
+   "framework": "pandas",
+   "repo": "mrcanlaco/PeakPulse-AI",
+   "lines": 672,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vincentclaes/datajob:examples/ml_pipeline_sagemaker_scikitlearn/resources/preprocessing.py",
+   "framework": "pandas",
+   "repo": "vincentclaes/datajob",
+   "lines": 117,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 47,
+     "col": 35,
+     "end_line": 47
+    },
+    {
+     "rule": "AG003",
+     "line": 91,
+     "col": 8,
+     "end_line": 91
+    },
+    {
+     "rule": "AG003",
+     "line": 94,
+     "col": 8,
+     "end_line": 94
+    },
+    {
+     "rule": "AG003",
+     "line": 98,
+     "col": 8,
+     "end_line": 98
+    },
+    {
+     "rule": "AG003",
+     "line": 100,
+     "col": 43,
+     "end_line": 100
+    }
+   ]
+  },
+  {
+   "id": "feast-dev/feast:sdk/python/feast/infra/contrib/grpc_server.py",
+   "framework": "pandas",
+   "repo": "feast-dev/feast",
+   "lines": 188,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/functions/_conditional_join/_single_range_predicate.py",
+   "framework": "pandas",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 673,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "iusztinpaul/energy-forecasting:batch-prediction-pipeline/batch_prediction_pipeline/utils.py",
+   "framework": "pandas",
+   "repo": "iusztinpaul/energy-forecasting",
+   "lines": 141,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "astronomer/ask-astro:airflow/include/tasks/extract/utils/html_utils.py",
+   "framework": "pandas",
+   "repo": "astronomer/ask-astro",
+   "lines": 218,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "feast-dev/feast:sdk/python/feast/infra/compute_engines/trino/job.py",
+   "framework": "pandas",
+   "repo": "feast-dev/feast",
+   "lines": 188,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 119,
+     "col": 15,
+     "end_line": 119
+    }
+   ]
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/functions/adorn.py",
+   "framework": "pandas",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 548,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zer0quant/zer0share:zer0share/query/repository.py",
+   "framework": "pandas",
+   "repo": "zer0quant/zer0share",
+   "lines": 295,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/functions/label_encode.py",
+   "framework": "pandas",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 84,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pathwaycom/pathway:python/pathway/stdlib/utils/pandas_transformer.py",
+   "framework": "pandas",
+   "repo": "pathwaycom/pathway",
+   "lines": 179,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ultralytics/stars:count_stars.py",
+   "framework": "pandas",
+   "repo": "ultralytics/stars",
+   "lines": 206,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mlrun/mlrun:mlrun/serving/server.py",
+   "framework": "pandas",
+   "repo": "mlrun/mlrun",
+   "lines": 1479,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "feast-dev/feast:sdk/python/feast/chunker.py",
+   "framework": "pandas",
+   "repo": "feast-dev/feast",
+   "lines": 151,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrcanlaco/PeakPulse-AI:scripts/model_variants_distribution_v2.py",
+   "framework": "pandas",
+   "repo": "mrcanlaco/PeakPulse-AI",
+   "lines": 647,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "feast-dev/feast:sdk/python/feast/infra/offline_stores/contrib/postgres_offline_store/postgres.py",
+   "framework": "pandas",
+   "repo": "feast-dev/feast",
+   "lines": 1393,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG002",
+     "line": 595,
+     "col": 12,
+     "end_line": 595
+    },
+    {
+     "rule": "AG001",
+     "line": 637,
+     "col": 15,
+     "end_line": 637
+    },
+    {
+     "rule": "AG002",
+     "line": 1373,
+     "col": 12,
+     "end_line": 1373
+    }
+   ]
+  },
+  {
+   "id": "feast-dev/feast:examples/rbac-remote/client/k8s/feature_repo/test.py",
+   "framework": "pandas",
+   "repo": "feast-dev/feast",
+   "lines": 141,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/functions/add_columns.py",
+   "framework": "pandas",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 195,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mlrun/mlrun:mlrun/artifacts/dataset.py",
+   "framework": "pandas",
+   "repo": "mlrun/mlrun",
+   "lines": 494,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zer0quant/zer0share:zer0share/storage.py",
+   "framework": "pandas",
+   "repo": "zer0quant/zer0share",
+   "lines": 219,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 166,
+     "col": 11,
+     "end_line": 166
+    },
+    {
+     "rule": "AG001",
+     "line": 187,
+     "col": 15,
+     "end_line": 187
+    },
+    {
+     "rule": "AG001",
+     "line": 203,
+     "col": 15,
+     "end_line": 203
+    }
+   ]
+  },
+  {
+   "id": "san089/goodreads_etl_pipeline:goodreadsfaker/generate_fake_data.py",
+   "framework": "pandas",
+   "repo": "san089/goodreads_etl_pipeline",
+   "lines": 208,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 25,
+     "col": 31,
+     "end_line": 25
+    }
+   ]
+  },
+  {
+   "id": "datajuicer/data-juicer:demos/overview_scan/app.py",
+   "framework": "pandas",
+   "repo": "datajuicer/data-juicer",
+   "lines": 337,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mlrun/mlrun:mlrun/model_monitoring/db/tsdb/timescaledb/utils/timescaledb_dataframe_processor.py",
+   "framework": "pandas",
+   "repo": "mlrun/mlrun",
+   "lines": 141,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zer0quant/zer0share:zer0share/quality/runner.py",
+   "framework": "pandas",
+   "repo": "zer0quant/zer0share",
+   "lines": 398,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zer0quant/zer0share:zer0share/query/ricequant.py",
+   "framework": "pandas",
+   "repo": "zer0quant/zer0share",
+   "lines": 277,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mlrun/mlrun:mlrun/feature_store/feature_vector.py",
+   "framework": "pandas",
+   "repo": "mlrun/mlrun",
+   "lines": 728,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datajuicer/data-juicer:tools/data_resplit.py",
+   "framework": "pandas",
+   "repo": "datajuicer/data-juicer",
+   "lines": 109,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mlrun/mlrun:docs/tutorials/src/fetch-vectordb-data.py",
+   "framework": "pandas",
+   "repo": "mlrun/mlrun",
+   "lines": 41,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyjanitor-devs/pyjanitor:janitor/functions/remove_empty.py",
+   "framework": "pandas",
+   "repo": "pyjanitor-devs/pyjanitor",
+   "lines": 50,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "azukds/tubular:profiling/profile_helpers.py",
+   "framework": "pandas",
+   "repo": "azukds/tubular",
+   "lines": 126,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pathwaycom/pathway:python/pathway/stdlib/viz/plotting.py",
+   "framework": "pandas",
+   "repo": "pathwaycom/pathway",
+   "lines": 141,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zer0quant/zer0share:zer0share/query/stock.py",
+   "framework": "pandas",
+   "repo": "zer0quant/zer0share",
+   "lines": 186,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ucbepic/docetl:experiments/reasoning/evaluation/medec.py",
+   "framework": "pandas",
+   "repo": "ucbepic/docetl",
+   "lines": 114,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pyper-dev/pyper:examples/ChessDataAnalysis/main.py",
+   "framework": "pandas",
+   "repo": "pyper-dev/pyper",
+   "lines": 83,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 17,
+     "col": 57,
+     "end_line": 17
+    }
+   ]
+  },
+  {
+   "id": "furechan/mplchart:src/mplchart/model/indicator.py",
+   "framework": "pandas",
+   "repo": "furechan/mplchart",
+   "lines": 136,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jupyter-incubator/sparkmagic:sparkmagic/sparkmagic/livyclientlib/sendpandasdftosparkcommand.py",
+   "framework": "pandas",
+   "repo": "jupyter-incubator/sparkmagic",
+   "lines": 107,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "iusztinpaul/energy-forecasting:app-frontend/frontend/components.py",
+   "framework": "pandas",
+   "repo": "iusztinpaul/energy-forecasting",
+   "lines": 89,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datajuicer/data-juicer:data_juicer/core/tracer/tracer.py",
+   "framework": "pandas",
+   "repo": "datajuicer/data-juicer",
+   "lines": 373,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aws/aws-sdk-pandas:awswrangler/opensearch/_write.py",
+   "framework": "pandas",
+   "repo": "aws/aws-sdk-pandas",
+   "lines": 662,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 337,
+     "col": 23,
+     "end_line": 337
+    }
+   ]
+  },
+  {
+   "id": "pathwaycom/pathway:docs/2.developers/7.templates/rag/.private_rag_ollama_mistral/article.py",
+   "framework": "pandas",
+   "repo": "pathwaycom/pathway",
+   "lines": 293,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aws/aws-sdk-pandas:awswrangler/s3/_write_orc.py",
+   "framework": "pandas",
+   "repo": "aws/aws-sdk-pandas",
+   "lines": 693,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "iusztinpaul/energy-forecasting:feature-pipeline/feature_pipeline/etl/extract.py",
+   "framework": "pandas",
+   "repo": "iusztinpaul/energy-forecasting",
+   "lines": 225,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "bytewax/bytewax:docs/tutorials/profiling-time-series-data/timeseries_dataflow.py",
+   "framework": "pandas",
+   "repo": "bytewax/bytewax",
+   "lines": 123,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datajuicer/data-juicer:data_juicer/core/tracer/ray_tracer.py",
+   "framework": "pandas",
+   "repo": "datajuicer/data-juicer",
+   "lines": 176,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fedspendingtransparency/usaspending-api:usaspending_api/etl/elasticsearch_loader_helpers/delete_data.py",
+   "framework": "pandas",
+   "repo": "fedspendingtransparency/usaspending-api",
+   "lines": 713,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 571,
+     "col": 43,
+     "end_line": 571
+    },
+    {
+     "rule": "AG001",
+     "line": 623,
+     "col": 43,
+     "end_line": 623
+    },
+    {
+     "rule": "AG002",
+     "line": 626,
+     "col": 46,
+     "end_line": 626
+    },
+    {
+     "rule": "AG001",
+     "line": 687,
+     "col": 43,
+     "end_line": 687
+    }
+   ]
+  },
+  {
+   "id": "pathwaycom/pathway:python/pathway/stdlib/viz/table_viz.py",
+   "framework": "pandas",
+   "repo": "pathwaycom/pathway",
+   "lines": 186,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pathwaycom/pathway:examples/projects/option-greeks/greeks-replay.py",
+   "framework": "pandas",
+   "repo": "pathwaycom/pathway",
+   "lines": 412,
+   "missing": false,
+   "findings": []
+  }
+ ]
+}

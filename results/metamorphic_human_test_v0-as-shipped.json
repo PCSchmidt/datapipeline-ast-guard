@@ -1,0 +1,21 @@
+{
+ "stats": {
+  "unparse": {
+   "files": 132,
+   "unchanged": 132
+  },
+  "rename_locals": {
+   "files": 132,
+   "unchanged": 132
+  },
+  "add_comments": {
+   "files": 132,
+   "unchanged": 132
+  },
+  "wrap_in_function": {
+   "files": 132,
+   "unchanged": 132
+  }
+ },
+ "differences": []
+}

@@ -21,6 +21,168 @@
   "parses": true,
   "positives": []
  },
+ "L02__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L02__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L02__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L02__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L03__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L03__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L03__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L03__qwen": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 14,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L04__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L04__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L04__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L04__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L05__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L05__llama": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": false,
+    "line": 24,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L05__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L05__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L06__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L06__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L06__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L06__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L07__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L07__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L07__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L07__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L08__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L08__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L08__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L08__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L09__gemma": {
+  "parses": true,
+  "positives": [
+   {
+    "actionable": true,
+    "line": 29,
+    "rule": "AG001"
+   }
+  ]
+ },
+ "L09__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L09__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L09__qwen": {
+  "parses": true,
+  "positives": []
+ },
+ "L10__gemma": {
+  "parses": true,
+  "positives": []
+ },
+ "L10__llama": {
+  "parses": true,
+  "positives": []
+ },
+ "L10__mistral": {
+  "parses": true,
+  "positives": []
+ },
+ "L10__qwen": {
+  "parses": true,
+  "positives": []
+ },
  "S01__gemma": {
   "parses": true,
   "positives": []

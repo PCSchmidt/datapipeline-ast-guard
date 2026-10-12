@@ -28,6 +28,7 @@ MODELS = {
     "llama": "llama3.2:3b-instruct-q8_0",
     "gemma": "gemma4:12b",
 }
+FRAMEWORK_NAME = {"pyspark": "PySpark", "polars": "Polars", "pandas": "pandas"}
 SYSTEM = "You are a data engineer. Reply with one complete Python script in a single code block."
 FENCE = re.compile(r"```(?:python|py)?[ \t]*\r?\n(.*?)```", re.DOTALL | re.IGNORECASE)
 
@@ -77,7 +78,7 @@ def main() -> None:
                     continue
                 seed = seed_of(t["id"], tag)
                 started = time.perf_counter()
-                res = chat(model, t["task"], seed, tag)
+                res = chat(model, f"{t['task']} Use {FRAMEWORK_NAME[t['framework']]}.", seed, tag)
                 text = res.get("message", {}).get("content", "") or ""
                 m = FENCE.search(text)
                 code = m.group(1) if m else ""

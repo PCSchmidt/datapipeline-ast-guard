@@ -12,3 +12,5 @@ build/
 corpus/generated/*__llama.py
 corpus/generated/*__gemma.py
 corpus/human/
+corpus/superseded_v1/generated/*__llama.py
+corpus/superseded_v1/generated/*__gemma.py

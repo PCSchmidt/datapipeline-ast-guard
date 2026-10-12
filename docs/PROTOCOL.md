@@ -80,4 +80,4 @@ One rater who is also the tool's author labels everything; there is no inter-rat
 
 ## Deviations
 
-None yet.
+1. **The generation prompts now name the framework; the first 200 generations are superseded (2026-10-12, before any labelling and before the tool was run on the corpus).** The tasks in `corpus/tasks.json` were written without naming a framework, so when I read the first scripts I saw that most models answered in plain pandas even for tasks I had classed as PySpark, which would leave the tool's patterns (`collect`, keyless Spark joins) almost absent and recall measured on very few positives. The corpus was regenerated with the sentence "Use PySpark." / "Use Polars." / "Use pandas." appended to each task according to its `framework` field, everything else unchanged (models, temperature, seeds, system message). The first batch is kept in `corpus/superseded_v1/` (Qwen and Mistral scripts; manifest only for the others). No label had been written and the tool had not been run on any generated script. The protocol sentence "they do not mention any pattern the tool checks" still holds; they now name the library.

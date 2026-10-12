@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/PCSchmidt/datapipeline-ast-guard/actions/workflows/ci.yml/badge.svg)
 
-**Status: v0.1, portfolio project.** Three rules, JSON and SARIF output, CLI and tests are complete. **Detection quality on real agent-written pipelines has not been measured yet**; that is the main open item ([Limitations](#limitations), [docs/RESULTS.md](docs/RESULTS.md)).
+**Status: v0.2, portfolio project.** Three rules, JSON and SARIF output, CLI and tests are complete, and detection quality has now been measured on real and model-written code ([Results](#results), [docs/RESULTS.md](docs/RESULTS.md)). The honest summary: the rules are accurate and stable, but on real code the critical `AG001` is rarely worth a reviewer's time and `AG002` has not been shown to find anything.
 
 ```text
 $ agent-lint examples/agent_written_pipeline.py          # exit code 1
@@ -113,7 +113,7 @@ uv venv && uv pip install -e ".[dev]"
 
 agent-lint examples/agent_written_pipeline.py                 # JSON, exit 1
 agent-lint src/pipelines --format sarif > guard.sarif         # SARIF for code scanning
-pytest -q                                                     # 10 passed
+pytest -q                                                     # 18 passed
 ```
 
 As a CI step (GitHub Actions):
@@ -152,22 +152,26 @@ This is the "deterministic gate in front of a probabilistic generator" idea appl
 
 ## Results
 
-There are **no detection-quality results yet**. What is verified today:
+Pre-registered ([docs/PROTOCOL.md](docs/PROTOCOL.md)), scored once on held-out halves, full numbers and caveats in [docs/RESULTS.md](docs/RESULTS.md). v0 is the tool as first shipped, v1 the version after fixes made on development data only. One rater (the author), a convenience sample of 300 real files from 83 public repositories, and 27 labelled model-written positives: treat everything as small-sample.
 
-- 10 unit and property-based tests pass: each rule's positive and negative cases, suppression, a syntax error producing AG000 instead of a crash, ordinary string and path joins not being mistaken for DataFrame joins (a bug found while writing this README), SARIF structure and 1-based positions, CLI exit codes, and a hypothesis test that arbitrary text never raises.
-- The worked example above is real output.
-- `mypy --strict` and ruff are clean; the Docker image builds and passes its tests offline.
+- **Noise on real code.** v0 flags 27% of real PySpark, Polars and pandas files (95% interval 21 to 34%); v1 flags 25%. About 12 ms per 1,000 lines.
+- **`AG001` (unbounded collect):** 97% of findings are what the rule describes, but only about 1 in 10 was something a reviewer would want to look at (3/44 on the test half). As a critical, merge-blocking rule it would mostly be noise on code like this.
+- **`AG002` (keyless join):** one rule-faithful case in 15 audited findings. Most false alarms (thread and pool joins, string joins, unrecognised key keywords) are removed in v1, but the rule has not been shown to find a real keyless DataFrame join.
+- **`AG003` (hard-coded path):** v0 was 0.58 precise because it matched path fragments in f-strings and route strings; v1 reaches 0.94 on unseen repositories, but only about 1 in 34 findings was actionable.
+- **Model-written scripts:** every labelled `AG001` and `AG003` positive was found (12/12, 15/15), unparseable scripts were caught as `AG000`; there were no `AG002` positives to score.
+- **Robustness:** findings were identical under reformatting, local renaming, added comments and wrapping in a function, on all real and parseable model-written files.
 
-What is planned and not done: a corpus of 200+ LLM-generated PySpark and Polars scripts, hand-labelled for these rules and split into development and test sets before any rule is tuned, with per-rule precision, recall and false-positive rate. See [docs/RESULTS.md](docs/RESULTS.md).
+Also verified: 18 unit and property-based tests, `mypy --strict` and ruff clean, and the Docker image builds and passes its tests offline.
 
 ## Limitations
 
 - **Heuristics, no types.** Receiver types are unknown, so a non-DataFrame object with a `.collect()` method is flagged. AG002 skips string-literal receivers, `os.path.join` and list/generator arguments, but `sep.join(parts)` (a variable receiver with a variable argument) looks exactly like a DataFrame join and **is flagged**; suppress it with the comment.
-- **Chain-local bounds only.** A limit applied on an earlier statement (`small = df.limit(5)` then `small.collect()`) is not tracked, so AG001 fires. Use the suppression comment where the bound is real.
+- **Limited bound tracking.** v1 tracks a name assigned from a bounded chain within one scope (`small = df.limit(5)` then `small.collect()`), but not bounds across functions, containers or reassignment through other calls; use the suppression comment where the bound is real.
 - **Only three rules.** Not covered: unpartitioned shuffles, null-unsafe join keys, missing schema assertions after JSON ingestion, SQL (`sqlglot`) rules, and property-based schema-invariance checks.
 - **Join keys are not validated.** AG002 checks that keys are given, not that they are the right ones.
 - **Paths in comments and docstrings** that look like paths can raise a warning.
-- **Not on PyPI yet**, and no measured false-positive rate on real code.
+- **Low actionable precision on real code.** Measured on a convenience sample: roughly 1 in 10 `AG001` findings and 1 in 30 `AG003` findings were worth a reviewer's time, and `AG001`'s critical severity is hard to justify on this evidence. `AG002` is unproven on real code, and recall on real code was not measured.
+- **Not on PyPI yet.**
 
 ## Operational notes
 
@@ -182,7 +186,7 @@ No keys. The analysed source is read from disk and never leaves the machine. Not
 ### Verify the claims (a reviewer's path)
 
 ```bash
-pytest -q                                              # 10 passed
+pytest -q                                              # 18 passed
 mypy src tests                                         # strict, clean
 agent-lint examples/agent_written_pipeline.py; echo $? # the findings above, then 1
 docker build -t ast-guard . && docker run --rm --network none ast-guard   # tests offline
@@ -192,7 +196,8 @@ docker build -t ast-guard . && docker run --rm --network none ast-guard   # test
 
 | Doc | What it covers |
 | --- | --- |
-| [docs/RESULTS.md](docs/RESULTS.md) | what is verified, and the planned (not run) benchmark protocol |
+| [docs/PROTOCOL.md](docs/PROTOCOL.md) | the pre-registered evaluation plan, with logged deviations |
+| [docs/RESULTS.md](docs/RESULTS.md) | measured results for v0 and v1, caveats and limits |
 | [examples/agent_written_pipeline.py](examples/agent_written_pipeline.py) | the sample used in the output above |
 | [src/datapipeline_ast_guard/rules.py](src/datapipeline_ast_guard/rules.py) | every rule, in about 120 lines |
 

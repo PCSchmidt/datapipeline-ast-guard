@@ -3,13 +3,13 @@
  "cases": 133,
  "by_rule": {
   "AG001": {
-   "ok": 43,
-   "wrong": 6,
+   "ok": 46,
+   "wrong": 3,
    "unclear": 1
   },
   "AG002": {
-   "ok": 30,
-   "wrong": 9,
+   "ok": 34,
+   "wrong": 5,
    "unclear": 1
   },
   "AG003": {
@@ -26,49 +26,34 @@
    "id": "A1-38",
    "rule": "AG001",
    "form": "bound-earlier-statement",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "a bound on an earlier statement is not tracked (documented limitation)",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG001",
-     2
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A1-39",
    "rule": "AG001",
    "form": "bound-earlier-statement",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "a bound on an earlier statement is not tracked (documented limitation)",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG001",
-     2
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A1-40",
    "rule": "AG001",
    "form": "not-a-dataframe",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "receiver type is unknown, so the garbage collector's collect() is flagged",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG001",
-     2
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A1-41",
@@ -128,65 +113,45 @@
    "id": "A2-28",
    "rule": "AG002",
    "form": "string-join-call-arg",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "a call argument is not recognised as a non-DataFrame argument",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG002",
-     1
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A2-29",
    "rule": "AG002",
    "form": "thread-join",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "zero-argument join (a thread or process) is treated as a keyless DataFrame join",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG002",
-     1
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A2-30",
    "rule": "AG002",
    "form": "thread-join-timeout",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "a thread join with a timeout keyword is treated as a keyless join",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG002",
-     1
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A2-31",
    "rule": "AG002",
    "form": "queue-join",
-   "status": "wrong",
+   "status": "ok",
    "expected_hard": "zero-argument join (a queue) is treated as a keyless DataFrame join",
    "tp": 0,
-   "fp": 1,
+   "fp": 0,
    "fn": 0,
-   "found": [
-    [
-     "AG002",
-     1
-    ]
-   ]
+   "found": []
   },
   {
    "id": "A2-34",

@@ -127,6 +127,10 @@
   "actionable": "no",
   "faithful": "yes"
  },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|375": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
  "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|380": {
   "actionable": "no",
   "faithful": "yes"
@@ -187,7 +191,15 @@
   "actionable": "no",
   "faithful": "yes"
  },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|110": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
  "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|40": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|54": {
   "actionable": "no",
   "faithful": "yes"
  },
@@ -207,6 +219,10 @@
   "actionable": "no",
   "faithful": "yes"
  },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|94": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
  "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|510": {
   "actionable": "no",
   "faithful": "unclear"
@@ -219,6 +235,10 @@
   "actionable": "no",
   "faithful": "unclear"
  },
+ "AG001|narwhals-dev/narwhals:src/narwhals/_duckdb/dataframe.py|266": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
  "AG001|narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py|813": {
   "actionable": "no",
   "faithful": "unclear"
@@ -226,6 +246,10 @@
  "AG001|narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py|822": {
   "actionable": "no",
   "faithful": "unclear"
+ },
+ "AG001|sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py|115": {
+  "actionable": "yes",
+  "faithful": "yes"
  },
  "AG001|sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py|171": {
   "actionable": "yes",

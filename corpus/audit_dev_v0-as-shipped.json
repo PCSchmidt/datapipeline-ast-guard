@@ -1,0 +1,850 @@
+[
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|255",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 255,
+  "end_line": 255,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|650",
+  "rule": "AG001",
+  "file": "narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py",
+  "line": 650,
+  "end_line": 650,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py|172",
+  "rule": "AG001",
+  "file": "sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py",
+  "line": 172,
+  "end_line": 172,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py|104",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py",
+  "line": 104,
+  "end_line": 104,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|309",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 309,
+  "end_line": 309,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mage-ai/mage-ai:mage_ai/data/tabular/utils.py|49",
+  "rule": "AG001",
+  "file": "mage-ai/mage-ai:mage_ai/data/tabular/utils.py",
+  "line": 49,
+  "end_line": 49,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|188",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+  "line": 188,
+  "end_line": 188,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|86",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py",
+  "line": 86,
+  "end_line": 86,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|40",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py",
+  "line": 40,
+  "end_line": 40,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|370",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 370,
+  "end_line": 370,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py|106",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py",
+  "line": 106,
+  "end_line": 106,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py|345",
+  "rule": "AG001",
+  "file": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py",
+  "line": 345,
+  "end_line": 345,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|142",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 142,
+  "end_line": 142,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|101",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py",
+  "line": 101,
+  "end_line": 101,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|business-science/pytimetk:src/pytimetk/feature_store/store.py|730",
+  "rule": "AG001",
+  "file": "business-science/pytimetk:src/pytimetk/feature_store/store.py",
+  "line": 730,
+  "end_line": 730,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|ibis-project/ibis:ibis/formats/polars.py|176",
+  "rule": "AG001",
+  "file": "ibis-project/ibis:ibis/formats/polars.py",
+  "line": 176,
+  "end_line": 176,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|benseverndev-oss/goldenmatch:packages/python/goldenmatch/goldenmatch/spark/em.py|639",
+  "rule": "AG001",
+  "file": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/goldenmatch/spark/em.py",
+  "line": 639,
+  "end_line": 639,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|buckaroo-data/buckaroo:buckaroo/server/data_loading.py|202",
+  "rule": "AG001",
+  "file": "buckaroo-data/buckaroo:buckaroo/server/data_loading.py",
+  "line": 202,
+  "end_line": 202,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py|195",
+  "rule": "AG001",
+  "file": "business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py",
+  "line": 195,
+  "end_line": 195,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|hi-primus/optimus:optimus/engines/spark/columns.py|883",
+  "rule": "AG001",
+  "file": "hi-primus/optimus:optimus/engines/spark/columns.py",
+  "line": 883,
+  "end_line": 883,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py|171",
+  "rule": "AG001",
+  "file": "sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py",
+  "line": 171,
+  "end_line": 171,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG001|business-science/pytimetk:src/pytimetk/feature_store/store.py|732",
+  "rule": "AG001",
+  "file": "business-science/pytimetk:src/pytimetk/feature_store/store.py",
+  "line": 732,
+  "end_line": 732,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/snowflake.py|497",
+  "rule": "AG001",
+  "file": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/snowflake.py",
+  "line": 497,
+  "end_line": 497,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py|280",
+  "rule": "AG001",
+  "file": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py",
+  "line": 280,
+  "end_line": 280,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|dlt-hub/dlt:dlt/destinations/sql_client.py|505",
+  "rule": "AG001",
+  "file": "dlt-hub/dlt:dlt/destinations/sql_client.py",
+  "line": 505,
+  "end_line": 505,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|140",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 140,
+  "end_line": 140,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py|292",
+  "rule": "AG001",
+  "file": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py",
+  "line": 292,
+  "end_line": 292,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py|813",
+  "rule": "AG001",
+  "file": "narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py",
+  "line": 813,
+  "end_line": 813,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py|28",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py",
+  "line": 28,
+  "end_line": 28,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py|68",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py",
+  "line": 68,
+  "end_line": 68,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py|190",
+  "rule": "AG001",
+  "file": "business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py",
+  "line": 190,
+  "end_line": 190,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py|92",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py",
+  "line": 92,
+  "end_line": 92,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|79",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py",
+  "line": 79,
+  "end_line": 79,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|flex-analytics/flexviz:flexviz/trace/line.py|349",
+  "rule": "AG001",
+  "file": "flex-analytics/flexviz:flexviz/trace/line.py",
+  "line": 349,
+  "end_line": 349,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|200",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 200,
+  "end_line": 200,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|93",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py",
+  "line": 93,
+  "end_line": 93,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mage-ai/mage-ai:mage_ai/data/tabular/utils.py|52",
+  "rule": "AG001",
+  "file": "mage-ai/mage-ai:mage_ai/data/tabular/utils.py",
+  "line": 52,
+  "end_line": 52,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|115",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+  "line": 115,
+  "end_line": 115,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py|822",
+  "rule": "AG001",
+  "file": "narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py",
+  "line": 822,
+  "end_line": 822,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|functime-org/functime:functime/cross_validation.py|129",
+  "rule": "AG001",
+  "file": "functime-org/functime:functime/cross_validation.py",
+  "line": 129,
+  "end_line": 129,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py|362",
+  "rule": "AG001",
+  "file": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py",
+  "line": 362,
+  "end_line": 362,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|sb-ai-lab/RePlay:replay/utils/common.py|170",
+  "rule": "AG001",
+  "file": "sb-ai-lab/RePlay:replay/utils/common.py",
+  "line": 170,
+  "end_line": 170,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|510",
+  "rule": "AG001",
+  "file": "narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py",
+  "line": 510,
+  "end_line": 510,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|buckaroo-data/buckaroo:buckaroo/server/data_loading.py|151",
+  "rule": "AG001",
+  "file": "buckaroo-data/buckaroo:buckaroo/server/data_loading.py",
+  "line": 151,
+  "end_line": 151,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|286",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+  "line": 286,
+  "end_line": 286,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py|59",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py",
+  "line": 59,
+  "end_line": 59,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|380",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 380,
+  "end_line": 380,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|databrickslabs/dbldatagen:examples/example1.py|88",
+  "rule": "AG001",
+  "file": "databrickslabs/dbldatagen:examples/example1.py",
+  "line": 88,
+  "end_line": 88,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|359",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+  "line": 359,
+  "end_line": 359,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|allisonwang-db/pyspark-data-sources:examples/sftp_e2e_test.py|90",
+  "rule": "AG001",
+  "file": "allisonwang-db/pyspark-data-sources:examples/sftp_e2e_test.py",
+  "line": 90,
+  "end_line": 90,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|102",
+  "rule": "AG001",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py",
+  "line": 102,
+  "end_line": 102,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|610",
+  "rule": "AG001",
+  "file": "narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py",
+  "line": 610,
+  "end_line": 610,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|eliasswu/AlphaPurify:alphapurify/Database.py|423",
+  "rule": "AG001",
+  "file": "eliasswu/AlphaPurify:alphapurify/Database.py",
+  "line": 423,
+  "end_line": 423,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|buckaroo-data/buckaroo:buckaroo/serialization_utils.py|158",
+  "rule": "AG001",
+  "file": "buckaroo-data/buckaroo:buckaroo/serialization_utils.py",
+  "line": 158,
+  "end_line": 158,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|372",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 372,
+  "end_line": 372,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|business-science/pytimetk:src/pytimetk/feature_store/store.py|831",
+  "rule": "AG001",
+  "file": "business-science/pytimetk:src/pytimetk/feature_store/store.py",
+  "line": 831,
+  "end_line": 831,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|222",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+  "line": 222,
+  "end_line": 222,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|functime-org/functime:functime/forecasting/naive.py|54",
+  "rule": "AG001",
+  "file": "functime-org/functime:functime/forecasting/naive.py",
+  "line": 54,
+  "end_line": 54,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|311",
+  "rule": "AG001",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+  "line": 311,
+  "end_line": 311,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG001|eliasswu/AlphaPurify:alphapurify/Database.py|428",
+  "rule": "AG001",
+  "file": "eliasswu/AlphaPurify:alphapurify/Database.py",
+  "line": 428,
+  "end_line": 428,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py|202",
+  "rule": "AG002",
+  "file": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py",
+  "line": 202,
+  "end_line": 202,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|456",
+  "rule": "AG002",
+  "file": "narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py",
+  "line": 456,
+  "end_line": 463,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|capitalone/datacompy:datacompy/polars.py|377",
+  "rule": "AG002",
+  "file": "capitalone/datacompy:datacompy/polars.py",
+  "line": 377,
+  "end_line": 377,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|441",
+  "rule": "AG002",
+  "file": "narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py",
+  "line": 441,
+  "end_line": 441,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py|90",
+  "rule": "AG002",
+  "file": "mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py",
+  "line": 90,
+  "end_line": 90,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG002|benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py|205",
+  "rule": "AG002",
+  "file": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py",
+  "line": 205,
+  "end_line": 205,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|Edwardvaneechoud/Flowfile:flowfile_frame/flowfile_frame/list_name_space.py|223",
+  "rule": "AG002",
+  "file": "Edwardvaneechoud/Flowfile:flowfile_frame/flowfile_frame/list_name_space.py",
+  "line": 223,
+  "end_line": 223,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG002|narwhals-dev/narwhals:src/narwhals/_duckdb/dataframe.py|316",
+  "rule": "AG002",
+  "file": "narwhals-dev/narwhals:src/narwhals/_duckdb/dataframe.py",
+  "line": 316,
+  "end_line": 316,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|26",
+  "rule": "AG003",
+  "file": "martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py",
+  "line": 26,
+  "end_line": 26,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|16",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 16,
+  "end_line": 16,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|capitalone/datacompy:benchmarks/benchmark_spark.py|37",
+  "rule": "AG003",
+  "file": "capitalone/datacompy:benchmarks/benchmark_spark.py",
+  "line": 37,
+  "end_line": 37,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|105",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 105,
+  "end_line": 105,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|capitalone/datacompy:benchmarks/benchmark_spark.py|38",
+  "rule": "AG003",
+  "file": "capitalone/datacompy:benchmarks/benchmark_spark.py",
+  "line": 38,
+  "end_line": 38,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|wukan1986/expr_codegen:examples/demo_columns.py|113",
+  "rule": "AG003",
+  "file": "wukan1986/expr_codegen:examples/demo_columns.py",
+  "line": 113,
+  "end_line": 113,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/api/screener.py|26",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/api/screener.py",
+  "line": 26,
+  "end_line": 26,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|martandsingh/ApacheSpark:PySpark_ETL/PS09-String Functions.py|13",
+  "rule": "AG003",
+  "file": "martandsingh/ApacheSpark:PySpark_ETL/PS09-String Functions.py",
+  "line": 13,
+  "end_line": 13,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|28",
+  "rule": "AG003",
+  "file": "martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py",
+  "line": 28,
+  "end_line": 28,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|14",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+  "line": 14,
+  "end_line": 14,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|alanchn31/Movalytics-Data-Warehouse:dags/python_scripts/load_staging_movies.py|79",
+  "rule": "AG003",
+  "file": "alanchn31/Movalytics-Data-Warehouse:dags/python_scripts/load_staging_movies.py",
+  "line": 79,
+  "end_line": 79,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|wukan1986/expr_codegen:examples/demo_columns.py|115",
+  "rule": "AG003",
+  "file": "wukan1986/expr_codegen:examples/demo_columns.py",
+  "line": 115,
+  "end_line": 115,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|244",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 244,
+  "end_line": 244,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|73",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/services/extend_history.py",
+  "line": 73,
+  "end_line": 73,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py|113",
+  "rule": "AG003",
+  "file": "san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py",
+  "line": 113,
+  "end_line": 113,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|201",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 201,
+  "end_line": 201,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|business-science/pytimetk:src/pytimetk/feature_store/store.py|876",
+  "rule": "AG003",
+  "file": "business-science/pytimetk:src/pytimetk/feature_store/store.py",
+  "line": 876,
+  "end_line": 876,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|167",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 167,
+  "end_line": 167,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|hi-primus/optimus:optimus/engines/dask/io/load.py|139",
+  "rule": "AG003",
+  "file": "hi-primus/optimus:optimus/engines/dask/io/load.py",
+  "line": 139,
+  "end_line": 139,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/api/screener.py|509",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/api/screener.py",
+  "line": 509,
+  "end_line": 509,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|business-science/pytimetk:src/pytimetk/feature_store/store.py|874",
+  "rule": "AG003",
+  "file": "business-science/pytimetk:src/pytimetk/feature_store/store.py",
+  "line": 874,
+  "end_line": 874,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|16",
+  "rule": "AG003",
+  "file": "martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py",
+  "line": 16,
+  "end_line": 16,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_refine.py|68",
+  "rule": "AG003",
+  "file": "garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_refine.py",
+  "line": 68,
+  "end_line": 68,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|72",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/services/extend_history.py",
+  "line": 72,
+  "end_line": 72,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|hi-primus/optimus:optimus/engines/dask/io/load.py|141",
+  "rule": "AG003",
+  "file": "hi-primus/optimus:optimus/engines/dask/io/load.py",
+  "line": 141,
+  "end_line": 141,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG003|garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_event_refine.py|25",
+  "rule": "AG003",
+  "file": "garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_event_refine.py",
+  "line": 25,
+  "end_line": 25,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|74",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/services/extend_history.py",
+  "line": 74,
+  "end_line": 74,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|ibis-project/ibis:docs/posts/pydata-performance/pandas_impl.py|9",
+  "rule": "AG003",
+  "file": "ibis-project/ibis:docs/posts/pydata-performance/pandas_impl.py",
+  "line": 9,
+  "end_line": 9,
+  "stratum": "pandas"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|125",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 125,
+  "end_line": 125,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|27",
+  "rule": "AG003",
+  "file": "martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py",
+  "line": 27,
+  "end_line": 27,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|71",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 71,
+  "end_line": 71,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_raw.py|25",
+  "rule": "AG003",
+  "file": "garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_raw.py",
+  "line": 25,
+  "end_line": 25,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py|114",
+  "rule": "AG003",
+  "file": "san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py",
+  "line": 114,
+  "end_line": 114,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|40",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 40,
+  "end_line": 40,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|15",
+  "rule": "AG003",
+  "file": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+  "line": 15,
+  "end_line": 15,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|75",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/services/extend_history.py",
+  "line": 75,
+  "end_line": 75,
+  "stratum": "polars"
+ },
+ {
+  "fid": "AG003|martandsingh/ApacheSpark:PySpark_ETL/PS05-Handling JSON.py|18",
+  "rule": "AG003",
+  "file": "martandsingh/ApacheSpark:PySpark_ETL/PS05-Handling JSON.py",
+  "line": 18,
+  "end_line": 18,
+  "stratum": "pyspark"
+ },
+ {
+  "fid": "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|76",
+  "rule": "AG003",
+  "file": "shy3130/tick-stock-panel:backend/app/services/extend_history.py",
+  "line": 76,
+  "end_line": 76,
+  "stratum": "polars"
+ }
+]

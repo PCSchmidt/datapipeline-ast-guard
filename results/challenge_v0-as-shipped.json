@@ -1,0 +1,291 @@
+{
+ "rules_rev": "v0-as-shipped",
+ "cases": 133,
+ "by_rule": {
+  "AG001": {
+   "ok": 43,
+   "wrong": 6,
+   "unclear": 1
+  },
+  "AG002": {
+   "ok": 30,
+   "wrong": 9,
+   "unclear": 1
+  },
+  "AG003": {
+   "ok": 32,
+   "wrong": 2,
+   "unclear": 1
+  },
+  "AG000": {
+   "ok": 8
+  }
+ },
+ "wrong_or_hard": [
+  {
+   "id": "A1-38",
+   "rule": "AG001",
+   "form": "bound-earlier-statement",
+   "status": "wrong",
+   "expected_hard": "a bound on an earlier statement is not tracked (documented limitation)",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG001",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "A1-39",
+   "rule": "AG001",
+   "form": "bound-earlier-statement",
+   "status": "wrong",
+   "expected_hard": "a bound on an earlier statement is not tracked (documented limitation)",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG001",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "A1-40",
+   "rule": "AG001",
+   "form": "not-a-dataframe",
+   "status": "wrong",
+   "expected_hard": "receiver type is unknown, so the garbage collector's collect() is flagged",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG001",
+     2
+    ]
+   ]
+  },
+  {
+   "id": "A1-41",
+   "rule": "AG001",
+   "form": "not-a-dataframe",
+   "status": "wrong",
+   "expected_hard": "receiver type is unknown (a custom class with a collect method)",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG001",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "A1-44",
+   "rule": "AG001",
+   "form": "aliased-method",
+   "status": "wrong",
+   "expected_hard": "a method stored in a variable is invisible to a name-based rule",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A1-45",
+   "rule": "AG001",
+   "form": "getattr",
+   "status": "wrong",
+   "expected_hard": "dynamic attribute access is invisible to a name-based rule",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A2-27",
+   "rule": "AG002",
+   "form": "string-join-variable-receiver",
+   "status": "wrong",
+   "expected_hard": "a variable receiver with a variable argument looks like a DataFrame join (documented)",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG002",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "A2-28",
+   "rule": "AG002",
+   "form": "string-join-call-arg",
+   "status": "wrong",
+   "expected_hard": "a call argument is not recognised as a non-DataFrame argument",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG002",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "A2-29",
+   "rule": "AG002",
+   "form": "thread-join",
+   "status": "wrong",
+   "expected_hard": "zero-argument join (a thread or process) is treated as a keyless DataFrame join",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG002",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "A2-30",
+   "rule": "AG002",
+   "form": "thread-join-timeout",
+   "status": "wrong",
+   "expected_hard": "a thread join with a timeout keyword is treated as a keyless join",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG002",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "A2-31",
+   "rule": "AG002",
+   "form": "queue-join",
+   "status": "wrong",
+   "expected_hard": "zero-argument join (a queue) is treated as a keyless DataFrame join",
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    [
+     "AG002",
+     1
+    ]
+   ]
+  },
+  {
+   "id": "A2-34",
+   "rule": "AG002",
+   "form": "on-none",
+   "status": "wrong",
+   "expected_hard": "an explicit on=None is counted as having a key",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A2-35",
+   "rule": "AG002",
+   "form": "on-empty-list",
+   "status": "wrong",
+   "expected_hard": "an empty key list is counted as having keys",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A2-36",
+   "rule": "AG002",
+   "form": "pandas-cross-merge",
+   "status": "wrong",
+   "expected_hard": "only join/crossJoin are inspected, not merge",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A2-38",
+   "rule": "AG002",
+   "form": "aliased-method",
+   "status": "wrong",
+   "expected_hard": "a method stored in a variable is invisible to a name-based rule",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A3-30",
+   "rule": "AG003",
+   "form": "regex-not-a-path",
+   "status": "ok",
+   "expected_hard": "a regular expression that looks like a path is flagged",
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "found": []
+  },
+  {
+   "id": "A3-31",
+   "rule": "AG003",
+   "form": "docstring-mention",
+   "status": "ok",
+   "expected_hard": "a path mentioned in a docstring is flagged",
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "found": []
+  },
+  {
+   "id": "A3-32",
+   "rule": "AG003",
+   "form": "log-message",
+   "status": "ok",
+   "expected_hard": "a path inside a log message is flagged",
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "found": []
+  },
+  {
+   "id": "A3-33",
+   "rule": "AG003",
+   "form": "unc-path",
+   "status": "wrong",
+   "expected_hard": "UNC paths are not in the pattern",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  },
+  {
+   "id": "A3-35",
+   "rule": "AG003",
+   "form": "mixed-case-scheme",
+   "status": "wrong",
+   "expected_hard": "URI scheme matching is case sensitive",
+   "tp": 0,
+   "fp": 0,
+   "fn": 1,
+   "found": []
+  }
+ ]
+}

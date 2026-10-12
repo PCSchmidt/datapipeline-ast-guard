@@ -85,3 +85,67 @@ def test_string_and_path_joins_are_not_dataframe_joins() -> None:
     assert ids("x = sep.join(str(i) for i in xs)") == []
     # still flagged: a bare receiver with a bare argument is indistinguishable from a DataFrame join
     assert ids("orders.join(customers)") == ["AG002"]
+
+
+# ---- regression tests for defects found on the development half of the evaluation (docs/PROTOCOL.md) ----
+
+
+def test_thread_and_queue_joins_are_not_dataframe_joins() -> None:
+    assert ids("worker.join()") == []
+    assert ids("worker.join(timeout=5)") == []
+    assert ids("jobs.join()") == []
+    assert ids("a.join(other=b)") == ["AG002"]  # a DataFrame join given by keyword is still keyless
+
+
+def test_alternative_key_keywords_count_as_keys() -> None:
+    assert ids("t.join(u, keys=['id'], right_keys=['id'])") == []
+    assert ids("rel.join(other, condition=c, how='inner')") == []
+    assert ids("t.join(u, predicates=p)") == []
+    assert ids("t.join(u, right_on='k', left_on='k')") == []
+
+
+def test_join_of_a_builtin_iterator_is_a_string_join() -> None:
+    assert ids("text = sep.join(map(str, xs))") == []
+    assert ids("text = sep.join(sorted(names))") == []
+    assert ids("text = sep.join(parts)") == ["AG002"]  # still ambiguous without types (documented)
+
+
+def test_path_fragments_are_not_hardcoded_paths() -> None:
+    assert ids("p = f'{base}/part/x.csv'") == []
+    assert ids("p = base + '/sales/'") == []
+    assert ids("p = f'/data/{day}/x.csv'") == ["AG003"]  # the f-string begins with the path
+    assert ids("p = '/data/in' + suffix") == ["AG003"]  # the path is the left, constant operand
+    assert ids("def run(path='/data/in'):\n    return path") == [
+        "AG003"
+    ]  # argument defaults are checked
+
+
+def test_routes_and_scheme_tests_are_not_paths() -> None:
+    assert ids("@router.get('/items/{item_id}')\ndef f(item_id):\n    return item_id") == []
+    assert ids("router = APIRouter(prefix='/api/items')") == []
+    assert ids("if uri.startswith('file://'):\n    pass") == []
+    assert ids("if uri.endswith('/data/x'):\n    pass") == []
+    assert ids("open('/data/in.csv')") == ["AG003"]
+
+
+def test_slice_bounds_a_chain() -> None:
+    assert ids("frame = lf.slice(0, 100).collect()") == []
+
+
+def test_gc_and_functions_alias_collect_are_not_dataset_materialisation() -> None:
+    assert ids("import gc\ngc.collect()") == []
+    assert ids("x = F.collect(col)") == []
+    assert ids("rows = df.collect()") == ["AG001"]
+
+
+def test_a_bound_on_an_earlier_statement_is_tracked_within_a_scope() -> None:
+    assert ids("small = df.limit(5)\nrows = small.collect()") == []
+    assert ids("small = df.limit(5)\nagg = small.select('a')\nrows = agg.collect()") == []
+    assert ids("small = df.limit(5)\nsmall = df\nrows = small.collect()") == [
+        "AG001"
+    ]  # reassigned unbounded
+    assert ids("def f(df):\n    small = df.limit(5)\n    return small.collect()") == []
+    assert ids("small = df.limit(5)\ndef g(df):\n    return small.collect()") == [
+        "AG001"
+    ]  # other scope
+    assert ids("rows = other.collect()") == ["AG001"]

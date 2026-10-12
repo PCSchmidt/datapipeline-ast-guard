@@ -2,7 +2,7 @@
  "totals": {
   "AG001": {
    "tp": 8,
-   "fp": 1,
+   "fp": 0,
    "fn": 0
   },
   "AG002": {
@@ -21,16 +21,5 @@
   "tp": 5,
   "missing_generation": 2
  },
- "errors": [
-  {
-   "id": "S15__mistral",
-   "rule": "AG001",
-   "fp": 1,
-   "fn": 0,
-   "found": [
-    37
-   ],
-   "labelled": []
-  }
- ]
+ "errors": []
 }

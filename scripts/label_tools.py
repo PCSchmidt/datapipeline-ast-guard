@@ -49,3 +49,13 @@ if __name__ == "__main__":
     if sys.argv[1] == "show":
         for t in sys.argv[2:]:
             show(t)
+
+
+def audit_add(split: str, rev: str, entries: list[tuple[int, str, str]]) -> None:
+    """Save audit labels by sample index: (index, faithful yes/no/unclear, actionable yes/no/unclear)."""
+    sample = json.loads((ROOT / "corpus" / f"audit_{split}_{rev}.json").read_text(encoding="utf-8"))
+    path = ROOT / "corpus" / "labels_audit.json"
+    labels = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    for idx, faithful, actionable in entries:
+        labels[sample[idx]["fid"]] = {"faithful": faithful, "actionable": actionable}
+    path.write_text(json.dumps(labels, indent=1, sort_keys=True), encoding="utf-8")

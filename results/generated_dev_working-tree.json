@@ -1,0 +1,36 @@
+{
+ "totals": {
+  "AG001": {
+   "tp": 8,
+   "fp": 1,
+   "fn": 0
+  },
+  "AG002": {
+   "tp": 0,
+   "fp": 0,
+   "fn": 0
+  },
+  "AG003": {
+   "tp": 9,
+   "fp": 0,
+   "fn": 0
+  }
+ },
+ "ag000": {
+  "tn": 101,
+  "tp": 5,
+  "missing_generation": 2
+ },
+ "errors": [
+  {
+   "id": "S15__mistral",
+   "rule": "AG001",
+   "fp": 1,
+   "fn": 0,
+   "found": [
+    37
+   ],
+   "labelled": []
+  }
+ ]
+}

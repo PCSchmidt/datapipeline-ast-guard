@@ -1,0 +1,426 @@
+{
+ "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py|280": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py|292": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/snowflake.py|497": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py|345": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py|362": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|allisonwang-db/pyspark-data-sources:examples/sftp_e2e_test.py|90": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|benseverndev-oss/goldenmatch:packages/python/goldenmatch/goldenmatch/spark/em.py|639": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|buckaroo-data/buckaroo:buckaroo/serialization_utils.py|158": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|buckaroo-data/buckaroo:buckaroo/server/data_loading.py|151": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|buckaroo-data/buckaroo:buckaroo/server/data_loading.py|202": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG001|business-science/pytimetk:src/pytimetk/feature_store/store.py|730": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|business-science/pytimetk:src/pytimetk/feature_store/store.py|732": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|business-science/pytimetk:src/pytimetk/feature_store/store.py|831": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py|190": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py|195": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|databrickslabs/dbldatagen:examples/example1.py|88": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|dlt-hub/dlt:dlt/destinations/sql_client.py|505": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG001|eliasswu/AlphaPurify:alphapurify/Database.py|423": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|eliasswu/AlphaPurify:alphapurify/Database.py|428": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|flex-analytics/flexviz:flexviz/trace/line.py|349": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|functime-org/functime:functime/cross_validation.py|129": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|functime-org/functime:functime/forecasting/naive.py|54": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|hi-primus/optimus:optimus/engines/spark/columns.py|883": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|ibis-project/ibis:ibis/formats/polars.py|176": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|140": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|142": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|200": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|255": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|309": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|311": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|370": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|372": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py|380": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|115": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|188": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|222": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|286": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG001|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|359": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG001|mage-ai/mage-ai:mage_ai/data/tabular/utils.py|49": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|mage-ai/mage-ai:mage_ai/data/tabular/utils.py|52": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py|104": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py|106": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py|92": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py|59": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py|68": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py|28": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|102": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py|40": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|101": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|79": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|86": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py|93": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|510": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|610": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|650": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py|813": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py|822": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG001|sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py|171": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG001|sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py|172": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG001|sb-ai-lab/RePlay:replay/utils/common.py|170": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG002|Edwardvaneechoud/Flowfile:flowfile_frame/flowfile_frame/list_name_space.py|223": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG002|benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py|202": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG002|benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py|205": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG002|capitalone/datacompy:datacompy/polars.py|377": {
+  "actionable": "no",
+  "faithful": "unclear"
+ },
+ "AG002|mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py|90": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG002|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|441": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG002|narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py|456": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG002|narwhals-dev/narwhals:src/narwhals/_duckdb/dataframe.py|316": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|alanchn31/Movalytics-Data-Warehouse:dags/python_scripts/load_staging_movies.py|79": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|business-science/pytimetk:src/pytimetk/feature_store/store.py|874": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|business-science/pytimetk:src/pytimetk/feature_store/store.py|876": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|capitalone/datacompy:benchmarks/benchmark_spark.py|37": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|capitalone/datacompy:benchmarks/benchmark_spark.py|38": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_raw.py|25": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_refine.py|68": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_event_refine.py|25": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|hi-primus/optimus:optimus/engines/dask/io/load.py|139": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|hi-primus/optimus:optimus/engines/dask/io/load.py|141": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|ibis-project/ibis:docs/posts/pydata-performance/pandas_impl.py|9": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|105": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|125": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|15": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|16": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|167": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|201": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|244": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|40": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py|71": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py|14": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|martandsingh/ApacheSpark:PySpark_ETL/PS05-Handling JSON.py|18": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|martandsingh/ApacheSpark:PySpark_ETL/PS09-String Functions.py|13": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|16": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|26": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|27": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py|28": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py|113": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py|114": {
+  "actionable": "yes",
+  "faithful": "yes"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/api/screener.py|26": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/api/screener.py|509": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|72": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|73": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|74": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|75": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|shy3130/tick-stock-panel:backend/app/services/extend_history.py|76": {
+  "actionable": "no",
+  "faithful": "no"
+ },
+ "AG003|wukan1986/expr_codegen:examples/demo_columns.py|113": {
+  "actionable": "no",
+  "faithful": "yes"
+ },
+ "AG003|wukan1986/expr_codegen:examples/demo_columns.py|115": {
+  "actionable": "no",
+  "faithful": "yes"
+ }
+}

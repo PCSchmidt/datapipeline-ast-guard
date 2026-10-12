@@ -1,6 +1,6 @@
 """Helpers for blind labelling of the model-written corpus (they never run the analyser).
 
-    python scripts/label_tools.py show S01 S02 S03     # print those tasks' scripts, all models, with line numbers
+python scripts/label_tools.py show S01 S02 S03     # print those tasks' scripts, all models, with line numbers
 """
 
 from __future__ import annotations

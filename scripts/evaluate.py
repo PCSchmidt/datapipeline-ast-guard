@@ -126,7 +126,19 @@ def cmd_challenge(rev: str | None) -> None:
         got = {(f["rule"], f["line"]) for f in found}
         # a finding on a later line of a multi-line chain still counts for an expectation on any line of its span
         exp = case.expected()
-        tp, fp, fn = match([{"rule": r, "line": ln} for r, ln in sorted(exp)], found)
+        if case.rule == "AG000" and not case.form.startswith("parses"):
+            # an unparseable snippet must yield exactly one AG000 finding and nothing else (any line)
+            n_ag000 = sum(1 for f in found if f["rule"] == "AG000")
+            if len(found) == 1 and n_ag000 == 1:
+                tp, fp, fn = 1, 0, 0
+            else:
+                tp, fp, fn = (
+                    0,
+                    len(found) - n_ag000 + max(0, n_ag000 - 1),
+                    (1 if n_ag000 == 0 else 0),
+                )
+        else:
+            tp, fp, fn = match([{"rule": r, "line": ln} for r, ln in sorted(exp)], found)
         status = "unclear" if case.unclear else ("ok" if fp == 0 and fn == 0 else "wrong")
         by_rule[case.rule][status] += 1
         by_form[(case.rule, case.form)][status] += 1

@@ -7,3 +7,8 @@ __pycache__/
 dist/
 build/
 .coverage
+
+# model-written scripts: only the Apache-2.0 models are committed (see docs/PROTOCOL.md)
+corpus/generated/*__llama.py
+corpus/generated/*__gemma.py
+corpus/human/

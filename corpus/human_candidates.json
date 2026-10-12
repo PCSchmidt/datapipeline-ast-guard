@@ -1,0 +1,25 @@
+{
+ "topics": {
+  "pyspark": 40,
+  "polars": 40,
+  "etl": 40,
+  "data-pipeline": 40,
+  "data-engineering": 40,
+  "airflow": 40
+ },
+ "repos_cloned": 184,
+ "pool": {
+  "pyspark": {
+   "files": 869,
+   "repos": 53
+  },
+  "polars": {
+   "files": 1037,
+   "repos": 46
+  },
+  "pandas": {
+   "files": 999,
+   "repos": 71
+  }
+ }
+}

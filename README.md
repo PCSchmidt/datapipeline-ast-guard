@@ -177,6 +177,15 @@ Also verified: 24 unit and property-based tests, `mypy --strict` and ruff clean,
 - **Low actionable precision on real code.** Measured on a convenience sample: roughly 1 in 10 `AG001` findings and 1 in 30 `AG003` findings were worth a reviewer's time, and, on this evidence, blocking merges on `AG001` is hard to justify (hence the v2 demotion). On code never seen before, `AG001` actionable precision was 0.17 and `AG003` 0.23. `AG002` is unproven on real code, and recall on real code was not measured.
 - **Not on PyPI yet.**
 
+## Known gaps against the original roadmap
+
+The project began as an item in a longer roadmap that named a larger stack and scope. These parts of that plan were **not built**; the results above say nothing about them.
+
+- SQL analysis with `sqlglot` and DuckDB SQL rules.
+- Checks for unpartitioned shuffles, missing broadcast hints, null-unsafe join keys, and missing schema assertions after nested JSON ingestion.
+- Property-based verification (with `hypothesis`) that a generated transformation keeps its schema: `hypothesis` is used to test the tool, not the analysed code.
+- A packaged, reusable GitHub Action: the README shows how to run the CLI as a CI step.
+
 ## Operational notes
 
 ### What runs where

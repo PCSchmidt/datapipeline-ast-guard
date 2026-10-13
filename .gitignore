@@ -17,3 +17,4 @@ corpus/superseded_v1/generated/*__gemma.py
 results/_rules_*.py
 .venv/
 corpus/fresh/
+corpus/fresh2/

@@ -208,10 +208,10 @@ def corpus_files(corpus: str, split: str) -> list[dict[str, Any]]:
                     "model": r["model_tag"],
                 }
             )
-    elif corpus == "fresh":  # docs/PROTOCOL_V2.md: one sample, no development/test split
-        for line in (ROOT / "corpus" / "manifest_fresh.jsonl").read_text(encoding="utf-8").splitlines():
+    elif corpus in ("fresh", "fresh2"):  # docs/PROTOCOL_V2.md, V3.md: one sample, no development/test split
+        for line in (ROOT / "corpus" / f"manifest_{corpus}.jsonl").read_text(encoding="utf-8").splitlines():
             r = json.loads(line)
-            p = ROOT / "corpus" / "fresh" / r["repo"].replace("/", "__") / r["path"]
+            p = ROOT / "corpus" / corpus / r["repo"].replace("/", "__") / r["path"]
             items.append(
                 {
                     "id": f"{r['repo']}:{r['path']}",
@@ -288,7 +288,7 @@ def main() -> None:
     p = sub.add_parser("challenge")
     p.add_argument("--rules", default=None)
     p = sub.add_parser("run")
-    p.add_argument("--corpus", choices=["generated", "human", "fresh"], required=True)
+    p.add_argument("--corpus", choices=["generated", "human", "fresh", "fresh2"], required=True)
     p.add_argument("--split", choices=["dev", "test", "all"], required=True)
     p.add_argument("--rules", default=None)
     p.add_argument("--out", type=Path, required=True)

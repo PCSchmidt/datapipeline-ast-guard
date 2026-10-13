@@ -58,4 +58,5 @@ Mutation measures recall for *injected* instances of simple surface forms, not r
 
 ## Deviations
 
-(none yet)
+1. **The protocol and the v3 code were committed together** (e72a272), not the protocol first. The protocol file was written before the code, and no new file had been collected or analysed at that point, but the commit order does not prove it.
+2. **Collected corpus F2 has 223 files, not about 300 (before the tool was run on it).** The Polars stratum supplied only 23 files (11 repositories) under the 3-per-repository cap in the star band; PySpark and pandas gave 100 each; 91 repositories in all. 350 repositories (those cloned for H and F) were excluded. I did not relax the cap or the band.

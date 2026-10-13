@@ -184,3 +184,32 @@ def test_explicit_cross_join_stays_critical_in_any_dataframe_file() -> None:
     assert severities("import pyspark\na.crossJoin(b)") == [("AG002", "critical")]
     assert severities("import polars as pl\na.join(b, how='cross')") == [("AG002", "critical")]
     assert ids("a.crossJoin(b)") == []  # without a dataframe import there is no evidence
+
+
+# ---- v3 (docs/PROTOCOL_V3.md): names, routes and keys are not data paths ----
+
+
+def test_parameter_store_names_are_not_paths() -> None:
+    assert ids('ssm.get_parameter(Name="/app/kafka_servers")') == []
+    assert ids('sm.get_secret_value(SecretId="/prod/db/password")') == []
+    assert ids('spark.read.parquet("/prod/db/password")') == ["AG003"]  # a real path still counts
+    assert ids('open("/app/kafka_servers", Name="x")') == [
+        "AG003"
+    ]  # only the identifier keyword is exempt
+
+
+def test_http_routes_are_not_paths() -> None:
+    assert ids('session.get("/v1/capacities")') == []
+    assert ids('client.post("/ingest/items", json=payload)') == []
+    assert ids('resp = api.delete("/orders/42")') == []
+    assert ids('spark.read.csv("/data/orders.csv")') == ["AG003"]
+    assert ids('client.get(base + "/x", params={"p": "/data/orders.csv"})') == [
+        "AG003"
+    ]  # later arguments are checked
+
+
+def test_api_version_prefixes_are_not_paths() -> None:
+    assert ids('URL = "/api/learning/v1/transform/"') == []
+    assert ids('ROUTE = "/v2/items"') == []
+    assert ids('PATH = "/var/api/data.csv"') == ["AG003"]
+    assert ids('PATH = "/version/data.csv"') == ["AG003"]  # "/v" must be followed by digits

@@ -67,6 +67,10 @@ _PATH = re.compile(
 )
 _IGNORE = re.compile(r"#\s*ast-guard:\s*ignore\[([A-Z0-9, ]+)\]")
 _STRING_TEST_METHODS = {"startswith", "endswith", "removeprefix", "removesuffix"}
+# AG003 v3 (docs/PROTOCOL_V3.md): names, routes and keys that start with "/" but are not data paths.
+_HTTP_VERBS = {"get", "post", "put", "delete", "patch", "head"}
+_IDENTIFIER_KWARGS = {"Name", "SecretId"}  # boto3 parameter-store and secret identifiers
+_ROUTE_PREFIX = re.compile(r"^/(?:api|v\d+)/")
 
 
 def _chain_attrs(call: ast.Call) -> set[str]:
@@ -232,6 +236,19 @@ class _Visitor(ast.NodeVisitor):
                 for kw in node.keywords:
                     self.visit(kw)
                 return
+            first = node.args[0] if node.args else None
+            if (
+                attr in _HTTP_VERBS
+                and isinstance(first, ast.Constant)
+                and isinstance(first.value, str)
+                and first.value.startswith("/")
+            ):  # `session.get("/v1/items")` is a route (or a mapping key), not a data path
+                self.visit(node.func)
+                for arg in node.args[1:]:
+                    self.visit(arg)
+                for kw in node.keywords:
+                    self.visit(kw)
+                return
         self.generic_visit(node)
 
     def _check_join(self, node: ast.Call, attr: str) -> None:
@@ -252,6 +269,8 @@ class _Visitor(ast.NodeVisitor):
     def visit_keyword(self, node: ast.keyword) -> None:
         if node.arg == "prefix" and isinstance(node.value, ast.Constant):
             return  # `APIRouter(prefix="/api/items")`: a URL prefix
+        if node.arg in _IDENTIFIER_KWARGS and isinstance(node.value, ast.Constant):
+            return  # `get_parameter(Name="/app/servers")`: a parameter-store name
         self.generic_visit(node)
 
     def visit_JoinedStr(self, node: ast.JoinedStr) -> None:
@@ -276,7 +295,11 @@ class _Visitor(ast.NodeVisitor):
             self.visit(node.right)
 
     def visit_Constant(self, node: ast.Constant) -> None:
-        if isinstance(node.value, str) and _PATH.match(node.value):
+        if (
+            isinstance(node.value, str)
+            and _PATH.match(node.value)
+            and not _ROUTE_PREFIX.match(node.value)
+        ):
             self._add("AG003", node)
 
 

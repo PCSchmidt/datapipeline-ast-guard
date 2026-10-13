@@ -1,0 +1,780 @@
+[
+ {
+  "rule": "AG002",
+  "file": "orion-orion/Distributed-ML-PySpark:graph_computation/transitive_closure.py",
+  "line": 41,
+  "end_line": 41,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 0
+ },
+ {
+  "rule": "AG002",
+  "file": "orion-orion/Distributed-ML-PySpark:optimization/bmuf.py",
+  "line": 108,
+  "end_line": 108,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 1
+ },
+ {
+  "rule": "AG002",
+  "file": "SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py",
+  "line": 165,
+  "end_line": 165,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 2
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py",
+  "line": 69,
+  "end_line": 69,
+  "stratum": "pyspark",
+  "versions": [
+   "v2"
+  ],
+  "index": 3
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py",
+  "line": 70,
+  "end_line": 70,
+  "stratum": "pyspark",
+  "versions": [
+   "v2"
+  ],
+  "index": 4
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py",
+  "line": 37,
+  "end_line": 37,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 5
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py",
+  "line": 179,
+  "end_line": 179,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 6
+ },
+ {
+  "rule": "AG003",
+  "file": "judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py",
+  "line": 196,
+  "end_line": 196,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 7
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/movie_choices.py",
+  "line": 67,
+  "end_line": 67,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 8
+ },
+ {
+  "rule": "AG003",
+  "file": "judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py",
+  "line": 141,
+  "end_line": 141,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 9
+ },
+ {
+  "rule": "AG003",
+  "file": "yanjianzhang/SDS-Course-Project:Distributed-System/Final-Project/codes/LSA/whole_dataset.py",
+  "line": 24,
+  "end_line": 24,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 10
+ },
+ {
+  "rule": "AG003",
+  "file": "debussy-labs/debussy_concert:examples/scripts/pyspark/jdbc-to-gcs/jdbc_to_gcs_hash_key_serverless.py",
+  "line": 90,
+  "end_line": 90,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 11
+ },
+ {
+  "rule": "AG003",
+  "file": "datarobot/airflow-provider-datarobot:datarobot_provider/_experimental/deprecated_example_dags/download_scoring_code_from_deployment_dag.py",
+  "line": 53,
+  "end_line": 53,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 12
+ },
+ {
+  "rule": "AG003",
+  "file": "chayansraj/Youtube-video-data-analytics-using-AWS:lambda_function.py",
+  "line": 19,
+  "end_line": 19,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 13
+ },
+ {
+  "rule": "AG003",
+  "file": "coderxio/sagerx:airflow/dags/umls/dag_tasks.py",
+  "line": 121,
+  "end_line": 121,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 14
+ },
+ {
+  "rule": "AG003",
+  "file": "peter115342/soccer-tracker-DE-project:cloud_functions/reddit_data/convert_reddit_data_function/main.py",
+  "line": 80,
+  "end_line": 80,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 15
+ },
+ {
+  "rule": "AG003",
+  "file": "judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py",
+  "line": 174,
+  "end_line": 174,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 16
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py",
+  "line": 51,
+  "end_line": 51,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 17
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py",
+  "line": 306,
+  "end_line": 306,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 18
+ },
+ {
+  "rule": "AG003",
+  "file": "logicalclocks/feature-store-api:python/hsfs/engine/python.py",
+  "line": 385,
+  "end_line": 385,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 19
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:21-ai-platform/ai_platform_demo.py",
+  "line": 540,
+  "end_line": 540,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 20
+ },
+ {
+  "rule": "AG003",
+  "file": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/movielens.py",
+  "line": 466,
+  "end_line": 466,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 21
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py",
+  "line": 30,
+  "end_line": 30,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 22
+ },
+ {
+  "rule": "AG003",
+  "file": "SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py",
+  "line": 237,
+  "end_line": 237,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 23
+ },
+ {
+  "rule": "AG003",
+  "file": "anovv/svoe:svoe/featurizer/storage/data_store_adapter/remote_data_store_adapter.py",
+  "line": 12,
+  "end_line": 12,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 24
+ },
+ {
+  "rule": "AG003",
+  "file": "Wazzabeee/pyspark-etl-twitter:consumer_delta.py",
+  "line": 67,
+  "end_line": 67,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 25
+ },
+ {
+  "rule": "AG003",
+  "file": "analyticsdurgesh/StreamCommerce-Lakehouse-360:databricks/notebooks/04_data_quality_checks.py",
+  "line": 3,
+  "end_line": 3,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 26
+ },
+ {
+  "rule": "AG003",
+  "file": "ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py",
+  "line": 196,
+  "end_line": 196,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 27
+ },
+ {
+  "rule": "AG003",
+  "file": "leehuwuj/olh:dagster/hackernews/hackernews/assets.py",
+  "line": 132,
+  "end_line": 132,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 28
+ },
+ {
+  "rule": "AG003",
+  "file": "arthurprevot/yaetos:jobs/generic/list_files_job.py",
+  "line": 48,
+  "end_line": 48,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 29
+ },
+ {
+  "rule": "AG003",
+  "file": "logicalclocks/feature-store-api:python/hsfs/client/external.py",
+  "line": 336,
+  "end_line": 336,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 30
+ },
+ {
+  "rule": "AG003",
+  "file": "ahujaraman/live_log_analyzer_spark:Application/Part1/log_analyzer_sql.py",
+  "line": 12,
+  "end_line": 12,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 31
+ },
+ {
+  "rule": "AG003",
+  "file": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/movielens.py",
+  "line": 446,
+  "end_line": 446,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 32
+ },
+ {
+  "rule": "AG003",
+  "file": "chayansraj/Youtube-video-data-analytics-using-AWS:de_youtube_etl_csv_to_parquet.py",
+  "line": 65,
+  "end_line": 65,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 33
+ },
+ {
+  "rule": "AG003",
+  "file": "ksindi/kafka-compose:kafka-pyspark-demo/jobs/process.py",
+  "line": 30,
+  "end_line": 30,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 34
+ },
+ {
+  "rule": "AG003",
+  "file": "analyticsdurgesh/StreamCommerce-Lakehouse-360:databricks/notebooks/04_data_quality_checks.py",
+  "line": 2,
+  "end_line": 2,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 35
+ },
+ {
+  "rule": "AG003",
+  "file": "coderxio/sagerx:airflow/dags/umls/dag_tasks.py",
+  "line": 124,
+  "end_line": 124,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 36
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/movie_choices.py",
+  "line": 74,
+  "end_line": 74,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 37
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:21-ai-platform/ai_platform_demo.py",
+  "line": 499,
+  "end_line": 499,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 38
+ },
+ {
+  "rule": "AG003",
+  "file": "ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py",
+  "line": 175,
+  "end_line": 175,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 39
+ },
+ {
+  "rule": "AG003",
+  "file": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/pyspark/demo_gcs.py",
+  "line": 4,
+  "end_line": 4,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 40
+ },
+ {
+  "rule": "AG003",
+  "file": "ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py",
+  "line": 208,
+  "end_line": 208,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 41
+ },
+ {
+  "rule": "AG003",
+  "file": "dagster-io/community-integrations:libraries/dagster-iceberg/docs/snippets/io_manager_pyarrow.py",
+  "line": 10,
+  "end_line": 10,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 42
+ },
+ {
+  "rule": "AG003",
+  "file": "ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py",
+  "line": 187,
+  "end_line": 187,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 43
+ },
+ {
+  "rule": "AG003",
+  "file": "ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py",
+  "line": 202,
+  "end_line": 202,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 44
+ },
+ {
+  "rule": "AG003",
+  "file": "judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py",
+  "line": 197,
+  "end_line": 197,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 45
+ },
+ {
+  "rule": "AG003",
+  "file": "datarobot/airflow-provider-datarobot:datarobot_provider/_experimental/deprecated_example_dags/download_scoring_code_from_deployment_dag.py",
+  "line": 39,
+  "end_line": 39,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 46
+ },
+ {
+  "rule": "AG003",
+  "file": "chayansraj/Youtube-video-data-analytics-using-AWS:de_youtube_etl_csv_to_parquet.py",
+  "line": 28,
+  "end_line": 28,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 47
+ },
+ {
+  "rule": "AG003",
+  "file": "anovv/svoe:svoe/featurizer/storage/data_store_adapter/remote_data_store_adapter.py",
+  "line": 9,
+  "end_line": 9,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 48
+ },
+ {
+  "rule": "AG003",
+  "file": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/dags/demo_gcs.py",
+  "line": 61,
+  "end_line": 61,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 49
+ },
+ {
+  "rule": "AG003",
+  "file": "arthurprevot/yaetos:jobs/generic/list_files_job.py",
+  "line": 36,
+  "end_line": 36,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 50
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py",
+  "line": 108,
+  "end_line": 108,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 51
+ },
+ {
+  "rule": "AG003",
+  "file": "dagster-io/community-integrations:libraries/dagster-iceberg/docs/snippets/table_properties.py",
+  "line": 9,
+  "end_line": 9,
+  "stratum": "pandas",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 52
+ },
+ {
+  "rule": "AG003",
+  "file": "SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py",
+  "line": 32,
+  "end_line": 32,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 53
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py",
+  "line": 225,
+  "end_line": 225,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 54
+ },
+ {
+  "rule": "AG003",
+  "file": "josephmachado/data_engineering_best_practices_log:adventureworks/ddl/create_bronze_tables.py",
+  "line": 6,
+  "end_line": 6,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 55
+ },
+ {
+  "rule": "AG003",
+  "file": "garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py",
+  "line": 21,
+  "end_line": 21,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 56
+ },
+ {
+  "rule": "AG003",
+  "file": "Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py",
+  "line": 72,
+  "end_line": 72,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 57
+ },
+ {
+  "rule": "AG003",
+  "file": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/pyspark/demo_gcs.py",
+  "line": 37,
+  "end_line": 37,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 58
+ },
+ {
+  "rule": "AG003",
+  "file": "peter115342/soccer-tracker-DE-project:cloud_functions/standings_data/convert_standings_data_function/main.py",
+  "line": 99,
+  "end_line": 99,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 59
+ },
+ {
+  "rule": "AG003",
+  "file": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/dags/demo_gcs.py",
+  "line": 5,
+  "end_line": 5,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 60
+ },
+ {
+  "rule": "AG003",
+  "file": "peter115342/soccer-tracker-DE-project:cloud_functions/match_data/convert_match_data_function/main.py",
+  "line": 101,
+  "end_line": 101,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 61
+ },
+ {
+  "rule": "AG003",
+  "file": "peter115342/soccer-tracker-DE-project:cloud_functions/reddit_data/convert_reddit_data_function/main.py",
+  "line": 81,
+  "end_line": 81,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 62
+ },
+ {
+  "rule": "AG003",
+  "file": "peter115342/soccer-tracker-DE-project:cloud_functions/match_data/convert_match_data_function/main.py",
+  "line": 102,
+  "end_line": 102,
+  "stratum": "polars",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 63
+ },
+ {
+  "rule": "AG003",
+  "file": "akarce/e2e-structured-streaming:spark_stream.py",
+  "line": 170,
+  "end_line": 170,
+  "stratum": "pyspark",
+  "versions": [
+   "v2",
+   "v3"
+  ],
+  "index": 64
+ }
+]

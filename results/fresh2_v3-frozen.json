@@ -1,0 +1,2549 @@
+{
+ "rules_rev": "v3-frozen",
+ "corpus": "fresh2",
+ "split": "all",
+ "seconds": 0.9112466999795288,
+ "lines": 45171,
+ "files": [
+  {
+   "id": "thu-pacman/Kaiyuan-Spark:datafiner/concat.py",
+   "framework": "pyspark",
+   "repo": "thu-pacman/Kaiyuan-Spark",
+   "lines": 43,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sanchitvj/sports_betting_analytics_engine:src/betflow/spark_streaming/event_transformer/weather_transformer.py",
+   "framework": "pyspark",
+   "repo": "sanchitvj/sports_betting_analytics_engine",
+   "lines": 151,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databricks-solutions/lakeflow_framework:samples/feature_samples/src/python/library_demo_source.py",
+   "framework": "pyspark",
+   "repo": "databricks-solutions/lakeflow_framework",
+   "lines": 42,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "deflect-ca/baskerville:src/baskerville/util/kafka_helpers.py",
+   "framework": "pyspark",
+   "repo": "deflect-ca/baskerville",
+   "lines": 143,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 109,
+     "col": 18,
+     "end_line": 109
+    }
+   ]
+  },
+  {
+   "id": "maprihoda/data-analysis-with-python-and-pyspark:ch07_sql/sql_interop.py",
+   "framework": "pyspark",
+   "repo": "maprihoda/data-analysis-with-python-and-pyspark",
+   "lines": 45,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:packages/ordeq-spark/src/ordeq_spark/io/dataframe.py",
+   "framework": "pyspark",
+   "repo": "ing-bank/ordeq",
+   "lines": 47,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databricks-solutions/lakeflow_framework:src/lakeflow_framework/dataflow/dataflow.py",
+   "framework": "pyspark",
+   "repo": "databricks-solutions/lakeflow_framework",
+   "lines": 561,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "deflect-ca/baskerville:src/baskerville/features/feature_minutes_total.py",
+   "framework": "pyspark",
+   "repo": "deflect-ca/baskerville",
+   "lines": 38,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "MPGranji/retail-banking-customer360-lakehouse:code_etl/shared/spark/spark_session.py",
+   "framework": "pyspark",
+   "repo": "MPGranji/retail-banking-customer360-lakehouse",
+   "lines": 66,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databrickslabs/impulse:src/impulse_query_engine/analyze/query/solvers/query_solver.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/impulse",
+   "lines": 508,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "deflect-ca/baskerville:src/baskerville/features/feature_response4xx_total.py",
+   "framework": "pyspark",
+   "repo": "deflect-ca/baskerville",
+   "lines": 49,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databricks-solutions/lakeflow_framework:src/lakeflow_framework/dataflow/targets/sink_foreach_batch.py",
+   "framework": "pyspark",
+   "repo": "databricks-solutions/lakeflow_framework",
+   "lines": 151,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Wazzabeee/pyspark-etl-twitter:consumer_delta.py",
+   "framework": "pyspark",
+   "repo": "Wazzabeee/pyspark-etl-twitter",
+   "lines": 69,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 67,
+     "col": 38,
+     "end_line": 67
+    }
+   ]
+  },
+  {
+   "id": "orion-orion/Distributed-ML-PySpark:optimization/bmuf.py",
+   "framework": "pyspark",
+   "repo": "orion-orion/Distributed-ML-PySpark",
+   "lines": 144,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG002",
+     "line": 108,
+     "col": 17,
+     "end_line": 108
+    }
+   ]
+  },
+  {
+   "id": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/dags/demo_gcs.py",
+   "framework": "pyspark",
+   "repo": "zkan/data-engineering-bootcamp",
+   "lines": 63,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 5,
+     "col": 15,
+     "end_line": 5
+    },
+    {
+     "rule": "AG003",
+     "line": 38,
+     "col": 16,
+     "end_line": 38
+    },
+    {
+     "rule": "AG003",
+     "line": 61,
+     "col": 14,
+     "end_line": 61
+    }
+   ]
+  },
+  {
+   "id": "josephmachado/data_engineering_best_practices_log:adventureworks/pipelines/sales_mart.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/data_engineering_best_practices_log",
+   "lines": 498,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 41,
+     "col": 44,
+     "end_line": 41
+    }
+   ]
+  },
+  {
+   "id": "judeleonard/Prescriber-ETL-data-pipeline:scripts/validate.py",
+   "framework": "pyspark",
+   "repo": "judeleonard/Prescriber-ETL-data-pipeline",
+   "lines": 44,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "apache/spark-connect-rust:python/pyspark/sql/readwriter.py",
+   "framework": "pyspark",
+   "repo": "apache/spark-connect-rust",
+   "lines": 20,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "apache/spark-connect-rust:python/pyspark/mllib/stat/_statistics.py",
+   "framework": "pyspark",
+   "repo": "apache/spark-connect-rust",
+   "lines": 405,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databrickslabs/impulse:src/impulse_reporting/util/event_instance_util.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/impulse",
+   "lines": 65,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "GoogleCloudPlatform/dataproc-templates:python/dataproc_templates/s3/s3_to_bigquery.py",
+   "framework": "pyspark",
+   "repo": "GoogleCloudPlatform/dataproc-templates",
+   "lines": 172,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "leehuwuj/olh:resources/practices/tweetschampions/pyspark_tweets_fact_ingesting.py",
+   "framework": "pyspark",
+   "repo": "leehuwuj/olh",
+   "lines": 93,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ahujaraman/live_log_analyzer_spark:Application/Part1/log_analyzer_sql.py",
+   "framework": "pyspark",
+   "repo": "ahujaraman/live_log_analyzer_spark",
+   "lines": 110,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 12,
+     "col": 10,
+     "end_line": 12
+    },
+    {
+     "rule": "AG001",
+     "line": 24,
+     "col": 23,
+     "end_line": 25
+    },
+    {
+     "rule": "AG001",
+     "line": 33,
+     "col": 23,
+     "end_line": 34
+    },
+    {
+     "rule": "AG001",
+     "line": 40,
+     "col": 27,
+     "end_line": 41
+    },
+    {
+     "rule": "AG001",
+     "line": 46,
+     "col": 16,
+     "end_line": 47
+    },
+    {
+     "rule": "AG001",
+     "line": 54,
+     "col": 17,
+     "end_line": 55
+    }
+   ]
+  },
+  {
+   "id": "apache/spark-connect-rust:python/pyspark/sql/streaming/listener.py",
+   "framework": "pyspark",
+   "repo": "apache/spark-connect-rust",
+   "lines": 700,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databrickslabs/impulse:src/impulse_reporting/events/points_in_time_event.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/impulse",
+   "lines": 252,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:packages/ordeq-spark/src/ordeq_spark/io/files/csv.py",
+   "framework": "pyspark",
+   "repo": "ing-bank/ordeq",
+   "lines": 62,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sanchitvj/sports_betting_analytics_engine:src/betflow/historical/batch_processing/nfl_glue_job.py",
+   "framework": "pyspark",
+   "repo": "sanchitvj/sports_betting_analytics_engine",
+   "lines": 310,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "debussy-labs/debussy_concert:examples/scripts/pyspark/jdbc-to-gcs/jdbc_to_gcs_hash_key.py",
+   "framework": "pyspark",
+   "repo": "debussy-labs/debussy_concert",
+   "lines": 68,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py",
+   "framework": "pyspark",
+   "repo": "Htunn/Data-Engineering",
+   "lines": 396,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 72,
+     "col": 15,
+     "end_line": 72
+    },
+    {
+     "rule": "AG003",
+     "line": 107,
+     "col": 18,
+     "end_line": 107
+    },
+    {
+     "rule": "AG003",
+     "line": 108,
+     "col": 18,
+     "end_line": 108
+    },
+    {
+     "rule": "AG003",
+     "line": 179,
+     "col": 26,
+     "end_line": 179
+    },
+    {
+     "rule": "AG003",
+     "line": 225,
+     "col": 20,
+     "end_line": 225
+    },
+    {
+     "rule": "AG003",
+     "line": 306,
+     "col": 21,
+     "end_line": 306
+    },
+    {
+     "rule": "AG001",
+     "line": 359,
+     "col": 33,
+     "end_line": 359
+    },
+    {
+     "rule": "AG001",
+     "line": 359,
+     "col": 90,
+     "end_line": 359
+    }
+   ]
+  },
+  {
+   "id": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/pyspark/demo_gcs.py",
+   "framework": "pyspark",
+   "repo": "zkan/data-engineering-bootcamp",
+   "lines": 39,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 4,
+     "col": 15,
+     "end_line": 4
+    },
+    {
+     "rule": "AG003",
+     "line": 25,
+     "col": 16,
+     "end_line": 25
+    },
+    {
+     "rule": "AG003",
+     "line": 37,
+     "col": 14,
+     "end_line": 37
+    }
+   ]
+  },
+  {
+   "id": "josephmachado/data_engineering_best_practices_log:adventureworks/ddl/create_bronze_tables.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/data_engineering_best_practices_log",
+   "lines": 66,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 6,
+     "col": 9,
+     "end_line": 6
+    }
+   ]
+  },
+  {
+   "id": "yanjianzhang/SDS-Course-Project:Distributed-System/Final-Project/codes/LSA/small_dataset.py",
+   "framework": "pyspark",
+   "repo": "yanjianzhang/SDS-Course-Project",
+   "lines": 180,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 135,
+     "col": 22,
+     "end_line": 135
+    },
+    {
+     "rule": "AG001",
+     "line": 155,
+     "col": 18,
+     "end_line": 155
+    }
+   ]
+  },
+  {
+   "id": "rodalbuyeh/pyspark-k8s-boilerplate:src/pyspark_k8s_boilerplate/jobs/cloud_etl.py",
+   "framework": "pyspark",
+   "repo": "rodalbuyeh/pyspark-k8s-boilerplate",
+   "lines": 30,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "GoogleCloudPlatform/dataproc-templates:gemini-codegen/python/data_transformer.py",
+   "framework": "pyspark",
+   "repo": "GoogleCloudPlatform/dataproc-templates",
+   "lines": 49,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/spark-matcher:spark_matcher/matching_base/matching_base.py",
+   "framework": "pyspark",
+   "repo": "ing-bank/spark-matcher",
+   "lines": 235,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 229,
+     "col": 28,
+     "end_line": 229
+    }
+   ]
+  },
+  {
+   "id": "garystafford/emr-demo:pyspark_apps/analyze/movie_choices.py",
+   "framework": "pyspark",
+   "repo": "garystafford/emr-demo",
+   "lines": 89,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 67,
+     "col": 16,
+     "end_line": 67
+    },
+    {
+     "rule": "AG003",
+     "line": 74,
+     "col": 16,
+     "end_line": 74
+    }
+   ]
+  },
+  {
+   "id": "MPGranji/retail-banking-customer360-lakehouse:code_etl/shared/spark/iceberg_utils.py",
+   "framework": "pyspark",
+   "repo": "MPGranji/retail-banking-customer360-lakehouse",
+   "lines": 25,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "maprihoda/data-analysis-with-python-and-pyspark:ch02_first_data_program/reading_file.py",
+   "framework": "pyspark",
+   "repo": "maprihoda/data-analysis-with-python-and-pyspark",
+   "lines": 125,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG000",
+     "line": 30,
+     "col": 0,
+     "end_line": 30
+    }
+   ]
+  },
+  {
+   "id": "prophecy-io/spark-ai:prophecy_python/pipelines/SageMakerEndpointTest/code/sagemakerendpointtest/udfs/UDFs.py",
+   "framework": "pyspark",
+   "repo": "prophecy-io/spark-ai",
+   "lines": 22,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ysh329/link-prediction:mypackage/class_compute_edge_property.py",
+   "framework": "pyspark",
+   "repo": "ysh329/link-prediction",
+   "lines": 489,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG000",
+     "line": 45,
+     "col": 0,
+     "end_line": 45
+    }
+   ]
+  },
+  {
+   "id": "akarce/e2e-structured-streaming:spark_stream.py",
+   "framework": "pyspark",
+   "repo": "akarce/e2e-structured-streaming",
+   "lines": 176,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 170,
+     "col": 50,
+     "end_line": 170
+    }
+   ]
+  },
+  {
+   "id": "garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py",
+   "framework": "pyspark",
+   "repo": "garystafford/emr-demo",
+   "lines": 53,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 21,
+     "col": 16,
+     "end_line": 21
+    },
+    {
+     "rule": "AG003",
+     "line": 30,
+     "col": 16,
+     "end_line": 30
+    },
+    {
+     "rule": "AG003",
+     "line": 37,
+     "col": 16,
+     "end_line": 37
+    }
+   ]
+  },
+  {
+   "id": "NYUBigDataProject/SparkClean:sparkclean/utilities.py",
+   "framework": "pyspark",
+   "repo": "NYUBigDataProject/SparkClean",
+   "lines": 441,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 81,
+     "col": 64,
+     "end_line": 81
+    },
+    {
+     "rule": "AG003",
+     "line": 135,
+     "col": 17,
+     "end_line": 135
+    },
+    {
+     "rule": "AG003",
+     "line": 135,
+     "col": 46,
+     "end_line": 135
+    },
+    {
+     "rule": "AG003",
+     "line": 217,
+     "col": 47,
+     "end_line": 217
+    },
+    {
+     "rule": "AG001",
+     "line": 375,
+     "col": 30,
+     "end_line": 375
+    }
+   ]
+  },
+  {
+   "id": "josephmachado/data_engineering_best_practices_log:adventureworks/pipelines/utils/create_fake_data.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/data_engineering_best_practices_log",
+   "lines": 94,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "GoogleCloudPlatform/dataproc-templates:python/dataproc_templates/azure/azure_blob_storage_to_bigquery.py",
+   "framework": "pyspark",
+   "repo": "GoogleCloudPlatform/dataproc-templates",
+   "lines": 169,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:packages/ordeq-spark/src/ordeq_spark/hooks/spark_explain.py",
+   "framework": "pyspark",
+   "repo": "ing-bank/ordeq",
+   "lines": 22,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "arthurprevot/yaetos:jobs/examples/ex2_frameworked_job.py",
+   "framework": "pyspark",
+   "repo": "arthurprevot/yaetos",
+   "lines": 69,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/spark-matcher:spark_matcher/data/datasets.py",
+   "framework": "pyspark",
+   "repo": "ing-bank/spark-matcher",
+   "lines": 115,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zacharyt-cs/reddit-data-engineering:spark/wordcount_by_date.py",
+   "framework": "pyspark",
+   "repo": "zacharyt-cs/reddit-data-engineering",
+   "lines": 135,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 102,
+     "col": 9,
+     "end_line": 102
+    }
+   ]
+  },
+  {
+   "id": "maprihoda/data-analysis-with-python-and-pyspark:ch07_sql/hard_drive_stats.py",
+   "framework": "pyspark",
+   "repo": "maprihoda/data-analysis-with-python-and-pyspark",
+   "lines": 218,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "yanjianzhang/SDS-Course-Project:Distributed-System/Final-Project/codes/server/app.py",
+   "framework": "pyspark",
+   "repo": "yanjianzhang/SDS-Course-Project",
+   "lines": 83,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py",
+   "framework": "pyspark",
+   "repo": "garystafford/emr-demo",
+   "lines": 78,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 44,
+     "col": 16,
+     "end_line": 44
+    },
+    {
+     "rule": "AG003",
+     "line": 51,
+     "col": 16,
+     "end_line": 51
+    }
+   ]
+  },
+  {
+   "id": "thu-pacman/Kaiyuan-Spark:datafiner/transform.py",
+   "framework": "pyspark",
+   "repo": "thu-pacman/Kaiyuan-Spark",
+   "lines": 91,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mehd-io/pyspark-boilerplate-mehdio:datajob/helpers/spark.py",
+   "framework": "pyspark",
+   "repo": "mehd-io/pyspark-boilerplate-mehdio",
+   "lines": 16,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ThiagoPanini/terraglue:app/src/transformers.py",
+   "framework": "pyspark",
+   "repo": "ThiagoPanini/terraglue",
+   "lines": 446,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "chayansraj/Youtube-video-data-analytics-using-AWS:de_youtube_etl_csv_to_parquet.py",
+   "framework": "pyspark",
+   "repo": "chayansraj/Youtube-video-data-analytics-using-AWS",
+   "lines": 73,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 28,
+     "col": 18,
+     "end_line": 28
+    },
+    {
+     "rule": "AG003",
+     "line": 65,
+     "col": 16,
+     "end_line": 65
+    }
+   ]
+  },
+  {
+   "id": "thu-pacman/Kaiyuan-Spark:datafiner/text_scorer.py",
+   "framework": "pyspark",
+   "repo": "thu-pacman/Kaiyuan-Spark",
+   "lines": 185,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "prophecy-io/spark-ai:python/spark_ai/files/text.py",
+   "framework": "pyspark",
+   "repo": "prophecy-io/spark-ai",
+   "lines": 23,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "analyticsdurgesh/StreamCommerce-Lakehouse-360:databricks/notebooks/04_data_quality_checks.py",
+   "framework": "pyspark",
+   "repo": "analyticsdurgesh/StreamCommerce-Lakehouse-360",
+   "lines": 26,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 2,
+     "col": 36,
+     "end_line": 2
+    },
+    {
+     "rule": "AG003",
+     "line": 3,
+     "col": 34,
+     "end_line": 3
+    }
+   ]
+  },
+  {
+   "id": "prophecy-io/spark-ai:prophecy_python/pipelines/BedrockTest/code/bedrocktest/udfs/UDFs.py",
+   "framework": "pyspark",
+   "repo": "prophecy-io/spark-ai",
+   "lines": 22,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/spark_splitters.py",
+   "framework": "pyspark",
+   "repo": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems",
+   "lines": 278,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "drkostas/HGN:spark_manager/spark_manager.py",
+   "framework": "pyspark",
+   "repo": "drkostas/HGN",
+   "lines": 478,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 326,
+     "col": 19,
+     "end_line": 326
+    },
+    {
+     "rule": "AG001",
+     "line": 327,
+     "col": 19,
+     "end_line": 327
+    }
+   ]
+  },
+  {
+   "id": "Victor-Kipruto-Rop/cloud-etl-pipeline:etl/common/data_quality.py",
+   "framework": "pyspark",
+   "repo": "Victor-Kipruto-Rop/cloud-etl-pipeline",
+   "lines": 377,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 194,
+     "col": 16,
+     "end_line": 197
+    },
+    {
+     "rule": "AG001",
+     "line": 286,
+     "col": 19,
+     "end_line": 286
+    }
+   ]
+  },
+  {
+   "id": "ing-bank/spark-matcher:spark_matcher/activelearner/active_learner.py",
+   "framework": "pyspark",
+   "repo": "ing-bank/spark-matcher",
+   "lines": 211,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "anqorithm/RealTime-StockStream:spark/spark_job.py",
+   "framework": "pyspark",
+   "repo": "anqorithm/RealTime-StockStream",
+   "lines": 181,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sanchitvj/sports_betting_analytics_engine:src/betflow/spark_streaming/event_processor/nhl_processor.py",
+   "framework": "pyspark",
+   "repo": "sanchitvj/sports_betting_analytics_engine",
+   "lines": 184,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py",
+   "framework": "pyspark",
+   "repo": "SuperCowPowers/workbench",
+   "lines": 246,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 32,
+     "col": 27,
+     "end_line": 32
+    },
+    {
+     "rule": "AG002",
+     "line": 165,
+     "col": 44,
+     "end_line": 165
+    },
+    {
+     "rule": "AG003",
+     "line": 237,
+     "col": 17,
+     "end_line": 237
+    }
+   ]
+  },
+  {
+   "id": "MPGranji/retail-banking-customer360-lakehouse:code_etl/bronze/base_job/ingestion_jdbc.py",
+   "framework": "pyspark",
+   "repo": "MPGranji/retail-banking-customer360-lakehouse",
+   "lines": 206,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "debussy-labs/debussy_concert:examples/scripts/pyspark/jdbc-to-gcs/jdbc_to_gcs_hash_key_serverless.py",
+   "framework": "pyspark",
+   "repo": "debussy-labs/debussy_concert",
+   "lines": 98,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 90,
+     "col": 11,
+     "end_line": 90
+    }
+   ]
+  },
+  {
+   "id": "abhishek-ch/streamlit-healthcare-ML-App:src/pyspark_func.py",
+   "framework": "pyspark",
+   "repo": "abhishek-ch/streamlit-healthcare-ML-App",
+   "lines": 53,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "abhishek-ch/streamlit-healthcare-ML-App:src/test.py",
+   "framework": "pyspark",
+   "repo": "abhishek-ch/streamlit-healthcare-ML-App",
+   "lines": 45,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "yanjianzhang/SDS-Course-Project:Distributed-System/Final-Project/codes/LSA/whole_dataset.py",
+   "framework": "pyspark",
+   "repo": "yanjianzhang/SDS-Course-Project",
+   "lines": 194,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 24,
+     "col": 18,
+     "end_line": 24
+    },
+    {
+     "rule": "AG001",
+     "line": 149,
+     "col": 22,
+     "end_line": 149
+    },
+    {
+     "rule": "AG001",
+     "line": 169,
+     "col": 18,
+     "end_line": 169
+    }
+   ]
+  },
+  {
+   "id": "ahujaraman/live_log_analyzer_spark:Application/Part1/apache_access_log.py",
+   "framework": "pyspark",
+   "repo": "ahujaraman/live_log_analyzer_spark",
+   "lines": 28,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rodalbuyeh/pyspark-k8s-boilerplate:src/pyspark_k8s_boilerplate/utils/pyspark.py",
+   "framework": "pyspark",
+   "repo": "rodalbuyeh/pyspark-k8s-boilerplate",
+   "lines": 21,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-iceberg/kitchen-sink/provision.py",
+   "framework": "pyspark",
+   "repo": "dagster-io/community-integrations",
+   "lines": 404,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Victor-Kipruto-Rop/cloud-etl-pipeline:etl/common/utils.py",
+   "framework": "pyspark",
+   "repo": "Victor-Kipruto-Rop/cloud-etl-pipeline",
+   "lines": 222,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ysh329/link-prediction:mypackage/class_create_spark.py",
+   "framework": "pyspark",
+   "repo": "ysh329/link-prediction",
+   "lines": 76,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "arthurprevot/yaetos:jobs/examples/wordcount_raw_job.py",
+   "framework": "pyspark",
+   "repo": "arthurprevot/yaetos",
+   "lines": 33,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 22,
+     "col": 14,
+     "end_line": 22
+    }
+   ]
+  },
+  {
+   "id": "soyelherein/pyspark-cicd-template:ddl/schema.py",
+   "framework": "pyspark",
+   "repo": "soyelherein/pyspark-cicd-template",
+   "lines": 18,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/hopsworks_udf.py",
+   "framework": "pyspark",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 928,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/utils/spark_utils.py",
+   "framework": "pyspark",
+   "repo": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems",
+   "lines": 74,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Htunn/Data-Engineering:21-ai-platform/ai_platform_demo.py",
+   "framework": "pyspark",
+   "repo": "Htunn/Data-Engineering",
+   "lines": 1306,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 484,
+     "col": 14,
+     "end_line": 484
+    },
+    {
+     "rule": "AG003",
+     "line": 499,
+     "col": 22,
+     "end_line": 499
+    },
+    {
+     "rule": "AG003",
+     "line": 540,
+     "col": 50,
+     "end_line": 540
+    },
+    {
+     "rule": "AG001",
+     "line": 679,
+     "col": 9,
+     "end_line": 679
+    }
+   ]
+  },
+  {
+   "id": "harrydevforlife/building-lakehouse:restaurant_analytis/target/compiled/restaurant_analytis/models/bronze/dates.py",
+   "framework": "pyspark",
+   "repo": "harrydevforlife/building-lakehouse",
+   "lines": 73,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "harrydevforlife/building-lakehouse:scripts/als_model.py",
+   "framework": "pyspark",
+   "repo": "harrydevforlife/building-lakehouse",
+   "lines": 74,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py",
+   "framework": "pyspark",
+   "repo": "judeleonard/Prescriber-ETL-data-pipeline",
+   "lines": 236,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 141,
+     "col": 20,
+     "end_line": 141
+    },
+    {
+     "rule": "AG001",
+     "line": 147,
+     "col": 8,
+     "end_line": 147
+    },
+    {
+     "rule": "AG003",
+     "line": 174,
+     "col": 20,
+     "end_line": 174
+    },
+    {
+     "rule": "AG001",
+     "line": 182,
+     "col": 8,
+     "end_line": 182
+    },
+    {
+     "rule": "AG003",
+     "line": 196,
+     "col": 19,
+     "end_line": 196
+    },
+    {
+     "rule": "AG003",
+     "line": 197,
+     "col": 20,
+     "end_line": 197
+    }
+   ]
+  },
+  {
+   "id": "huggingface/pyspark_huggingface:pyspark_huggingface/compat/datasource.py",
+   "framework": "pyspark",
+   "repo": "huggingface/pyspark_huggingface",
+   "lines": 199,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 186,
+     "col": 30,
+     "end_line": 186
+    }
+   ]
+  },
+  {
+   "id": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/movielens.py",
+   "framework": "pyspark",
+   "repo": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems",
+   "lines": 710,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 446,
+     "col": 25,
+     "end_line": 446
+    },
+    {
+     "rule": "AG003",
+     "line": 466,
+     "col": 28,
+     "end_line": 466
+    }
+   ]
+  },
+  {
+   "id": "hussein-awala/spark-on-k8s:examples/secrets/job.py",
+   "framework": "pyspark",
+   "repo": "hussein-awala/spark-on-k8s",
+   "lines": 34,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "spindle-health/spindle-token:src/spindle_token/opprl/v2.py",
+   "framework": "pyspark",
+   "repo": "spindle-health/spindle-token",
+   "lines": 216,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "xqnwang/darima:darima/forecast.py",
+   "framework": "pyspark",
+   "repo": "xqnwang/darima",
+   "lines": 74,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kaoutaar/end-to-end-etl-pipeline-jcdecaux-API:AIRFLOW/appscripts/batch_consumer.py",
+   "framework": "pyspark",
+   "repo": "kaoutaar/end-to-end-etl-pipeline-jcdecaux-API",
+   "lines": 125,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "arthurprevot/yaetos:jobs/examples/ex1_raw_job.py",
+   "framework": "pyspark",
+   "repo": "arthurprevot/yaetos",
+   "lines": 53,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:utils/python/hsfs_utils.py",
+   "framework": "pyspark",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 297,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/client/external.py",
+   "framework": "pyspark",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 383,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 336,
+     "col": 15,
+     "end_line": 336
+    }
+   ]
+  },
+  {
+   "id": "orion-orion/Distributed-ML-PySpark:graph_computation/transitive_closure.py",
+   "framework": "pyspark",
+   "repo": "orion-orion/Distributed-ML-PySpark",
+   "lines": 50,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG002",
+     "line": 41,
+     "col": 20,
+     "end_line": 41
+    }
+   ]
+  },
+  {
+   "id": "nikhitmago/lookalike-modelling:predict.py",
+   "framework": "pyspark",
+   "repo": "nikhitmago/lookalike-modelling",
+   "lines": 161,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 149,
+     "col": 15,
+     "end_line": 149
+    },
+    {
+     "rule": "AG001",
+     "line": 150,
+     "col": 14,
+     "end_line": 150
+    }
+   ]
+  },
+  {
+   "id": "Victor-Kipruto-Rop/cloud-etl-pipeline:etl/ecommerce_transform.py",
+   "framework": "pyspark",
+   "repo": "Victor-Kipruto-Rop/cloud-etl-pipeline",
+   "lines": 474,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zkan/data-engineering-bootcamp:04-automated-data-pipelines/pyspark/demo.py",
+   "framework": "pyspark",
+   "repo": "zkan/data-engineering-bootcamp",
+   "lines": 24,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rasinmuhammed/misata:examples/databricks/medallion_fraud_pipeline.py",
+   "framework": "pyspark",
+   "repo": "rasinmuhammed/misata",
+   "lines": 406,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 303,
+     "col": 54,
+     "end_line": 303
+    }
+   ]
+  },
+  {
+   "id": "ksindi/kafka-compose:kafka-pyspark-demo/jobs/process.py",
+   "framework": "pyspark",
+   "repo": "ksindi/kafka-compose",
+   "lines": 163,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 30,
+     "col": 13,
+     "end_line": 30
+    }
+   ]
+  },
+  {
+   "id": "ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py",
+   "framework": "polars",
+   "repo": "ascii-supply-networks/dagster-slurm",
+   "lines": 232,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 125,
+     "col": 13,
+     "end_line": 125
+    },
+    {
+     "rule": "AG003",
+     "line": 175,
+     "col": 24,
+     "end_line": 175
+    },
+    {
+     "rule": "AG003",
+     "line": 181,
+     "col": 24,
+     "end_line": 181
+    },
+    {
+     "rule": "AG003",
+     "line": 187,
+     "col": 24,
+     "end_line": 187
+    },
+    {
+     "rule": "AG003",
+     "line": 196,
+     "col": 24,
+     "end_line": 196
+    },
+    {
+     "rule": "AG003",
+     "line": 202,
+     "col": 24,
+     "end_line": 202
+    },
+    {
+     "rule": "AG003",
+     "line": 208,
+     "col": 24,
+     "end_line": 208
+    }
+   ]
+  },
+  {
+   "id": "ascii-supply-networks/dagster-slurm:examples/projects/dagster-slurm-example-hpc-workload/dagster_slurm_example_hpc_workload/ray/register_input_texts_metaxy.py",
+   "framework": "polars",
+   "repo": "ascii-supply-networks/dagster-slurm",
+   "lines": 94,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ascii-supply-networks/dagster-slurm:examples/projects/dagster-slurm-example-hpc-workload/dagster_slurm_example_hpc_workload/ray/process_documents_docling_metaxy.py",
+   "framework": "polars",
+   "repo": "ascii-supply-networks/dagster-slurm",
+   "lines": 529,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "peter115342/soccer-tracker-DE-project:cloud_functions/match_data/convert_match_data_function/main.py",
+   "framework": "polars",
+   "repo": "peter115342/soccer-tracker-DE-project",
+   "lines": 138,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 101,
+     "col": 29,
+     "end_line": 101
+    },
+    {
+     "rule": "AG003",
+     "line": 102,
+     "col": 46,
+     "end_line": 102
+    }
+   ]
+  },
+  {
+   "id": "ing-bank/ordeq:packages/ordeq-polars/src/ordeq_polars/eager/iceberg.py",
+   "framework": "polars",
+   "repo": "ing-bank/ordeq",
+   "lines": 44,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:examples/testing-nodes/src/testing_nodes/pipeline.py",
+   "framework": "polars",
+   "repo": "ing-bank/ordeq",
+   "lines": 41,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-polars/dagster_polars/io_managers/utils.py",
+   "framework": "polars",
+   "repo": "dagster-io/community-integrations",
+   "lines": 185,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vietvudanh/vietlott-data:src/render_docs.py",
+   "framework": "polars",
+   "repo": "vietvudanh/vietlott-data",
+   "lines": 328,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/core/vector_server.py",
+   "framework": "polars",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 1462,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 576,
+     "col": 30,
+     "end_line": 576
+    }
+   ]
+  },
+  {
+   "id": "ing-bank/ordeq:packages/ordeq-polars/src/ordeq_polars/lazy/csv.py",
+   "framework": "polars",
+   "repo": "ing-bank/ordeq",
+   "lines": 34,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rasinmuhammed/misata:misata/export.py",
+   "framework": "polars",
+   "repo": "rasinmuhammed/misata",
+   "lines": 538,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "peter115342/soccer-tracker-DE-project:cloud_functions/standings_data/convert_standings_data_function/main.py",
+   "framework": "polars",
+   "repo": "peter115342/soccer-tracker-DE-project",
+   "lines": 133,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 98,
+     "col": 29,
+     "end_line": 98
+    },
+    {
+     "rule": "AG003",
+     "line": 99,
+     "col": 46,
+     "end_line": 99
+    }
+   ]
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-polars/dagster_polars/io_managers/bigquery.py",
+   "framework": "polars",
+   "repo": "dagster-io/community-integrations",
+   "lines": 204,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 82,
+     "col": 22,
+     "end_line": 82
+    }
+   ]
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-polars/dagster_polars_tests/example.py",
+   "framework": "polars",
+   "repo": "dagster-io/community-integrations",
+   "lines": 20,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vietvudanh/vietlott-data:src/vietlott/crawler/products/base.py",
+   "framework": "polars",
+   "repo": "vietvudanh/vietlott-data",
+   "lines": 169,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/engine/python.py",
+   "framework": "polars",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 1495,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 385,
+     "col": 38,
+     "end_line": 385
+    },
+    {
+     "rule": "AG001",
+     "line": 660,
+     "col": 24,
+     "end_line": 660
+    },
+    {
+     "rule": "AG003",
+     "line": 1194,
+     "col": 19,
+     "end_line": 1194
+    },
+    {
+     "rule": "AG001",
+     "line": 1230,
+     "col": 26,
+     "end_line": 1232
+    },
+    {
+     "rule": "AG001",
+     "line": 1234,
+     "col": 26,
+     "end_line": 1234
+    }
+   ]
+  },
+  {
+   "id": "marimo-team/examples:explore_high_dimensional_data/explore_high_dimensional_data.py",
+   "framework": "polars",
+   "repo": "marimo-team/examples",
+   "lines": 232,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vietvudanh/vietlott-data:src/vietlott/cli/missing.py",
+   "framework": "polars",
+   "repo": "vietvudanh/vietlott-data",
+   "lines": 77,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "apache/paimon-python:pypaimon/pynative/read/reader/iface/record_batch_reader.py",
+   "framework": "polars",
+   "repo": "apache/paimon-python",
+   "lines": 75,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "peter115342/soccer-tracker-DE-project:cloud_functions/reddit_data/convert_reddit_data_function/main.py",
+   "framework": "polars",
+   "repo": "peter115342/soccer-tracker-DE-project",
+   "lines": 117,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 80,
+     "col": 29,
+     "end_line": 80
+    },
+    {
+     "rule": "AG003",
+     "line": 81,
+     "col": 46,
+     "end_line": 81
+    }
+   ]
+  },
+  {
+   "id": "im-anishraj/arnio:arnio/integrations/polars.py",
+   "framework": "polars",
+   "repo": "im-anishraj/arnio",
+   "lines": 256,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/core/transformation_function_engine.py",
+   "framework": "polars",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 302,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "tower/tower-cli:src/tower/_tables.py",
+   "framework": "polars",
+   "repo": "tower/tower-cli",
+   "lines": 914,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 222,
+     "col": 15,
+     "end_line": 222
+    }
+   ]
+  },
+  {
+   "id": "edrewitz/WxData:src/wxdata/api/open_meteo_api/weather_forecasts/google.py",
+   "framework": "pandas",
+   "repo": "edrewitz/WxData",
+   "lines": 718,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "leehuwuj/olh:dagster/hackernews/hackernews/assets.py",
+   "framework": "pandas",
+   "repo": "leehuwuj/olh",
+   "lines": 160,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 102,
+     "col": 16,
+     "end_line": 102
+    },
+    {
+     "rule": "AG003",
+     "line": 132,
+     "col": 21,
+     "end_line": 132
+    }
+   ]
+  },
+  {
+   "id": "BattGenie/battetl:battetl/extract/Extractor.py",
+   "framework": "pandas",
+   "repo": "BattGenie/battetl",
+   "lines": 855,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SuperCowPowers/workbench:src/workbench/utils/plots/hpo.py",
+   "framework": "pandas",
+   "repo": "SuperCowPowers/workbench",
+   "lines": 493,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Victor-Kipruto-Rop/cloud-etl-pipeline:src/extract/extract_data.py",
+   "framework": "pandas",
+   "repo": "Victor-Kipruto-Rop/cloud-etl-pipeline",
+   "lines": 202,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "AmirhosseinHonardoust/Financial-Fraud-Risk-Engine:src/data_prep.py",
+   "framework": "pandas",
+   "repo": "AmirhosseinHonardoust/Financial-Fraud-Risk-Engine",
+   "lines": 63,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datagouv/csv-detective:csv_detective/detection/formats.py",
+   "framework": "pandas",
+   "repo": "datagouv/csv-detective",
+   "lines": 231,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "lisad/phaser:phaser/steps.py",
+   "framework": "pandas",
+   "repo": "lisad/phaser",
+   "lines": 230,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "anovv/svoe:svoe/featurizer/data_definitions/common/l2_book_incremental/cryptotick/cryptotick_l2_book_incremental.py",
+   "framework": "pandas",
+   "repo": "anovv/svoe",
+   "lines": 39,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rasinmuhammed/misata:examples/islamic_finance_sukuk.py",
+   "framework": "pandas",
+   "repo": "rasinmuhammed/misata",
+   "lines": 228,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "chayansraj/Youtube-video-data-analytics-using-AWS:lambda_function.py",
+   "framework": "pandas",
+   "repo": "chayansraj/Youtube-video-data-analytics-using-AWS",
+   "lines": 39,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 19,
+     "col": 33,
+     "end_line": 19
+    }
+   ]
+  },
+  {
+   "id": "edrewitz/WxData:src/wxdata/fuels_data/fems/meta_data.py",
+   "framework": "pandas",
+   "repo": "edrewitz/WxData",
+   "lines": 128,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SuperCowPowers/workbench:src/workbench/algorithms/dataframe/target_landscape.py",
+   "framework": "pandas",
+   "repo": "SuperCowPowers/workbench",
+   "lines": 382,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gurmeetsaran/sqltesting:scripts/validate-duckdb-setup.py",
+   "framework": "pandas",
+   "repo": "gurmeetsaran/sqltesting",
+   "lines": 255,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zkan/data-engineering-bootcamp:06-data-infrastructure-for-gen-ai-app/store_embeddings_in_bigquery.py",
+   "framework": "pandas",
+   "repo": "zkan/data-engineering-bootcamp",
+   "lines": 63,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:examples/orchestration-kubeflow/ml_pipeline/preprocessing.py",
+   "framework": "pandas",
+   "repo": "ing-bank/ordeq",
+   "lines": 35,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/core/feature_monitoring_config_engine.py",
+   "framework": "pandas",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 513,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SuperCowPowers/workbench:src/workbench/endpoints/pytorch_utils.py",
+   "framework": "pandas",
+   "repo": "SuperCowPowers/workbench",
+   "lines": 419,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datagouv/csv-detective:csv_detective/output/example.py",
+   "framework": "pandas",
+   "repo": "datagouv/csv-detective",
+   "lines": 252,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "arthurprevot/yaetos:jobs/generic/list_files_job.py",
+   "framework": "pandas",
+   "repo": "arthurprevot/yaetos",
+   "lines": 75,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 36,
+     "col": 21,
+     "end_line": 36
+    },
+    {
+     "rule": "AG003",
+     "line": 48,
+     "col": 25,
+     "end_line": 48
+    }
+   ]
+  },
+  {
+   "id": "im-anishraj/arnio:benchmarks/benchmark_profile_duplicate_count.py",
+   "framework": "pandas",
+   "repo": "im-anishraj/arnio",
+   "lines": 130,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "anovv/svoe:svoe/featurizer/data_ingest/pipelines/cryptotick/tasks.py",
+   "framework": "pandas",
+   "repo": "anovv/svoe",
+   "lines": 167,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "lealre/etl-airflow:src/transform_utils.py",
+   "framework": "pandas",
+   "repo": "lealre/etl-airflow",
+   "lines": 58,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "boostcampaitech5/LawBot-Online-Legal-Advice-LLM-Service:backend/airflow/dags/training_pipeline.py",
+   "framework": "pandas",
+   "repo": "boostcampaitech5/LawBot-Online-Legal-Advice-LLM-Service",
+   "lines": 269,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 187,
+     "col": 28,
+     "end_line": 187
+    }
+   ]
+  },
+  {
+   "id": "anovv/svoe:svoe/featurizer/storage/data_store_adapter/remote_data_store_adapter.py",
+   "framework": "pandas",
+   "repo": "anovv/svoe",
+   "lines": 29,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 9,
+     "col": 46,
+     "end_line": 9
+    },
+    {
+     "rule": "AG003",
+     "line": 12,
+     "col": 43,
+     "end_line": 12
+    }
+   ]
+  },
+  {
+   "id": "thadhutch/sports-quant:src/sports_quant/march_madness/_feature_builder.py",
+   "framework": "pandas",
+   "repo": "thadhutch/sports-quant",
+   "lines": 313,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rasinmuhammed/misata:examples/islamic_finance_mudarabah.py",
+   "framework": "pandas",
+   "repo": "rasinmuhammed/misata",
+   "lines": 325,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "edrewitz/WxData:src/wxdata/utils/api.py",
+   "framework": "pandas",
+   "repo": "edrewitz/WxData",
+   "lines": 149,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rasinmuhammed/misata:research/specbench/plot_scale_invariance.py",
+   "framework": "pandas",
+   "repo": "rasinmuhammed/misata",
+   "lines": 62,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "im-anishraj/arnio:benchmarks/benchmark_sparse_nulls.py",
+   "framework": "pandas",
+   "repo": "im-anishraj/arnio",
+   "lines": 316,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datarobot/airflow-provider-datarobot:datarobot_provider/_experimental/deprecated_example_dags/download_scoring_code_from_deployment_dag.py",
+   "framework": "pandas",
+   "repo": "datarobot/airflow-provider-datarobot",
+   "lines": 75,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 39,
+     "col": 18,
+     "end_line": 39
+    },
+    {
+     "rule": "AG003",
+     "line": 53,
+     "col": 21,
+     "end_line": 53
+    },
+    {
+     "rule": "AG003",
+     "line": 54,
+     "col": 22,
+     "end_line": 54
+    }
+   ]
+  },
+  {
+   "id": "jorge-martinez-gil/astrid:audit_history.py",
+   "framework": "pandas",
+   "repo": "jorge-martinez-gil/astrid",
+   "lines": 391,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "lixx21/data-engineer-christmas-data:dags/src/extract_transform.py",
+   "framework": "pandas",
+   "repo": "lixx21/data-engineer-christmas-data",
+   "lines": 105,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:similarity_metrics/torch_embedding_cosine_similarity.py",
+   "framework": "pandas",
+   "repo": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems",
+   "lines": 109,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Htunn/Data-Engineering:17-databricks-apps/databricks_apps_demo.py",
+   "framework": "pandas",
+   "repo": "Htunn/Data-Engineering",
+   "lines": 216,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/core/monitoring_window_config_engine.py",
+   "framework": "pandas",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 437,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "coderxio/sagerx:airflow/dags/umls/dag_tasks.py",
+   "framework": "pandas",
+   "repo": "coderxio/sagerx",
+   "lines": 233,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 118,
+     "col": 35,
+     "end_line": 118
+    },
+    {
+     "rule": "AG003",
+     "line": 121,
+     "col": 37,
+     "end_line": 121
+    },
+    {
+     "rule": "AG003",
+     "line": 124,
+     "col": 36,
+     "end_line": 124
+    }
+   ]
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-iceberg/docs/snippets/io_manager_pyarrow.py",
+   "framework": "pandas",
+   "repo": "dagster-io/community-integrations",
+   "lines": 42,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 10,
+     "col": 4,
+     "end_line": 10
+    }
+   ]
+  },
+  {
+   "id": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/sparse.py",
+   "framework": "pandas",
+   "repo": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems",
+   "lines": 186,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-hf-datasets/dagster_hf_datasets/io_manager/_io_manager.py",
+   "framework": "pandas",
+   "repo": "dagster-io/community-integrations",
+   "lines": 141,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Jiahong-Que-9527/SoloLakehouse:transformations/build_eur_market_daily.py",
+   "framework": "pandas",
+   "repo": "Jiahong-Que-9527/SoloLakehouse",
+   "lines": 154,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vietvudanh/vietlott-data:src/machine_learning/strategies/pattern.py",
+   "framework": "pandas",
+   "repo": "vietvudanh/vietlott-data",
+   "lines": 165,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "thadhutch/sports-quant:src/sports_quant/modeling/train.py",
+   "framework": "pandas",
+   "repo": "thadhutch/sports-quant",
+   "lines": 203,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zkan/data-engineering-bootcamp:06-data-infrastructure-for-gen-ai-app/qna_app/app.py",
+   "framework": "pandas",
+   "repo": "zkan/data-engineering-bootcamp",
+   "lines": 116,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "coderxio/sagerx:airflow/dags/cms_ndc_hcpcs_crosswalk/dag_tasks.py",
+   "framework": "pandas",
+   "repo": "coderxio/sagerx",
+   "lines": 22,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kay-ou/SimTradeData:simtradedata/fetchers/baostock_fetcher.py",
+   "framework": "pandas",
+   "repo": "kay-ou/SimTradeData",
+   "lines": 493,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "logicalclocks/feature-store-api:python/hsfs/builtin_transformations.py",
+   "framework": "pandas",
+   "repo": "logicalclocks/feature-store-api",
+   "lines": 67,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:similarity_metrics/torch_embedding_hamming_distance.py",
+   "framework": "pandas",
+   "repo": "aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems",
+   "lines": 132,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "analyticsdurgesh/StreamCommerce-Lakehouse-360:databricks/src/quality/checks.py",
+   "framework": "pandas",
+   "repo": "analyticsdurgesh/StreamCommerce-Lakehouse-360",
+   "lines": 142,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Atharva-Phatak/shopme:src/app/app.py",
+   "framework": "pandas",
+   "repo": "Atharva-Phatak/shopme",
+   "lines": 121,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "yizhao95/prov_ledger:orchestrator-backend/orchestrator/testing/corpus/cases/two_modules/base/pkg/report.py",
+   "framework": "pandas",
+   "repo": "yizhao95/prov_ledger",
+   "lines": 21,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ashishsinha1602/schemagate:benchmarks/join_paths.py",
+   "framework": "pandas",
+   "repo": "ashishsinha1602/schemagate",
+   "lines": 87,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Thomas-George-T/Ecommerce-Data-MLOps:dags/src/data_loader.py",
+   "framework": "pandas",
+   "repo": "Thomas-George-T/Ecommerce-Data-MLOps",
+   "lines": 49,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kay-ou/SimTradeData:simtradedata/fetchers/mootdx_unified_fetcher.py",
+   "framework": "pandas",
+   "repo": "kay-ou/SimTradeData",
+   "lines": 278,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:examples/orchestration-kubeflow/ml_pipeline/train.py",
+   "framework": "pandas",
+   "repo": "ing-bank/ordeq",
+   "lines": 27,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "tsffarias/LiftOff_Data:app/frontend/supplier/delete.py",
+   "framework": "pandas",
+   "repo": "tsffarias/LiftOff_Data",
+   "lines": 62,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ascii-supply-networks/dagster-slurm:examples/projects/dagster-slurm-example-hpc-workload/dagster_slurm_example_hpc_workload/shell/multi_asset_example.py",
+   "framework": "pandas",
+   "repo": "ascii-supply-networks/dagster-slurm",
+   "lines": 39,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Joinsyna-Co-Ltd/JoinFlow:joinflow_agent/data_agent.py",
+   "framework": "pandas",
+   "repo": "Joinsyna-Co-Ltd/JoinFlow",
+   "lines": 511,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gurmeetsaran/sqltesting:src/sql_testing_library/_adapters/bigquery.py",
+   "framework": "pandas",
+   "repo": "gurmeetsaran/sqltesting",
+   "lines": 493,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "arthurprevot/yaetos:yaetos/libs/python_db_connectors/query_oracle.py",
+   "framework": "pandas",
+   "repo": "arthurprevot/yaetos",
+   "lines": 76,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "tsffarias/LiftOff_Data:app/frontend/employee/read_employee.py",
+   "framework": "pandas",
+   "repo": "tsffarias/LiftOff_Data",
+   "lines": 64,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "RyanJHamby/stock-screener:src/screening/screener.py",
+   "framework": "pandas",
+   "repo": "RyanJHamby/stock-screener",
+   "lines": 534,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "im-anishraj/arnio:benchmarks/benchmark_oom.py",
+   "framework": "pandas",
+   "repo": "im-anishraj/arnio",
+   "lines": 35,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vietvudanh/vietlott-data:src/machine_learning/strategies/pair_frequency.py",
+   "framework": "pandas",
+   "repo": "vietvudanh/vietlott-data",
+   "lines": 126,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "thadhutch/sports-quant:src/sports_quant/modeling/_training.py",
+   "framework": "pandas",
+   "repo": "thadhutch/sports-quant",
+   "lines": 262,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "boostcampaitech5/LawBot-Online-Legal-Advice-LLM-Service:model/Retrieval/bm25_retrieval/retrieval_bm25.py",
+   "framework": "pandas",
+   "repo": "boostcampaitech5/LawBot-Online-Legal-Advice-LLM-Service",
+   "lines": 31,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jorge-martinez-gil/proof-of-deliberation:experiments/streaming_harness.py",
+   "framework": "pandas",
+   "repo": "jorge-martinez-gil/proof-of-deliberation",
+   "lines": 536,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Jiahong-Que-9527/SoloLakehouse:ingestion/bronze_writer.py",
+   "framework": "pandas",
+   "repo": "Jiahong-Que-9527/SoloLakehouse",
+   "lines": 107,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dagster-io/community-integrations:libraries/dagster-iceberg/docs/snippets/table_properties.py",
+   "framework": "pandas",
+   "repo": "dagster-io/community-integrations",
+   "lines": 54,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 9,
+     "col": 4,
+     "end_line": 9
+    }
+   ]
+  },
+  {
+   "id": "DataKitchen/dataops-testgen:testgen/common/date_service.py",
+   "framework": "pandas",
+   "repo": "DataKitchen/dataops-testgen",
+   "lines": 116,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "boostcampaitech5/LawBot-Online-Legal-Advice-LLM-Service:model/Filter/data_preprocessing.py",
+   "framework": "pandas",
+   "repo": "boostcampaitech5/LawBot-Online-Legal-Advice-LLM-Service",
+   "lines": 42,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ashishsinha1602/schemagate:benchmarks/spider.py",
+   "framework": "pandas",
+   "repo": "ashishsinha1602/schemagate",
+   "lines": 147,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Jiahong-Que-9527/SoloLakehouse:governance/quality.py",
+   "framework": "pandas",
+   "repo": "Jiahong-Que-9527/SoloLakehouse",
+   "lines": 97,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "yizhao95/prov_ledger:orchestrator-backend/orchestrator/testing/corpus/cases/two_modules/variants/swap_two_similar/after/pkg/report.py",
+   "framework": "pandas",
+   "repo": "yizhao95/prov_ledger",
+   "lines": 18,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jorge-martinez-gil/astrid:experiments/reliability_vs_performance.py",
+   "framework": "pandas",
+   "repo": "jorge-martinez-gil/astrid",
+   "lines": 278,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datagouv/csv-detective:csv_detective/parsing/load.py",
+   "framework": "pandas",
+   "repo": "datagouv/csv-detective",
+   "lines": 132,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "deflect-ca/baskerville:src/baskerville/util/db_reader.py",
+   "framework": "pandas",
+   "repo": "deflect-ca/baskerville",
+   "lines": 75,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ing-bank/ordeq:packages/ordeq-pandas/src/ordeq_pandas/csv.py",
+   "framework": "pandas",
+   "repo": "ing-bank/ordeq",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jorge-martinez-gil/proof-of-deliberation:src/pod/streams/poker.py",
+   "framework": "pandas",
+   "repo": "jorge-martinez-gil/proof-of-deliberation",
+   "lines": 89,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "yizhao95/prov_ledger:orchestrator-backend/orchestrator/testing/corpus/cases/basic_pipeline/variants/move_file/pkg/io_utils.py",
+   "framework": "pandas",
+   "repo": "yizhao95/prov_ledger",
+   "lines": 15,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Thomas-George-T/Ecommerce-Data-MLOps:dags/src/unique_products.py",
+   "framework": "pandas",
+   "repo": "Thomas-George-T/Ecommerce-Data-MLOps",
+   "lines": 53,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ziggy-data/Brazilian-Real-Estate-Intelligence:nova-arquitetura/ia/analise_features.py",
+   "framework": "pandas",
+   "repo": "ziggy-data/Brazilian-Real-Estate-Intelligence",
+   "lines": 673,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Thomas-George-T/Ecommerce-Data-MLOps:src/scaler.py",
+   "framework": "pandas",
+   "repo": "Thomas-George-T/Ecommerce-Data-MLOps",
+   "lines": 96,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "santoshray02/csv-editor:examples/history_demo.py",
+   "framework": "pandas",
+   "repo": "santoshray02/csv-editor",
+   "lines": 317,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kaoutaar/end-to-end-etl-pipeline-jcdecaux-API:SPARK/velib_app.py",
+   "framework": "pandas",
+   "repo": "kaoutaar/end-to-end-etl-pipeline-jcdecaux-API",
+   "lines": 92,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 77,
+     "col": 7,
+     "end_line": 77
+    }
+   ]
+  },
+  {
+   "id": "ismaildawoodjee/aws-data-pipeline:dags/utils.py",
+   "framework": "pandas",
+   "repo": "ismaildawoodjee/aws-data-pipeline",
+   "lines": 153,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "BattGenie/battetl:battetl/transform/Transformer.py",
+   "framework": "pandas",
+   "repo": "BattGenie/battetl",
+   "lines": 747,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "arthurprevot/yaetos:jobs/marketing/github_contributors_extraction_job.py",
+   "framework": "pandas",
+   "repo": "arthurprevot/yaetos",
+   "lines": 33,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "tsffarias/LiftOff_Data:app/frontend/product/read_product.py",
+   "framework": "pandas",
+   "repo": "tsffarias/LiftOff_Data",
+   "lines": 60,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ttuhin03/fastflow:pipelines/heavy_deps/main.py",
+   "framework": "pandas",
+   "repo": "ttuhin03/fastflow",
+   "lines": 23,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shravan-kuchkula/udacity-data-eng-proj3:producers/models/turnstile_hardware.py",
+   "framework": "pandas",
+   "repo": "shravan-kuchkula/udacity-data-eng-proj3",
+   "lines": 67,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jorge-martinez-gil/astrid:astrid_cli.py",
+   "framework": "pandas",
+   "repo": "jorge-martinez-gil/astrid",
+   "lines": 493,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DataKitchen/dataops-testgen:testgen/ui/views/score_details.py",
+   "framework": "pandas",
+   "repo": "DataKitchen/dataops-testgen",
+   "lines": 283,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "yanjianzhang/SDS-Course-Project:Data-Visualization/homework5/Q3.py",
+   "framework": "pandas",
+   "repo": "yanjianzhang/SDS-Course-Project",
+   "lines": 37,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "bylethquant/simple-data-stack:part3/pipecraft/dags/libs/airtasks/timescale/ingester.py",
+   "framework": "pandas",
+   "repo": "bylethquant/simple-data-stack",
+   "lines": 34,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "coderxio/sagerx:airflow/dags/fda_enforcement/dag_tasks.py",
+   "framework": "pandas",
+   "repo": "coderxio/sagerx",
+   "lines": 36,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "AmirhosseinHonardoust/Financial-Fraud-Risk-Engine:src/validation.py",
+   "framework": "pandas",
+   "repo": "AmirhosseinHonardoust/Financial-Fraud-Risk-Engine",
+   "lines": 153,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Victor-Kipruto-Rop/cloud-etl-pipeline:src/load/load_to_db.py",
+   "framework": "pandas",
+   "repo": "Victor-Kipruto-Rop/cloud-etl-pipeline",
+   "lines": 228,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "data-engineering-community/data-engineering-salaries:archive/job_title.py",
+   "framework": "pandas",
+   "repo": "data-engineering-community/data-engineering-salaries",
+   "lines": 29,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "andrewm4894/airflow-provider-anomaly-detection:airflow_anomaly_detection/operators/bigquery/metric_batch_score_operator.py",
+   "framework": "pandas",
+   "repo": "andrewm4894/airflow-provider-anomaly-detection",
+   "lines": 132,
+   "missing": false,
+   "findings": []
+  }
+ ]
+}

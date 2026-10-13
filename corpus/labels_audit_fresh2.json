@@ -1,0 +1,262 @@
+{
+ "AG002|orion-orion/Distributed-ML-PySpark:graph_computation/transitive_closure.py|41": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG002|orion-orion/Distributed-ML-PySpark:optimization/bmuf.py|108": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG002|SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py|165": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py|69": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py|70": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py|37": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py|179": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py|196": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/movie_choices.py|67": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py|141": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|yanjianzhang/SDS-Course-Project:Distributed-System/Final-Project/codes/LSA/whole_dataset.py|24": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|debussy-labs/debussy_concert:examples/scripts/pyspark/jdbc-to-gcs/jdbc_to_gcs_hash_key_serverless.py|90": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|datarobot/airflow-provider-datarobot:datarobot_provider/_experimental/deprecated_example_dags/download_scoring_code_from_deployment_dag.py|53": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|chayansraj/Youtube-video-data-analytics-using-AWS:lambda_function.py|19": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|coderxio/sagerx:airflow/dags/umls/dag_tasks.py|121": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|peter115342/soccer-tracker-DE-project:cloud_functions/reddit_data/convert_reddit_data_function/main.py|80": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py|174": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/stock_volatility.py|51": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py|306": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|logicalclocks/feature-store-api:python/hsfs/engine/python.py|385": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|Htunn/Data-Engineering:21-ai-platform/ai_platform_demo.py|540": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/movielens.py|466": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py|30": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py|237": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|anovv/svoe:svoe/featurizer/storage/data_store_adapter/remote_data_store_adapter.py|12": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Wazzabeee/pyspark-etl-twitter:consumer_delta.py|67": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|analyticsdurgesh/StreamCommerce-Lakehouse-360:databricks/notebooks/04_data_quality_checks.py|3": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py|196": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|leehuwuj/olh:dagster/hackernews/hackernews/assets.py|132": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|arthurprevot/yaetos:jobs/generic/list_files_job.py|48": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|logicalclocks/feature-store-api:python/hsfs/client/external.py|336": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|ahujaraman/live_log_analyzer_spark:Application/Part1/log_analyzer_sql.py|12": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|aryan-jadon/Evaluation-Metrics-for-Recommendation-Systems:recommenders/datasets/movielens.py|446": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|chayansraj/Youtube-video-data-analytics-using-AWS:de_youtube_etl_csv_to_parquet.py|65": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|ksindi/kafka-compose:kafka-pyspark-demo/jobs/process.py|30": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|analyticsdurgesh/StreamCommerce-Lakehouse-360:databricks/notebooks/04_data_quality_checks.py|2": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|coderxio/sagerx:airflow/dags/umls/dag_tasks.py|124": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/movie_choices.py|74": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Htunn/Data-Engineering:21-ai-platform/ai_platform_demo.py|499": {
+  "faithful": "no",
+  "actionable": "no"
+ },
+ "AG003|ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py|175": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|zkan/data-engineering-bootcamp:04-automated-data-pipelines/pyspark/demo_gcs.py|4": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py|208": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dagster-io/community-integrations:libraries/dagster-iceberg/docs/snippets/io_manager_pyarrow.py|10": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py|187": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|ascii-supply-networks/dagster-slurm:examples/scripts/metaxy_incremental_minidemo.py|202": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|judeleonard/Prescriber-ETL-data-pipeline:scripts/spark_etl.py|197": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|datarobot/airflow-provider-datarobot:datarobot_provider/_experimental/deprecated_example_dags/download_scoring_code_from_deployment_dag.py|39": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|chayansraj/Youtube-video-data-analytics-using-AWS:de_youtube_etl_csv_to_parquet.py|28": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|anovv/svoe:svoe/featurizer/storage/data_store_adapter/remote_data_store_adapter.py|9": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|zkan/data-engineering-bootcamp:04-automated-data-pipelines/dags/demo_gcs.py|61": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|arthurprevot/yaetos:jobs/generic/list_files_job.py|36": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py|108": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dagster-io/community-integrations:libraries/dagster-iceberg/docs/snippets/table_properties.py|9": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|SuperCowPowers/workbench:src/workbench/core/transforms/data_loaders/heavy/s3_heavy_to_data_source.py|32": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py|225": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|josephmachado/data_engineering_best_practices_log:adventureworks/ddl/create_bronze_tables.py|6": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|garystafford/emr-demo:pyspark_apps/analyze/bakery_sales.py|21": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Htunn/Data-Engineering:02-auto-loader/auto_loader_streaming.py|72": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|zkan/data-engineering-bootcamp:04-automated-data-pipelines/pyspark/demo_gcs.py|37": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|peter115342/soccer-tracker-DE-project:cloud_functions/standings_data/convert_standings_data_function/main.py|99": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|zkan/data-engineering-bootcamp:04-automated-data-pipelines/dags/demo_gcs.py|5": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|peter115342/soccer-tracker-DE-project:cloud_functions/match_data/convert_match_data_function/main.py|101": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|peter115342/soccer-tracker-DE-project:cloud_functions/reddit_data/convert_reddit_data_function/main.py|81": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|peter115342/soccer-tracker-DE-project:cloud_functions/match_data/convert_match_data_function/main.py|102": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|akarce/e2e-structured-streaming:spark_stream.py|170": {
+  "faithful": "yes",
+  "actionable": "yes"
+ }
+}

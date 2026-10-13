@@ -1,0 +1,79 @@
+{
+ "eligible_sites": {
+  "M-join": {
+   "files": 9,
+   "sites": 16
+  },
+  "M-cross": {
+   "files": 3,
+   "sites": 3
+  },
+  "M-collect": {
+   "files": 1,
+   "sites": 1
+  },
+  "M-path": {
+   "files": 49,
+   "sites": 95
+  }
+ },
+ "mutants": {
+  "M-join": {
+   "v2": {
+    "n": 16,
+    "found": 16,
+    "collateral": 0,
+    "lost": 0
+   },
+   "v3": {
+    "n": 16,
+    "found": 16,
+    "collateral": 0,
+    "lost": 0
+   }
+  },
+  "M-cross": {
+   "v2": {
+    "n": 3,
+    "found": 3,
+    "collateral": 0,
+    "lost": 0
+   },
+   "v3": {
+    "n": 3,
+    "found": 3,
+    "collateral": 0,
+    "lost": 0
+   }
+  },
+  "M-collect": {
+   "v2": {
+    "n": 1,
+    "found": 1,
+    "collateral": 0,
+    "lost": 0
+   },
+   "v3": {
+    "n": 1,
+    "found": 1,
+    "collateral": 0,
+    "lost": 0
+   }
+  },
+  "M-path": {
+   "v2": {
+    "n": 95,
+    "found": 95,
+    "collateral": 0,
+    "lost": 2
+   },
+   "v3": {
+    "n": 95,
+    "found": 95,
+    "collateral": 0,
+    "lost": 2
+   }
+  }
+ },
+ "dropped_unparseable": 0
+}

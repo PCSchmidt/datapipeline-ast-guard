@@ -66,7 +66,24 @@ _PATH = re.compile(
     r"^(?:[A-Za-z]:[\\/]|/(?:[\w.\-]+/)+[\w.\-]*|(?:s3a?|gs|abfss?|hdfs|dbfs|file):/{1,3})"
 )
 _IGNORE = re.compile(r"#\s*ast-guard:\s*ignore\[([A-Z0-9, ]+)\]")
-_STRING_TEST_METHODS = {"startswith", "endswith", "removeprefix", "removesuffix"}
+_STRING_TEST_METHODS = {
+    "startswith", "endswith", "removeprefix", "removesuffix",  # v1
+    "replace", "split", "rsplit", "strip", "lstrip", "rstrip", "partition", "rpartition", "count", "find", "index",  # v4
+}  # fmt: skip
+# AG003 v4 (docs/PROTOCOL_V4.md): regular expressions and tracking-experiment names are not data paths either.
+_REGEX_FUNCS = {
+    "compile",
+    "match",
+    "search",
+    "fullmatch",
+    "sub",
+    "subn",
+    "findall",
+    "finditer",
+    "split",
+}
+_REGEX_MODULES = {"re", "regex"}
+_EXPERIMENT_FUNCS = {"set_experiment", "get_experiment_by_name", "create_experiment"}
 # AG003 v3 (docs/PROTOCOL_V3.md): names, routes and keys that start with "/" but are not data paths.
 _HTTP_VERBS = {"get", "post", "put", "delete", "patch", "head"}
 _IDENTIFIER_KWARGS = {"Name", "SecretId"}  # boto3 parameter-store and secret identifiers
@@ -236,7 +253,32 @@ class _Visitor(ast.NodeVisitor):
                 for kw in node.keywords:
                     self.visit(kw)
                 return
+            if (
+                attr in _REGEX_FUNCS
+                and isinstance(node.func.value, ast.Name)
+                and node.func.value.id in _REGEX_MODULES
+            ):  # `re.compile(r"/ICD10/([^/]+)")` is a pattern, not a path
+                self.visit(node.func)
+                for arg in node.args:
+                    if not isinstance(arg, ast.Constant):
+                        self.visit(arg)
+                for kw in node.keywords:
+                    if not (
+                        kw.arg in {"pattern", "string", "repl"}
+                        and isinstance(kw.value, ast.Constant)
+                    ):
+                        self.visit(kw)
+                return
             first = node.args[0] if node.args else None
+            if attr in _EXPERIMENT_FUNCS and isinstance(
+                first, ast.Constant
+            ):  # `mlflow.set_experiment("/demo/churn")` names an experiment
+                self.visit(node.func)
+                for arg in node.args[1:]:
+                    self.visit(arg)
+                for kw in node.keywords:
+                    self.visit(kw)
+                return
             if (
                 attr in _HTTP_VERBS
                 and isinstance(first, ast.Constant)
@@ -269,8 +311,8 @@ class _Visitor(ast.NodeVisitor):
     def visit_keyword(self, node: ast.keyword) -> None:
         if node.arg == "prefix" and isinstance(node.value, ast.Constant):
             return  # `APIRouter(prefix="/api/items")`: a URL prefix
-        if node.arg in _IDENTIFIER_KWARGS and isinstance(node.value, ast.Constant):
-            return  # `get_parameter(Name="/app/servers")`: a parameter-store name
+        if node.arg in _IDENTIFIER_KWARGS:
+            return  # `get_parameter(Name="/app/" + env)`: a parameter-store name, however it is built
         self.generic_visit(node)
 
     def visit_JoinedStr(self, node: ast.JoinedStr) -> None:

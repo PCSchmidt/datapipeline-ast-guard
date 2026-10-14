@@ -213,3 +213,37 @@ def test_api_version_prefixes_are_not_paths() -> None:
     assert ids('ROUTE = "/v2/items"') == []
     assert ids('PATH = "/var/api/data.csv"') == ["AG003"]
     assert ids('PATH = "/version/data.csv"') == ["AG003"]  # "/v" must be followed by digits
+
+
+# ---- v4 (docs/PROTOCOL_V4.md): regexes, experiment names, built identifiers, string-method arguments ----
+
+
+def test_regex_patterns_are_not_paths() -> None:
+    assert ids('p = re.compile(r"/ICD10/([^/]+)")') == []
+    assert ids('m = re.search("/data/(.+)", text)') == []
+    assert ids('x = re.sub("/tmp/", "", text)') == []
+    assert ids('spark.read.csv("/data/orders.csv")') == ["AG003"]
+    assert ids('foo.compile("/data/orders.csv")') == [
+        "AG003"
+    ]  # only the re and regex modules are exempt
+    assert ids('re.compile(PATTERN, flags=0); open("/data/in.csv")') == ["AG003"]
+
+
+def test_experiment_names_are_not_paths() -> None:
+    assert ids('mlflow.set_experiment("/demo/ai_platform_churn")') == []
+    assert ids('exp = client.get_experiment_by_name("/Users/me/exp")') == []
+    assert ids('mlflow.log_artifact("/data/orders.csv")') == ["AG003"]
+
+
+def test_built_identifiers_are_not_paths() -> None:
+    assert ids('c.get_parameter(Name="/hopsworks/role/" + role + "/type/" + key)') == []
+    assert ids('c.get_secret_value(SecretId=f"/prod/{env}/db")') == []
+    assert ids('c.put_object(Key="/data/orders.csv")') == ["AG003"]
+
+
+def test_string_method_arguments_are_not_paths() -> None:
+    assert ids('path_parts = location.replace("s3://", "").split("/")') == []
+    assert ids('bucket = uri.removeprefix("s3://").partition("/")') == []
+    assert ids('n = name.strip("/")') == []
+    assert ids('p = "s3://" + bucket') == ["AG003"]  # a bare scheme prefix is still reported
+    assert ids('df.write.parquet("s3://bucket/out/")') == ["AG003"]

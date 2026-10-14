@@ -40,7 +40,7 @@ Pooled over both halves (development fixes were designed on the development half
 
 What this means:
 
-- **`AG001` is accurate and rarely worth a reviewer's time.** Almost every finding is a real `collect()` or `toPandas()` with no bound, but they are tutorial print statements, one-row assertions in exercises, scalar counts, and library conversion helpers whose purpose is the conversion. About **1 in 10** was worth looking at (the ones that were: a whole Spark frame pulled to the driver for an export, a possibly large SQL result, a streaming micro-batch). As a critical, merge-blocking rule it would be mostly noise on code like this.
+- **`AG001` is accurate and rarely worth a reviewer's time.** Almost every finding is a real `collect()` or `toPandas()` with no bound, but they are tutorial print statements, one-row assertions in exercises, scalar counts, and library conversion helpers whose purpose is the conversion. About **1 in 15** was worth looking at (the ones that were: a whole Spark frame pulled to the driver for an export, a possibly large SQL result, a streaming micro-batch). As a critical, merge-blocking rule it would be mostly noise on code like this.
 - **`AG002` found one rule-faithful case in 15 audited findings, and it was not a mistake in the code.** That one was a cross join emulated with a constant key inside a dataframe library (and v1, which now recognises `keys=` as keys, no longer flags it). The other 14 were `thread.join()`, `pool.join()`, SQL string composition, RDD key joins, a Polars list-expression join, and joins whose keys were given by a keyword the tool did not know. Without type information those can look like keyless DataFrame joins; v1 removes most of them (5 findings remain on these files, none judged to be a keyless DataFrame join).
 - **`AG003` was half noise as shipped, and the noise was mechanical.** v0's pattern matched path fragments inside f-strings, URL route strings and `startswith("file://")` tests; v1 fixes those and reaches 0.94 on unseen repositories. Even so, **only 1 in 34 remaining findings was actionable**: most are `s3://` buckets built from configuration, SageMaker container paths, and example code.
 
@@ -92,7 +92,7 @@ Findings were **identical under all four behaviour-preserving transformations** 
 
 ## What this does and does not show
 
-- **Shown:** the rules do what they say, deterministically, fast and stably; most of their *false alarms* on real code were mechanical and fixable; and, measured honestly, the tool flags about a quarter of real pipeline files, and only roughly one in ten of its `AG001` findings (and about one in six of v1's remaining `AG003` findings) was something a reviewer would want to look at.
+- **Shown:** the rules do what they say, deterministically, fast and stably; most of their *false alarms* on real code were mechanical and fixable; and, measured honestly, the tool flags about a quarter of real pipeline files, and only roughly one in fifteen of its `AG001` findings (and about one in six of v1's remaining `AG003` findings) was something a reviewer would want to look at.
 - **Not shown:** recall on real code (it would need every file labelled); any effect on engineers; behaviour on SQL, notebooks (`.ipynb`) or code in other languages; whether the findings are worth their cost compared with a type-aware linter.
 - **Not claimed:** that v1 is "good". It is better on the defects found here. Its `AG001` severity (critical) is hard to justify on this evidence, and `AG002` has not been shown to find anything on real code.
 

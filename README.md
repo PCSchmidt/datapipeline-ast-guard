@@ -155,7 +155,7 @@ This is the "deterministic gate in front of a probabilistic generator" idea appl
 Pre-registered ([docs/PROTOCOL.md](docs/PROTOCOL.md)), scored once on held-out halves, full numbers and caveats in [docs/RESULTS.md](docs/RESULTS.md). v0 is the tool as first shipped, v1 the version after fixes made on development data only. One rater (the author), a convenience sample of 300 real files from 83 public repositories, and 27 labelled model-written positives: treat everything as small-sample.
 
 - **Noise on real code.** v0 flags 27% of real PySpark, Polars and pandas files (95% interval 21 to 34%); v1 flags 25%. About 12 ms per 1,000 lines.
-- **`AG001` (unbounded collect):** 97% of findings are what the rule describes, but only about 1 in 10 was something a reviewer would want to look at (3/44 on the test half). As a critical, merge-blocking rule it would mostly be noise on code like this, which is why v1 measured it and v2 demotes it to a warning.
+- **`AG001` (unbounded collect):** 97% of findings are what the rule describes, but only about 1 in 15 was something a reviewer would want to look at (3/44 on the test half). As a critical, merge-blocking rule it would mostly be noise on code like this, which is why v1 measured it and v2 demotes it to a warning.
 - **`AG002` (keyless join):** one rule-faithful case in 15 audited findings. Most false alarms (thread and pool joins, string joins, unrecognised key keywords) are removed in v1, but the rule has not been shown to find a real keyless DataFrame join.
 - **`AG003` (hard-coded path):** v0 was 0.58 precise because it matched path fragments in f-strings and route strings; v1 reaches 0.94 on unseen repositories, but only about 1 in 34 findings was actionable.
 - **Model-written scripts:** every labelled `AG001` and `AG003` positive was found (12/12, 15/15), unparseable scripts were caught as `AG000`; there were no `AG002` positives to score.
@@ -176,7 +176,7 @@ Also verified: 28 unit and property-based tests, `mypy --strict` and ruff clean,
 - **Only three rules.** Not covered: unpartitioned shuffles, null-unsafe join keys, missing schema assertions after JSON ingestion, SQL (`sqlglot`) rules, and property-based schema-invariance checks.
 - **Join keys are not validated.** AG002 checks that keys are given, not that they are the right ones.
 - **Paths in comments and docstrings** that look like paths can raise a warning.
-- **Low actionable precision on real code.** Measured on a convenience sample: roughly 1 in 10 `AG001` findings and 1 in 30 `AG003` findings were worth a reviewer's time, and, on this evidence, blocking merges on `AG001` is hard to justify (hence the v2 demotion). On code never seen before, `AG001` actionable precision was 0.17 and `AG003` 0.23. `AG002` is unproven on real code, and recall on real code was not measured.
+- **Low actionable precision on real code.** Measured on a convenience sample: roughly 1 in 15 `AG001` findings and 1 in 30 `AG003` findings were worth a reviewer's time, and, on this evidence, blocking merges on `AG001` is hard to justify (hence the v2 demotion). On code never seen before, `AG001` actionable precision was 0.17 and `AG003` 0.23. `AG002` is unproven on real code, and recall on real code was not measured.
 - **Not on PyPI yet.**
 
 ## Known gaps against the original roadmap

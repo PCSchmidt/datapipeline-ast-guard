@@ -1,0 +1,722 @@
+[
+ {
+  "rule": "AG002",
+  "file": "Edwardvaneechoud/pl-fuzzy-frame-match:pl_fuzzy_frame_match/matcher.py",
+  "line": 187,
+  "end_line": 187,
+  "stratum": "polars",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 0
+ },
+ {
+  "rule": "AG003",
+  "file": "f-lab-edu/league-of-legends-data-solution:Spark_Application/gold_riot/room_end_time/room_end_time.py",
+  "line": 13,
+  "end_line": 13,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 1
+ },
+ {
+  "rule": "AG003",
+  "file": "taovietducofficial/APACHE-SPARK-MIDTERM:friendcounts.py",
+  "line": 2,
+  "end_line": 2,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 2
+ },
+ {
+  "rule": "AG003",
+  "file": "karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py",
+  "line": 82,
+  "end_line": 82,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 3
+ },
+ {
+  "rule": "AG003",
+  "file": "f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_analysis_riot/playerlogs/spark_batch_silver_analysis.py",
+  "line": 13,
+  "end_line": 13,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 4
+ },
+ {
+  "rule": "AG003",
+  "file": "guruvaidev/avaloka:app/agents/mta_v2/local_trainer.py",
+  "line": 1144,
+  "end_line": 1144,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 5
+ },
+ {
+  "rule": "AG003",
+  "file": "mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/bronze_streaming_job.py",
+  "line": 321,
+  "end_line": 321,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 6
+ },
+ {
+  "rule": "AG003",
+  "file": "f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_train_riot/playerlogs/delta_spark_batch_silver_train_v2.py",
+  "line": 13,
+  "end_line": 13,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 7
+ },
+ {
+  "rule": "AG003",
+  "file": "taovietducofficial/BIGDATA-ESSENSIAL-PROJECT:spark/sp.py",
+  "line": 2,
+  "end_line": 2,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 8
+ },
+ {
+  "rule": "AG003",
+  "file": "guruvaidev/avaloka:app/infra/run_ray_smoketest.py",
+  "line": 55,
+  "end_line": 55,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 9
+ },
+ {
+  "rule": "AG003",
+  "file": "vishal-bulbule/google-cloud-data-engineering-hub:01-bq-csv-ingestion-pipeline/ingest_formats.py",
+  "line": 96,
+  "end_line": 96,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 10
+ },
+ {
+  "rule": "AG003",
+  "file": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py",
+  "line": 30,
+  "end_line": 30,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 11
+ },
+ {
+  "rule": "AG003",
+  "file": "taovietducofficial/APACHE-SPARK-MIDTERM:spstreaming.py",
+  "line": 12,
+  "end_line": 12,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 12
+ },
+ {
+  "rule": "AG003",
+  "file": "Yvictor/polars_backtest_extension:polars_backtest/scripts/load_data.py",
+  "line": 61,
+  "end_line": 61,
+  "stratum": "polars",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 13
+ },
+ {
+  "rule": "AG003",
+  "file": "vishal-bulbule/google-cloud-data-engineering-hub:01-bq-csv-ingestion-pipeline/ingest_formats.py",
+  "line": 71,
+  "end_line": 71,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 14
+ },
+ {
+  "rule": "AG003",
+  "file": "vishal-bulbule/google-cloud-data-engineering-hub:33-dataproc-serverless-pyspark/spark_job.py",
+  "line": 74,
+  "end_line": 74,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 15
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+  "line": 62,
+  "end_line": 62,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 16
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+  "line": 43,
+  "end_line": 43,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 17
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/airflow/dags/spark-jobs/optimize.py",
+  "line": 7,
+  "end_line": 7,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 18
+ },
+ {
+  "rule": "AG003",
+  "file": "Yvictor/polars_backtest_extension:polars_backtest/scripts/load_data.py",
+  "line": 29,
+  "end_line": 29,
+  "stratum": "polars",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 19
+ },
+ {
+  "rule": "AG003",
+  "file": "rahulsamant37/FraudDetection:src/inference/main.py",
+  "line": 343,
+  "end_line": 343,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 20
+ },
+ {
+  "rule": "AG003",
+  "file": "jorvik-io/jorvik:examples/databricks/transactions/bronze/nb_ingest_raw_transactions.py",
+  "line": 47,
+  "end_line": 47,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 21
+ },
+ {
+  "rule": "AG003",
+  "file": "dmatrix/spark-declarative-pipelines:src/py/sdp/oil_rigs/query_oil_rigs_tables.py",
+  "line": 8,
+  "end_line": 8,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 22
+ },
+ {
+  "rule": "AG003",
+  "file": "iQuantC/Airflow-Pipeline-Docker-Kubernetes:app.py",
+  "line": 6,
+  "end_line": 6,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 23
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+  "line": 59,
+  "end_line": 59,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 24
+ },
+ {
+  "rule": "AG003",
+  "file": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py",
+  "line": 39,
+  "end_line": 39,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 25
+ },
+ {
+  "rule": "AG003",
+  "file": "mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/bronze_streaming_job.py",
+  "line": 398,
+  "end_line": 398,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 26
+ },
+ {
+  "rule": "AG003",
+  "file": "rahulsamant37/FraudDetection:src/inference/main.py",
+  "line": 67,
+  "end_line": 67,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 27
+ },
+ {
+  "rule": "AG003",
+  "file": "f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_train_riot/playerlogs/delta_spark_batch_silver_train_v2.py",
+  "line": 16,
+  "end_line": 16,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 28
+ },
+ {
+  "rule": "AG003",
+  "file": "dmatrix/spark-declarative-pipelines:src/py/sdp/daily_orders/scripts/query_tables.py",
+  "line": 35,
+  "end_line": 35,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 29
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+  "line": 8,
+  "end_line": 8,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 30
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/airflow/dags/spark-jobs/optimize.py",
+  "line": 8,
+  "end_line": 8,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 31
+ },
+ {
+  "rule": "AG003",
+  "file": "aaryanrwt/Tidely:benchmarks/run_validation_vii.py",
+  "line": 15,
+  "end_line": 15,
+  "stratum": "polars",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 32
+ },
+ {
+  "rule": "AG003",
+  "file": "ascii-supply-networks/ascii-hydra:src/pipelines/ascii_library_demo/pipeline_example/pipeline_example/step_2.py",
+  "line": 23,
+  "end_line": 23,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 33
+ },
+ {
+  "rule": "AG003",
+  "file": "rahulsamant37/FraudDetection:src/inference/main.py",
+  "line": 60,
+  "end_line": 60,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 34
+ },
+ {
+  "rule": "AG003",
+  "file": "karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py",
+  "line": 921,
+  "end_line": 921,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 35
+ },
+ {
+  "rule": "AG003",
+  "file": "vishal-bulbule/google-cloud-data-engineering-hub:10-gcs-high-throughput-transfer/pandas_gcs.py",
+  "line": 26,
+  "end_line": 26,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 36
+ },
+ {
+  "rule": "AG003",
+  "file": "bassrehab/spark-llm-eval:examples/databricks_notebooks/05_response_caching.py",
+  "line": 60,
+  "end_line": 60,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 37
+ },
+ {
+  "rule": "AG003",
+  "file": "bazzi24/streamflow:etl/factMarketIndex.py",
+  "line": 8,
+  "end_line": 8,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 38
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+  "line": 44,
+  "end_line": 44,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 39
+ },
+ {
+  "rule": "AG003",
+  "file": "alvarodiez20/pysuricata:scripts/contact_sheet.py",
+  "line": 39,
+  "end_line": 39,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 40
+ },
+ {
+  "rule": "AG003",
+  "file": "codsalah/SeismoFlow-Lambda-Architecture-System:scripts/read_delta_tables.py",
+  "line": 42,
+  "end_line": 42,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 41
+ },
+ {
+  "rule": "AG003",
+  "file": "f-lab-edu/league-of-legends-data-solution:Spark_Application/gold_riot/room_end_time/room_end_time.py",
+  "line": 16,
+  "end_line": 16,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 42
+ },
+ {
+  "rule": "AG003",
+  "file": "kalluripradeep/modern-etl-stack:spark/jobs/bronze.py",
+  "line": 43,
+  "end_line": 43,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 43
+ },
+ {
+  "rule": "AG003",
+  "file": "josephmachado/local_spark_setup:src/sample_pyspark_script.py",
+  "line": 25,
+  "end_line": 25,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 44
+ },
+ {
+  "rule": "AG003",
+  "file": "bassrehab/spark-llm-eval:examples/databricks_notebooks/05_response_caching.py",
+  "line": 102,
+  "end_line": 102,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 45
+ },
+ {
+  "rule": "AG003",
+  "file": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read_CSV_files.py",
+  "line": 20,
+  "end_line": 20,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 46
+ },
+ {
+  "rule": "AG003",
+  "file": "codsalah/SeismoFlow-Lambda-Architecture-System:spark-consumers/spark_wolf_seismic_consumer.py",
+  "line": 14,
+  "end_line": 14,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 47
+ },
+ {
+  "rule": "AG003",
+  "file": "karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py",
+  "line": 80,
+  "end_line": 80,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 48
+ },
+ {
+  "rule": "AG003",
+  "file": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+  "line": 9,
+  "end_line": 9,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 49
+ },
+ {
+  "rule": "AG003",
+  "file": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py",
+  "line": 34,
+  "end_line": 34,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 50
+ },
+ {
+  "rule": "AG003",
+  "file": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read_CSV_files.py",
+  "line": 24,
+  "end_line": 24,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 51
+ },
+ {
+  "rule": "AG003",
+  "file": "DevDizzle/gammarips-engine:backtesting_and_research/v4_backtest.py",
+  "line": 289,
+  "end_line": 289,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 52
+ },
+ {
+  "rule": "AG003",
+  "file": "aaryanrwt/Tidely:benchmarks/run_validation_vii.py",
+  "line": 14,
+  "end_line": 14,
+  "stratum": "polars",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 53
+ },
+ {
+  "rule": "AG003",
+  "file": "guruvaidev/avaloka:scripts/manual/coder_execution_demo.py",
+  "line": 37,
+  "end_line": 37,
+  "stratum": "pandas",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 54
+ },
+ {
+  "rule": "AG003",
+  "file": "f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_analysis_riot/playerlogs/spark_batch_silver_analysis.py",
+  "line": 16,
+  "end_line": 16,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 55
+ },
+ {
+  "rule": "AG003",
+  "file": "taovietducofficial/BIGDATA-ESSENSIAL-PROJECT:spark/sp.py",
+  "line": 16,
+  "end_line": 16,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 56
+ },
+ {
+  "rule": "AG003",
+  "file": "GregoryKogan/crypto-trading-data-pipeline:spark_processor/processor.py",
+  "line": 25,
+  "end_line": 25,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 57
+ },
+ {
+  "rule": "AG003",
+  "file": "codsalah/SeismoFlow-Lambda-Architecture-System:spark-consumers/spark_wolf_seismic_consumer.py",
+  "line": 15,
+  "end_line": 15,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 58
+ },
+ {
+  "rule": "AG003",
+  "file": "bazzi24/streamflow:etl/dimSymbol.py",
+  "line": 8,
+  "end_line": 8,
+  "stratum": "pyspark",
+  "versions": [
+   "v3",
+   "v4"
+  ],
+  "index": 59
+ }
+]

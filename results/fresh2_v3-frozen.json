@@ -2,7 +2,7 @@
  "rules_rev": "v3-frozen",
  "corpus": "fresh2",
  "split": "all",
- "seconds": 0.9112466999795288,
+ "seconds": 5.018427300034091,
  "lines": 45171,
  "files": [
   {

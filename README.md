@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/PCSchmidt/datapipeline-ast-guard/actions/workflows/ci.yml/badge.svg)
 
-**Status: v0.4, portfolio project.** Three rules, JSON and SARIF output, CLI and tests are complete, and detection quality has now been measured on real and model-written code ([Results](#results), [docs/RESULTS.md](docs/RESULTS.md)). The honest summary: the rules are accurate and stable, but on real code `AG001` is rarely worth a reviewer's time (so v2 demotes it from critical to a warning) and `AG002` has not been shown to find anything.
+**Status: v0.5, portfolio project.** Three rules, JSON and SARIF output, CLI and tests are complete, and detection quality has now been measured on real and model-written code ([Results](#results), [docs/RESULTS.md](docs/RESULTS.md)). The honest summary: the rules are accurate and stable, but on real code `AG001` is rarely worth a reviewer's time (so v2 demotes it from critical to a warning) and `AG002` has not been shown to find anything.
 
 ```text
 $ agent-lint examples/agent_written_pipeline.py          # exit code 1
@@ -113,7 +113,7 @@ uv venv && uv pip install -e ".[dev]"
 
 agent-lint examples/agent_written_pipeline.py                 # JSON, exit 1
 agent-lint src/pipelines --format sarif > guard.sarif         # SARIF for code scanning
-pytest -q                                                     # 24 passed
+pytest -q                                                     # 28 passed
 ```
 
 As a CI step (GitHub Actions):
@@ -165,7 +165,9 @@ Pre-registered ([docs/PROTOCOL.md](docs/PROTOCOL.md)), scored once on held-out h
 
 **v3 (`AG003` no longer reports parameter-store names, HTTP routes and API prefixes), checked on 223 more unseen files** ([docs/PROTOCOL_V3.md](docs/PROTOCOL_V3.md), [docs/RESULTS_V3.md](docs/RESULTS_V3.md)): `AG003` rule-faithful precision 0.87 to 0.90 (the fix removed its two targets and no real path), actionable precision 0.15; new false-alarm kinds (MLflow experiment names, concatenated parameter names, regular expressions) were found and not fixed. **Recall by mutation** (injecting a keyless join, a cross join, an unbounded `collect()` or a hard-coded path into real files) found every injected defect in the plain forms (up to 100/100), with no side effects; this is a sanity check on the plain forms, not an estimate of recall in the wild.
 
-Also verified: 24 unit and property-based tests, `mypy --strict` and ruff clean, and the Docker image builds and passes its tests offline.
+**v4 (`AG003` also ignores regular expressions, experiment names, built parameter names and string-method arguments), checked on 300 more unseen files** ([docs/PROTOCOL_V4.md](docs/PROTOCOL_V4.md), [docs/RESULTS_V4.md](docs/RESULTS_V4.md)): the change removed exactly the six false alarms it was designed from and nothing else on four corpora; on the new sample every one of 59 `AG003` findings was a genuine path (1.00 rule-faithful, 0.22 actionable) and no new false-alarm kind appeared, against my prediction that they would keep appearing. The only `AG002` finding was an intended explicit cross join.
+
+Also verified: 28 unit and property-based tests, `mypy --strict` and ruff clean, and the Docker image builds and passes its tests offline.
 
 ## Limitations
 
@@ -199,7 +201,7 @@ No keys. The analysed source is read from disk and never leaves the machine. Not
 ### Verify the claims (a reviewer's path)
 
 ```bash
-pytest -q                                              # 24 passed
+pytest -q                                              # 28 passed
 mypy src tests                                         # strict, clean
 agent-lint examples/agent_written_pipeline.py; echo $? # the findings above, then 1
 docker build -t ast-guard . && docker run --rm --network none ast-guard   # tests offline
@@ -213,6 +215,7 @@ docker build -t ast-guard . && docker run --rm --network none ast-guard   # test
 | [docs/RESULTS.md](docs/RESULTS.md) | measured results for v0 and v1, caveats and limits |
 | [docs/PROTOCOL_V2.md](docs/PROTOCOL_V2.md), [docs/RESULTS_V2.md](docs/RESULTS_V2.md) | the v2 severity change, pre-registered and re-measured on unseen repositories |
 | [docs/PROTOCOL_V3.md](docs/PROTOCOL_V3.md), [docs/RESULTS_V3.md](docs/RESULTS_V3.md) | the v3 `AG003` fix on a third unseen sample, and recall by mutation |
+| [docs/PROTOCOL_V4.md](docs/PROTOCOL_V4.md), [docs/RESULTS_V4.md](docs/RESULTS_V4.md) | the v4 `AG003` fix and a fourth unseen sample |
 | [examples/agent_written_pipeline.py](examples/agent_written_pipeline.py) | the sample used in the output above |
 | [src/datapipeline_ast_guard/rules.py](src/datapipeline_ast_guard/rules.py) | every rule, in about 120 lines |
 

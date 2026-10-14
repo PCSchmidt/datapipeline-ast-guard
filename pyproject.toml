@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "datapipeline-ast-guard"
-version = "0.4.0"
+version = "0.5.0"
 description = "Static AST guardrails for LLM-generated PySpark / Polars code: no execution, SARIF + JSON output, CI-blocking exit codes."
 readme = "README.md"
 requires-python = ">=3.11"

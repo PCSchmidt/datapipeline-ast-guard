@@ -1,0 +1,1917 @@
+{
+ "rules_rev": "v4-frozen",
+ "corpus": "human",
+ "split": "dev",
+ "seconds": 4.905248700175434,
+ "lines": 49668,
+ "files": [
+  {
+   "id": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/databricks.py",
+   "framework": "pyspark",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 505,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 280,
+     "col": 15,
+     "end_line": 280
+    },
+    {
+     "rule": "AG001",
+     "line": 292,
+     "col": 19,
+     "end_line": 292
+    }
+   ]
+  },
+  {
+   "id": "mahmoudparsian/data-algorithms-with-spark:code/chap10/python/average_monoid_use_groupbykey.py",
+   "framework": "pyspark",
+   "repo": "mahmoudparsian/data-algorithms-with-spark",
+   "lines": 109,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 79,
+     "col": 33,
+     "end_line": 79
+    },
+    {
+     "rule": "AG001",
+     "line": 86,
+     "col": 31,
+     "end_line": 86
+    },
+    {
+     "rule": "AG001",
+     "line": 93,
+     "col": 40,
+     "end_line": 93
+    },
+    {
+     "rule": "AG001",
+     "line": 94,
+     "col": 80,
+     "end_line": 94
+    },
+    {
+     "rule": "AG001",
+     "line": 101,
+     "col": 34,
+     "end_line": 101
+    }
+   ]
+  },
+  {
+   "id": "mahmoudparsian/data-algorithms-with-spark:code/chap01/python/rdd_transformation_mappartitions.py",
+   "framework": "pyspark",
+   "repo": "mahmoudparsian/data-algorithms-with-spark",
+   "lines": 119,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 92,
+     "col": 30,
+     "end_line": 92
+    },
+    {
+     "rule": "AG001",
+     "line": 104,
+     "col": 37,
+     "end_line": 104
+    },
+    {
+     "rule": "AG001",
+     "line": 106,
+     "col": 18,
+     "end_line": 106
+    }
+   ]
+  },
+  {
+   "id": "mahmoudparsian/data-algorithms-with-spark:code/chap04/python/exact_median_by_key_use_combinebykey.py",
+   "framework": "pyspark",
+   "repo": "mahmoudparsian/data-algorithms-with-spark",
+   "lines": 102,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 59,
+     "col": 32,
+     "end_line": 59
+    },
+    {
+     "rule": "AG001",
+     "line": 68,
+     "col": 29,
+     "end_line": 68
+    }
+   ]
+  },
+  {
+   "id": "commoncrawl/cc-pyspark:wat_extract_links.py",
+   "framework": "pyspark",
+   "repo": "commoncrawl/cc-pyspark",
+   "lines": 550,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databrickslabs/dbldatagen:examples/example1.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/dbldatagen",
+   "lines": 91,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 88,
+     "col": 15,
+     "end_line": 88
+    }
+   ]
+  },
+  {
+   "id": "garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_raw.py",
+   "framework": "pyspark",
+   "repo": "garystafford/tickit-data-lake-demo",
+   "lines": 38,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 25,
+     "col": 9,
+     "end_line": 25
+    }
+   ]
+  },
+  {
+   "id": "LearningJournal/Spark-Streaming-In-Python:08-TumblingWindowDemo/TumblingWindowDemo.py",
+   "framework": "pyspark",
+   "repo": "LearningJournal/Spark-Streaming-In-Python",
+   "lines": 67,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/goldenmatch/spark/em.py",
+   "framework": "pyspark",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 805,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 639,
+     "col": 15,
+     "end_line": 639
+    }
+   ]
+  },
+  {
+   "id": "mahmoudparsian/data-algorithms-with-spark:code/chap08/python/rank_product/rank_product_using_combinebykey.py",
+   "framework": "pyspark",
+   "repo": "mahmoudparsian/data-algorithms-with-spark",
+   "lines": 168,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 36,
+     "col": 22,
+     "end_line": 36
+    },
+    {
+     "rule": "AG001",
+     "line": 40,
+     "col": 18,
+     "end_line": 40
+    },
+    {
+     "rule": "AG001",
+     "line": 54,
+     "col": 27,
+     "end_line": 54
+    },
+    {
+     "rule": "AG001",
+     "line": 102,
+     "col": 24,
+     "end_line": 102
+    },
+    {
+     "rule": "AG001",
+     "line": 110,
+     "col": 21,
+     "end_line": 110
+    },
+    {
+     "rule": "AG001",
+     "line": 115,
+     "col": 20,
+     "end_line": 115
+    }
+   ]
+  },
+  {
+   "id": "mahmoudparsian/data-algorithms-with-spark:code/chap06/python/pagerank.py",
+   "framework": "pyspark",
+   "repo": "mahmoudparsian/data-algorithms-with-spark",
+   "lines": 109,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 28,
+     "col": 31,
+     "end_line": 28
+    },
+    {
+     "rule": "AG002",
+     "line": 90,
+     "col": 20,
+     "end_line": 90
+    }
+   ]
+  },
+  {
+   "id": "databrickslabs/dbldatagen:examples/industry_examples/healthcare_data_generation.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/dbldatagen",
+   "lines": 836,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/experimental/models/base_neighbour_rec.py",
+   "framework": "pyspark",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 203,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "allisonwang-db/pyspark-data-sources:pyspark_datasources/arrow.py",
+   "framework": "pyspark",
+   "repo": "allisonwang-db/pyspark-data-sources",
+   "lines": 162,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jrlasak/databricks-code-practice:exercises/elt/04_auto-loader.py",
+   "framework": "pyspark",
+   "repo": "jrlasak/databricks-code-practice",
+   "lines": 384,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 140,
+     "col": 7,
+     "end_line": 140
+    },
+    {
+     "rule": "AG001",
+     "line": 142,
+     "col": 7,
+     "end_line": 142
+    },
+    {
+     "rule": "AG001",
+     "line": 200,
+     "col": 7,
+     "end_line": 200
+    },
+    {
+     "rule": "AG001",
+     "line": 255,
+     "col": 14,
+     "end_line": 255
+    },
+    {
+     "rule": "AG001",
+     "line": 309,
+     "col": 10,
+     "end_line": 309
+    },
+    {
+     "rule": "AG001",
+     "line": 311,
+     "col": 10,
+     "end_line": 311
+    },
+    {
+     "rule": "AG001",
+     "line": 370,
+     "col": 7,
+     "end_line": 370
+    },
+    {
+     "rule": "AG001",
+     "line": 372,
+     "col": 7,
+     "end_line": 372
+    },
+    {
+     "rule": "AG001",
+     "line": 375,
+     "col": 7,
+     "end_line": 375
+    },
+    {
+     "rule": "AG001",
+     "line": 380,
+     "col": 7,
+     "end_line": 380
+    }
+   ]
+  },
+  {
+   "id": "jrlasak/databricks-code-practice:pipeline-labs/fintech-monitoring/notebooks/data_generator.py",
+   "framework": "pyspark",
+   "repo": "jrlasak/databricks-code-practice",
+   "lines": 119,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "epam/OSCI:osci/jobs/osci_contributors_ranking.py",
+   "framework": "pyspark",
+   "repo": "epam/OSCI",
+   "lines": 42,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databrickslabs/dbldatagen:dbldatagen/constraints/chained_relation.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/dbldatagen",
+   "lines": 76,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "allisonwang-db/pyspark-data-sources:examples/sftp_e2e_test.py",
+   "framework": "pyspark",
+   "repo": "allisonwang-db/pyspark-data-sources",
+   "lines": 128,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 90,
+     "col": 15,
+     "end_line": 90
+    }
+   ]
+  },
+  {
+   "id": "sb-ai-lab/RePlay:examples/cql_compare.py",
+   "framework": "pyspark",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 253,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "epam/OSCI:osci/jobs/osci_languages.py",
+   "framework": "pyspark",
+   "repo": "epam/OSCI",
+   "lines": 38,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "databrickslabs/dbldatagen:tutorial/2-Basics.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/dbldatagen",
+   "lines": 430,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/experimental/preprocessing/sequence_generator.py",
+   "framework": "pyspark",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 207,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/utils/types.py",
+   "framework": "pyspark",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "martandsingh/ApacheSpark:PySpark_ETL/PS09-String Functions.py",
+   "framework": "pyspark",
+   "repo": "martandsingh/ApacheSpark",
+   "lines": 91,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 13,
+     "col": 45,
+     "end_line": 13
+    }
+   ]
+  },
+  {
+   "id": "jrlasak/databricks-code-practice:exercises/streaming/solutions/foreachbatch-patterns-solutions.py",
+   "framework": "pyspark",
+   "repo": "jrlasak/databricks-code-practice",
+   "lines": 391,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 14,
+     "col": 20,
+     "end_line": 14
+    },
+    {
+     "rule": "AG001",
+     "line": 115,
+     "col": 11,
+     "end_line": 115
+    },
+    {
+     "rule": "AG001",
+     "line": 188,
+     "col": 4,
+     "end_line": 188
+    },
+    {
+     "rule": "AG001",
+     "line": 222,
+     "col": 11,
+     "end_line": 222
+    },
+    {
+     "rule": "AG001",
+     "line": 286,
+     "col": 11,
+     "end_line": 286
+    },
+    {
+     "rule": "AG001",
+     "line": 359,
+     "col": 11,
+     "end_line": 359
+    }
+   ]
+  },
+  {
+   "id": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/spark.py",
+   "framework": "pyspark",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 559,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 345,
+     "col": 15,
+     "end_line": 345
+    },
+    {
+     "rule": "AG001",
+     "line": 362,
+     "col": 16,
+     "end_line": 362
+    },
+    {
+     "rule": "AG001",
+     "line": 433,
+     "col": 19,
+     "end_line": 433
+    }
+   ]
+  },
+  {
+   "id": "capitalone/datacompy:datacompy/cli/backends.py",
+   "framework": "pyspark",
+   "repo": "capitalone/datacompy",
+   "lines": 568,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/models/extensions/ann/index_inferers/nmslib_index_inferer.py",
+   "framework": "pyspark",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 62,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jrlasak/databricks-code-practice:pipeline-labs/apparel-streaming/dlt/02D_silver.py",
+   "framework": "pyspark",
+   "repo": "jrlasak/databricks-code-practice",
+   "lines": 110,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jrlasak/databricks-code-practice:exercises/elt/solutions/auto-loader-solutions.py",
+   "framework": "pyspark",
+   "repo": "jrlasak/databricks-code-practice",
+   "lines": 252,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 15,
+     "col": 16,
+     "end_line": 15
+    },
+    {
+     "rule": "AG003",
+     "line": 16,
+     "col": 20,
+     "end_line": 16
+    }
+   ]
+  },
+  {
+   "id": "hi-primus/optimus:examples/column.py",
+   "framework": "pyspark",
+   "repo": "hi-primus/optimus",
+   "lines": 708,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "allisonwang-db/pyspark-data-sources:pyspark_datasources/sftp.py",
+   "framework": "pyspark",
+   "repo": "allisonwang-db/pyspark-data-sources",
+   "lines": 316,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "epam/OSCI:osci/transformers/contributors.py",
+   "framework": "pyspark",
+   "repo": "epam/OSCI",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/spark/functions.py",
+   "framework": "pyspark",
+   "repo": "hi-primus/optimus",
+   "lines": 329,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda:mloda_plugins/compute_framework/base_implementations/spark/spark_framework.py",
+   "framework": "pyspark",
+   "repo": "mloda-ai/mloda",
+   "lines": 304,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:examples/hacking_optimus.py",
+   "framework": "pyspark",
+   "repo": "hi-primus/optimus",
+   "lines": 66,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "martandsingh/ApacheSpark:SETUP/_pyspark_setup_files.py",
+   "framework": "pyspark",
+   "repo": "martandsingh/ApacheSpark",
+   "lines": 96,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 16,
+     "col": 18,
+     "end_line": 16
+    }
+   ]
+  },
+  {
+   "id": "databrickslabs/dbldatagen:dbldatagen/constraints/sql_expr.py",
+   "framework": "pyspark",
+   "repo": "databrickslabs/dbldatagen",
+   "lines": 47,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/goldenmatch/spark/identity.py",
+   "framework": "pyspark",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 892,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_date_refine.py",
+   "framework": "pyspark",
+   "repo": "garystafford/tickit-data-lake-demo",
+   "lines": 82,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 68,
+     "col": 9,
+     "end_line": 68
+    }
+   ]
+  },
+  {
+   "id": "alanchn31/Movalytics-Data-Warehouse:dags/python_scripts/load_staging_movies.py",
+   "framework": "pyspark",
+   "repo": "alanchn31/Movalytics-Data-Warehouse",
+   "lines": 106,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 79,
+     "col": 32,
+     "end_line": 79
+    }
+   ]
+  },
+  {
+   "id": "capitalone/datacompy:benchmarks/benchmark_spark.py",
+   "framework": "pyspark",
+   "repo": "capitalone/datacompy",
+   "lines": 47,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "canimus/cuallee:cuallee/pyspark_validation.py",
+   "framework": "pyspark",
+   "repo": "canimus/cuallee",
+   "lines": 875,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "san089/Udacity-Data-Engineering-Projects:Data_Lake/etl.py",
+   "framework": "pyspark",
+   "repo": "san089/Udacity-Data-Engineering-Projects",
+   "lines": 122,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 113,
+     "col": 17,
+     "end_line": 113
+    },
+    {
+     "rule": "AG003",
+     "line": 114,
+     "col": 18,
+     "end_line": 114
+    }
+   ]
+  },
+  {
+   "id": "LearningJournal/Spark-Streaming-In-Python:05-MultiQueryDemo/MultiQueryDemo.py",
+   "framework": "pyspark",
+   "repo": "LearningJournal/Spark-Streaming-In-Python",
+   "lines": 96,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "LearningJournal/Spark-Streaming-In-Python:11-StreamTableJoinDemo/StreamTableJoinDemo.py",
+   "framework": "pyspark",
+   "repo": "LearningJournal/Spark-Streaming-In-Python",
+   "lines": 75,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "epam/OSCI:osci/jobs/contributors_ranking.py",
+   "framework": "pyspark",
+   "repo": "epam/OSCI",
+   "lines": 35,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "martandsingh/ApacheSpark:PySpark_ETL/PS05-Handling JSON.py",
+   "framework": "pyspark",
+   "repo": "martandsingh/ApacheSpark",
+   "lines": 119,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 18,
+     "col": 10,
+     "end_line": 18
+    }
+   ]
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/spark/columns.py",
+   "framework": "pyspark",
+   "repo": "hi-primus/optimus",
+   "lines": 1130,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 883,
+     "col": 17,
+     "end_line": 883
+    }
+   ]
+  },
+  {
+   "id": "insitro/redun:redun/glue.py",
+   "framework": "pyspark",
+   "repo": "insitro/redun",
+   "lines": 166,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "allisonwang-db/pyspark-data-sources:pyspark_datasources/huggingface.py",
+   "framework": "pyspark",
+   "repo": "allisonwang-db/pyspark-data-sources",
+   "lines": 97,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "garystafford/tickit-data-lake-demo:glue_job_scripts/tickit_public_event_refine.py",
+   "framework": "pyspark",
+   "repo": "garystafford/tickit-data-lake-demo",
+   "lines": 39,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 25,
+     "col": 9,
+     "end_line": 25
+    }
+   ]
+  },
+  {
+   "id": "allisonwang-db/pyspark-data-sources:pyspark_datasources/jsonplaceholder.py",
+   "framework": "pyspark",
+   "repo": "allisonwang-db/pyspark-data-sources",
+   "lines": 223,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shy3130/tick-stock-panel:backend/app/services/extend_history.py",
+   "framework": "polars",
+   "repo": "shy3130/tick-stock-panel",
+   "lines": 228,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/finance/roc.py",
+   "framework": "polars",
+   "repo": "business-science/pytimetk",
+   "lines": 385,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/generate_phase5_dataset.py",
+   "framework": "polars",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 209,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:scripts/bench_embedding_providers.py",
+   "framework": "polars",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 322,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Edwardvaneechoud/Flowfile:flowfile_core/flowfile_core/flowfile/user_defined/kernel_codegen.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/Flowfile",
+   "lines": 347,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Edwardvaneechoud/Flowfile:shared/excel_writer.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/Flowfile",
+   "lines": 266,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Edwardvaneechoud/Flowfile:flowfile_frame/flowfile_frame/list_name_space.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/Flowfile",
+   "lines": 324,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/finance/bbands.py",
+   "framework": "polars",
+   "repo": "business-science/pytimetk",
+   "lines": 414,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Quantco/dataframely:dataframely/_pydantic.py",
+   "framework": "polars",
+   "repo": "Quantco/dataframely",
+   "lines": 111,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Edwardvaneechoud/Flowfile:flowfile_core/flowfile_core/flowfile/sources/external_sources/sql_source/models.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/Flowfile",
+   "lines": 122,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shy3130/tick-stock-panel:backend/app/services/market_phase.py",
+   "framework": "polars",
+   "repo": "shy3130/tick-stock-panel",
+   "lines": 256,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shy3130/tick-stock-panel:backend/app/services/financial_analyzer.py",
+   "framework": "polars",
+   "repo": "shy3130/tick-stock-panel",
+   "lines": 202,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shy3130/tick-stock-panel:backend/app/api/screener.py",
+   "framework": "polars",
+   "repo": "shy3130/tick-stock-panel",
+   "lines": 1177,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shy3130/tick-stock-panel:backend/app/services/minute_refresh.py",
+   "framework": "polars",
+   "repo": "shy3130/tick-stock-panel",
+   "lines": 413,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Edwardvaneechoud/Flowfile:shared/dtype_utils.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/Flowfile",
+   "lines": 62,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:packages/python/goldenpipe/examples/full_suite_demo.py",
+   "framework": "polars",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 159,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/finance/atr.py",
+   "framework": "polars",
+   "repo": "business-science/pytimetk",
+   "lines": 485,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "functime-org/functime:functime/seasonality/fourier.py",
+   "framework": "polars",
+   "repo": "functime-org/functime",
+   "lines": 50,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:packages/python/goldenanalysis/goldenanalysis/_api.py",
+   "framework": "polars",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 155,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:scripts/perf/perf_profile.py",
+   "framework": "polars",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 133,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:tpch/generate_data.py",
+   "framework": "polars",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 247,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "benseverndev-oss/goldenmatch:packages/python/goldenmatch/scripts/bench_distributed_stack.py",
+   "framework": "polars",
+   "repo": "benseverndev-oss/goldenmatch",
+   "lines": 354,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Quantco/dataframely:dataframely/columns/array.py",
+   "framework": "polars",
+   "repo": "Quantco/dataframely",
+   "lines": 166,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "functime-org/functime:functime/forecasting/censored.py",
+   "framework": "polars",
+   "repo": "functime-org/functime",
+   "lines": 119,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data/tabular/utils.py",
+   "framework": "polars",
+   "repo": "mage-ai/mage-ai",
+   "lines": 103,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 49,
+     "col": 19,
+     "end_line": 49
+    },
+    {
+     "rule": "AG001",
+     "line": 52,
+     "col": 29,
+     "end_line": 52
+    }
+   ]
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/plot/plot_acf_diagnostics.py",
+   "framework": "polars",
+   "repo": "business-science/pytimetk",
+   "lines": 490,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 190,
+     "col": 19,
+     "end_line": 190
+    },
+    {
+     "rule": "AG001",
+     "line": 195,
+     "col": 19,
+     "end_line": 195
+    }
+   ]
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/feature_store/store.py",
+   "framework": "polars",
+   "repo": "business-science/pytimetk",
+   "lines": 933,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 730,
+     "col": 20,
+     "end_line": 730
+    },
+    {
+     "rule": "AG001",
+     "line": 732,
+     "col": 20,
+     "end_line": 732
+    },
+    {
+     "rule": "AG001",
+     "line": 831,
+     "col": 20,
+     "end_line": 831
+    }
+   ]
+  },
+  {
+   "id": "buckaroo-data/buckaroo:scripts/perf/perf_data.py",
+   "framework": "polars",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 76,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "flex-analytics/flexviz:flexviz/trace/geo_line.py",
+   "framework": "polars",
+   "repo": "flex-analytics/flexviz",
+   "lines": 298,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_pandas_like/series.py",
+   "framework": "polars",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 1363,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 813,
+     "col": 19,
+     "end_line": 813
+    },
+    {
+     "rule": "AG001",
+     "line": 822,
+     "col": 30,
+     "end_line": 822
+    }
+   ]
+  },
+  {
+   "id": "flex-analytics/flexviz:flexviz/trace/_hist_helpers.py",
+   "framework": "polars",
+   "repo": "flex-analytics/flexviz",
+   "lines": 178,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "capitalone/datacompy:datacompy/polars.py",
+   "framework": "polars",
+   "repo": "capitalone/datacompy",
+   "lines": 893,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda:mloda_plugins/compute_framework/base_implementations/polars/polars_lazy_merge_engine.py",
+   "framework": "polars",
+   "repo": "mloda-ai/mloda",
+   "lines": 42,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Quantco/dataframely:dataframely/_compat.py",
+   "framework": "polars",
+   "repo": "Quantco/dataframely",
+   "lines": 76,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:buckaroo/read_utils.py",
+   "framework": "polars",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 93,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "functime-org/functime:functime/cross_validation.py",
+   "framework": "polars",
+   "repo": "functime-org/functime",
+   "lines": 290,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 129,
+     "col": 8,
+     "end_line": 129
+    }
+   ]
+  },
+  {
+   "id": "superlinked/sie:examples/retrieval-ablation/autoresearch.py",
+   "framework": "polars",
+   "repo": "superlinked/sie",
+   "lines": 719,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ibis-project/ibis:ibis/formats/polars.py",
+   "framework": "polars",
+   "repo": "ibis-project/ibis",
+   "lines": 186,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 176,
+     "col": 15,
+     "end_line": 176
+    }
+   ]
+  },
+  {
+   "id": "flex-analytics/flexviz:flexviz/trace/pie.py",
+   "framework": "polars",
+   "repo": "flex-analytics/flexviz",
+   "lines": 246,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "functime-org/functime:functime/forecasting/lightgbm.py",
+   "framework": "polars",
+   "repo": "functime-org/functime",
+   "lines": 137,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "functime-org/functime:functime/forecasting/naive.py",
+   "framework": "polars",
+   "repo": "functime-org/functime",
+   "lines": 62,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 54,
+     "col": 12,
+     "end_line": 54
+    }
+   ]
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data_preparation/storage/gcs_storage.py",
+   "framework": "polars",
+   "repo": "mage-ai/mage-ai",
+   "lines": 168,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:buckaroo/server/data_loading.py",
+   "framework": "polars",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 315,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 151,
+     "col": 21,
+     "end_line": 151
+    }
+   ]
+  },
+  {
+   "id": "wukan1986/expr_codegen:examples/output_polars.py",
+   "framework": "polars",
+   "repo": "wukan1986/expr_codegen",
+   "lines": 479,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pola-rs/geopolars:py-geopolars/python/geopolars/internals/georust/geoseries.py",
+   "framework": "polars",
+   "repo": "pola-rs/geopolars",
+   "lines": 321,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Quantco/dataframely:dataframely/_match_to_schema.py",
+   "framework": "polars",
+   "repo": "Quantco/dataframely",
+   "lines": 90,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Quantco/dataframely:dataframely/columns/datetime.py",
+   "framework": "polars",
+   "repo": "Quantco/dataframely",
+   "lines": 658,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:buckaroo/serialization_utils.py",
+   "framework": "polars",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 628,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 158,
+     "col": 15,
+     "end_line": 158
+    }
+   ]
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data_preparation/models/utils.py",
+   "framework": "polars",
+   "repo": "mage-ai/mage-ai",
+   "lines": 589,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_compliant/series.py",
+   "framework": "polars",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 411,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "flex-analytics/flexviz:flexviz/trace/line.py",
+   "framework": "polars",
+   "repo": "flex-analytics/flexviz",
+   "lines": 1024,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 349,
+     "col": 12,
+     "end_line": 349
+    }
+   ]
+  },
+  {
+   "id": "eliasswu/AlphaPurify:alphapurify/Database.py",
+   "framework": "polars",
+   "repo": "eliasswu/AlphaPurify",
+   "lines": 585,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 423,
+     "col": 24,
+     "end_line": 423
+    },
+    {
+     "rule": "AG001",
+     "line": 428,
+     "col": 22,
+     "end_line": 428
+    }
+   ]
+  },
+  {
+   "id": "wukan1986/expr_codegen:examples/demo_columns.py",
+   "framework": "polars",
+   "repo": "wukan1986/expr_codegen",
+   "lines": 141,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 113,
+     "col": 14,
+     "end_line": 113
+    },
+    {
+     "rule": "AG003",
+     "line": 115,
+     "col": 14,
+     "end_line": 115
+    }
+   ]
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_polars/group_by.py",
+   "framework": "polars",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 77,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "superlinked/sie:examples/retrieval-ablation/benchmark_ablation.py",
+   "framework": "polars",
+   "repo": "superlinked/sie",
+   "lines": 808,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda:mloda_plugins/compute_framework/base_implementations/polars/polars_mask_engine.py",
+   "framework": "polars",
+   "repo": "mloda-ai/mloda",
+   "lines": 70,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data/tabular/reader.py",
+   "framework": "polars",
+   "repo": "mage-ai/mage-ai",
+   "lines": 603,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pola-rs/polars-xdt:polars_xdt/typing.py",
+   "framework": "polars",
+   "repo": "pola-rs/polars-xdt",
+   "lines": 16,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pola-rs/geopolars:py-geopolars/python/geopolars/internals/geos/geoseries.py",
+   "framework": "polars",
+   "repo": "pola-rs/geopolars",
+   "lines": 17,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Filimoa/polars-h3:polars_h3/core/edge.py",
+   "framework": "polars",
+   "repo": "Filimoa/polars-h3",
+   "lines": 323,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_arrow/dataframe.py",
+   "framework": "polars",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 850,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 510,
+     "col": 15,
+     "end_line": 510
+    },
+    {
+     "rule": "AG001",
+     "line": 610,
+     "col": 31,
+     "end_line": 610
+    },
+    {
+     "rule": "AG001",
+     "line": 650,
+     "col": 16,
+     "end_line": 650
+    }
+   ]
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/utils/common.py",
+   "framework": "polars",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 171,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 133,
+     "col": 15,
+     "end_line": 133
+    },
+    {
+     "rule": "AG001",
+     "line": 170,
+     "col": 31,
+     "end_line": 170
+    }
+   ]
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data/constants.py",
+   "framework": "polars",
+   "repo": "mage-ai/mage-ai",
+   "lines": 46,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "flex-analytics/flexviz:flexviz/predicates.py",
+   "framework": "polars",
+   "repo": "flex-analytics/flexviz",
+   "lines": 190,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mwouts/itables:src/itables/datatables_format.py",
+   "framework": "pandas",
+   "repo": "mwouts/itables",
+   "lines": 335,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:docs/example-notebooks/marimo-wasm/buckaroo_compare.py",
+   "framework": "pandas",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 126,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:docs/example-notebooks/marimo-wasm/full_tour.py",
+   "framework": "pandas",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 346,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mwouts/itables:apps/marimo/selected_rows.py",
+   "framework": "pandas",
+   "repo": "mwouts/itables",
+   "lines": 33,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/nn/sequential/twotower/reader.py",
+   "framework": "pandas",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 110,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "semantica-agi/semantica:semantica/kg/schema_mapper.py",
+   "framework": "pandas",
+   "repo": "semantica-agi/semantica",
+   "lines": 438,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Avaiga/taipy:taipy/core/data/_filter.py",
+   "framework": "pandas",
+   "repo": "Avaiga/taipy",
+   "lines": 249,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data_cleaner/analysis/charts.py",
+   "framework": "pandas",
+   "repo": "mage-ai/mage-ai",
+   "lines": 364,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/io/duckdb.py",
+   "framework": "pandas",
+   "repo": "mage-ai/mage-ai",
+   "lines": 145,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Trade-With-Claude/cbt-framework:templates/src/features.py",
+   "framework": "pandas",
+   "repo": "Trade-With-Claude/cbt-framework",
+   "lines": 337,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SQLMesh/sqlmesh:sqlmesh/core/table_diff.py",
+   "framework": "pandas",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 748,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "epam/OSCI:osci/helper/base.py",
+   "framework": "pandas",
+   "repo": "epam/OSCI",
+   "lines": 25,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/db2.py",
+   "framework": "pandas",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 975,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Avaiga/taipy:taipy/gui/utils/datatype.py",
+   "framework": "pandas",
+   "repo": "Avaiga/taipy",
+   "lines": 31,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/data_preparation/templates/data_exporters/mysql.py",
+   "framework": "pandas",
+   "repo": "mage-ai/mage-ai",
+   "lines": 31,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/io/trino.py",
+   "framework": "pandas",
+   "repo": "mage-ai/mage-ai",
+   "lines": 393,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SQLMesh/sqlmesh:sqlmesh/core/engine_adapter/snowflake.py",
+   "framework": "pandas",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 771,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 497,
+     "col": 19,
+     "end_line": 497
+    }
+   ]
+  },
+  {
+   "id": "dlt-hub/dlt:docs/education/dlt-fundamentals-course/lesson_2_dlt_sources_and_resources_create_first_dlt_pipeline.py",
+   "framework": "pandas",
+   "repo": "dlt-hub/dlt",
+   "lines": 758,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ibis-project/ibis:docs/posts/pydata-performance/pandas_impl.py",
+   "framework": "pandas",
+   "repo": "ibis-project/ibis",
+   "lines": 33,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 9,
+     "col": 18,
+     "end_line": 9
+    }
+   ]
+  },
+  {
+   "id": "mage-ai/mage-ai:mage_ai/io/bigquery.py",
+   "framework": "pandas",
+   "repo": "mage-ai/mage-ai",
+   "lines": 627,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/base/dask/io/jdbc.py",
+   "framework": "pandas",
+   "repo": "hi-primus/optimus",
+   "lines": 410,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/models/extensions/ann/index_inferers/utils.py",
+   "framework": "pandas",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 24,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/models/nn/sequential/postprocessors/postprocessors.py",
+   "framework": "pandas",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 211,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SQLMesh/sqlmesh:sqlmesh/utils/pandas.py",
+   "framework": "pandas",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 70,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:docs/example-notebooks/marimo-wasm/buckaroo_ddd_tour.py",
+   "framework": "pandas",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 411,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/pandas/columns.py",
+   "framework": "pandas",
+   "repo": "hi-primus/optimus",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "eliasswu/AlphaPurify:examples/Exposures.py",
+   "framework": "pandas",
+   "repo": "eliasswu/AlphaPurify",
+   "lines": 203,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "SQLMesh/sqlmesh:examples/sushi/models/raw_marketing.py",
+   "framework": "pandas",
+   "repo": "SQLMesh/sqlmesh",
+   "lines": 80,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:scripts/generate_theme_static_html.py",
+   "framework": "pandas",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 258,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Avaiga/taipy:taipy/gui/data/array_dict_data_accessor.py",
+   "framework": "pandas",
+   "repo": "Avaiga/taipy",
+   "lines": 67,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/vaex/create.py",
+   "framework": "pandas",
+   "repo": "hi-primus/optimus",
+   "lines": 30,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "insitro/redun:examples/azure_storage/workflow.py",
+   "framework": "pandas",
+   "repo": "insitro/redun",
+   "lines": 137,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_dask/group_by.py",
+   "framework": "pandas",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 150,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda:mloda_plugins/compute_framework/base_implementations/pandas/pandas_merge_engine.py",
+   "framework": "pandas",
+   "repo": "mloda-ai/mloda",
+   "lines": 119,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "buckaroo-data/buckaroo:buckaroo/customizations/pandas_cleaning_commands.py",
+   "framework": "pandas",
+   "repo": "buckaroo-data/buckaroo",
+   "lines": 93,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/core/seasonal_diagnostics.py",
+   "framework": "pandas",
+   "repo": "business-science/pytimetk",
+   "lines": 284,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/base/functions.py",
+   "framework": "pandas",
+   "repo": "hi-primus/optimus",
+   "lines": 1123,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sb-ai-lab/RePlay:replay/experimental/models/dt4rec/dt4rec.py",
+   "framework": "pandas",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 188,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 115,
+     "col": 13,
+     "end_line": 115
+    },
+    {
+     "rule": "AG001",
+     "line": 171,
+     "col": 33,
+     "end_line": 171
+    },
+    {
+     "rule": "AG001",
+     "line": 172,
+     "col": 33,
+     "end_line": 172
+    }
+   ]
+  },
+  {
+   "id": "PrefectHQ/prefect:examples/run_api_sourced_etl.py",
+   "framework": "pandas",
+   "repo": "PrefectHQ/prefect",
+   "lines": 172,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_pandas_like/namespace.py",
+   "framework": "pandas",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 615,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Avaiga/taipy:taipy/core/data/sql_table.py",
+   "framework": "pandas",
+   "repo": "Avaiga/taipy",
+   "lines": 143,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/plot/theme.py",
+   "framework": "pandas",
+   "repo": "business-science/pytimetk",
+   "lines": 355,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Avaiga/taipy:taipy/gui/data/decimator/base.py",
+   "framework": "pandas",
+   "repo": "Avaiga/taipy",
+   "lines": 286,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hi-primus/optimus:optimus/engines/dask/io/load.py",
+   "framework": "pandas",
+   "repo": "hi-primus/optimus",
+   "lines": 212,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 139,
+     "col": 13,
+     "end_line": 139
+    },
+    {
+     "rule": "AG003",
+     "line": 141,
+     "col": 18,
+     "end_line": 141
+    }
+   ]
+  },
+  {
+   "id": "sb-ai-lab/RePlay:examples/obp_connector/run_synt.py",
+   "framework": "pandas",
+   "repo": "sb-ai-lab/RePlay",
+   "lines": 180,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda:mloda_plugins/feature_group/experimental/text_cleaning/pandas.py",
+   "framework": "pandas",
+   "repo": "mloda-ai/mloda",
+   "lines": 246,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dlt-hub/dlt:dlt/destinations/sql_client.py",
+   "framework": "pandas",
+   "repo": "dlt-hub/dlt",
+   "lines": 571,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 505,
+     "col": 18,
+     "end_line": 505
+    }
+   ]
+  },
+  {
+   "id": "business-science/pytimetk:src/pytimetk/core/make_future_timeseries.py",
+   "framework": "pandas",
+   "repo": "business-science/pytimetk",
+   "lines": 147,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "semantica-agi/semantica:semantica/export/distance_exporter.py",
+   "framework": "pandas",
+   "repo": "semantica-agi/semantica",
+   "lines": 266,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "narwhals-dev/narwhals:src/narwhals/_duckdb/dataframe.py",
+   "framework": "pandas",
+   "repo": "narwhals-dev/narwhals",
+   "lines": 571,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 266,
+     "col": 15,
+     "end_line": 266
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "AG002|Edwardvaneechoud/pl-fuzzy-frame-match:pl_fuzzy_frame_match/matcher.py|187": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|f-lab-edu/league-of-legends-data-solution:Spark_Application/gold_riot/room_end_time/room_end_time.py|13": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|taovietducofficial/APACHE-SPARK-MIDTERM:friendcounts.py|2": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py|82": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_analysis_riot/playerlogs/spark_batch_silver_analysis.py|13": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|guruvaidev/avaloka:app/agents/mta_v2/local_trainer.py|1144": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/bronze_streaming_job.py|321": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_train_riot/playerlogs/delta_spark_batch_silver_train_v2.py|13": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|taovietducofficial/BIGDATA-ESSENSIAL-PROJECT:spark/sp.py|2": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|guruvaidev/avaloka:app/infra/run_ray_smoketest.py|55": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vishal-bulbule/google-cloud-data-engineering-hub:01-bq-csv-ingestion-pipeline/ingest_formats.py|96": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py|30": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|taovietducofficial/APACHE-SPARK-MIDTERM:spstreaming.py|12": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|Yvictor/polars_backtest_extension:polars_backtest/scripts/load_data.py|61": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vishal-bulbule/google-cloud-data-engineering-hub:01-bq-csv-ingestion-pipeline/ingest_formats.py|71": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vishal-bulbule/google-cloud-data-engineering-hub:33-dataproc-serverless-pyspark/spark_job.py|74": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py|62": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py|43": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/airflow/dags/spark-jobs/optimize.py|7": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|Yvictor/polars_backtest_extension:polars_backtest/scripts/load_data.py|29": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|rahulsamant37/FraudDetection:src/inference/main.py|343": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|jorvik-io/jorvik:examples/databricks/transactions/bronze/nb_ingest_raw_transactions.py|47": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dmatrix/spark-declarative-pipelines:src/py/sdp/oil_rigs/query_oil_rigs_tables.py|8": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|iQuantC/Airflow-Pipeline-Docker-Kubernetes:app.py|6": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py|59": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py|39": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/bronze_streaming_job.py|398": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|rahulsamant37/FraudDetection:src/inference/main.py|67": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_train_riot/playerlogs/delta_spark_batch_silver_train_v2.py|16": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|dmatrix/spark-declarative-pipelines:src/py/sdp/daily_orders/scripts/query_tables.py|35": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py|8": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/airflow/dags/spark-jobs/optimize.py|8": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|aaryanrwt/Tidely:benchmarks/run_validation_vii.py|15": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|ascii-supply-networks/ascii-hydra:src/pipelines/ascii_library_demo/pipeline_example/pipeline_example/step_2.py|23": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|rahulsamant37/FraudDetection:src/inference/main.py|60": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py|921": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|vishal-bulbule/google-cloud-data-engineering-hub:10-gcs-high-throughput-transfer/pandas_gcs.py|26": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|bassrehab/spark-llm-eval:examples/databricks_notebooks/05_response_caching.py|60": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|bazzi24/streamflow:etl/factMarketIndex.py|8": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py|44": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|alvarodiez20/pysuricata:scripts/contact_sheet.py|39": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|codsalah/SeismoFlow-Lambda-Architecture-System:scripts/read_delta_tables.py|42": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|f-lab-edu/league-of-legends-data-solution:Spark_Application/gold_riot/room_end_time/room_end_time.py|16": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|kalluripradeep/modern-etl-stack:spark/jobs/bronze.py|43": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|josephmachado/local_spark_setup:src/sample_pyspark_script.py|25": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|bassrehab/spark-llm-eval:examples/databricks_notebooks/05_response_caching.py|102": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read_CSV_files.py|20": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|codsalah/SeismoFlow-Lambda-Architecture-System:spark-consumers/spark_wolf_seismic_consumer.py|14": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py|80": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py|9": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py|34": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read_CSV_files.py|24": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|DevDizzle/gammarips-engine:backtesting_and_research/v4_backtest.py|289": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|aaryanrwt/Tidely:benchmarks/run_validation_vii.py|14": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|guruvaidev/avaloka:scripts/manual/coder_execution_demo.py|37": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_analysis_riot/playerlogs/spark_batch_silver_analysis.py|16": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|taovietducofficial/BIGDATA-ESSENSIAL-PROJECT:spark/sp.py|16": {
+  "faithful": "yes",
+  "actionable": "yes"
+ },
+ "AG003|GregoryKogan/crypto-trading-data-pipeline:spark_processor/processor.py|25": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|codsalah/SeismoFlow-Lambda-Architecture-System:spark-consumers/spark_wolf_seismic_consumer.py|15": {
+  "faithful": "yes",
+  "actionable": "no"
+ },
+ "AG003|bazzi24/streamflow:etl/dimSymbol.py|8": {
+  "faithful": "yes",
+  "actionable": "no"
+ }
+}

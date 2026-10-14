@@ -1,0 +1,3928 @@
+{
+ "rules_rev": "v4-frozen",
+ "corpus": "fresh3",
+ "split": "all",
+ "seconds": 1.7374654999002814,
+ "lines": 88107,
+ "files": [
+  {
+   "id": "khalidmammadov/polarspark:polarspark/sql/window.py",
+   "framework": "pyspark",
+   "repo": "khalidmammadov/polarspark",
+   "lines": 493,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fabricks-framework/fabricks:framework/fabricks/core/parsers/base.py",
+   "framework": "pyspark",
+   "repo": "fabricks-framework/fabricks",
+   "lines": 87,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "LakeLogic/LakeLogic:lakelogic/core/masking_engine.py",
+   "framework": "pyspark",
+   "repo": "LakeLogic/LakeLogic",
+   "lines": 907,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 532,
+     "col": 17,
+     "end_line": 532
+    },
+    {
+     "rule": "AG001",
+     "line": 756,
+     "col": 25,
+     "end_line": 756
+    }
+   ]
+  },
+  {
+   "id": "jorvik-io/jorvik:examples/databricks/transactions/bronze/nb_ingest_raw_transactions.py",
+   "framework": "pyspark",
+   "repo": "jorvik-io/jorvik",
+   "lines": 65,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 47,
+     "col": 18,
+     "end_line": 47
+    }
+   ]
+  },
+  {
+   "id": "khalidmammadov/polarspark:polarspark/traceback_utils.py",
+   "framework": "pyspark",
+   "repo": "khalidmammadov/polarspark",
+   "lines": 82,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/execution/distributed/arrow_bridge.py",
+   "framework": "pyspark",
+   "repo": "seadonggyun4/truthound",
+   "lines": 818,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 351,
+     "col": 24,
+     "end_line": 351
+    },
+    {
+     "rule": "AG001",
+     "line": 358,
+     "col": 41,
+     "end_line": 358
+    },
+    {
+     "rule": "AG001",
+     "line": 361,
+     "col": 41,
+     "end_line": 361
+    },
+    {
+     "rule": "AG001",
+     "line": 405,
+     "col": 20,
+     "end_line": 405
+    },
+    {
+     "rule": "AG001",
+     "line": 438,
+     "col": 19,
+     "end_line": 438
+    },
+    {
+     "rule": "AG001",
+     "line": 468,
+     "col": 34,
+     "end_line": 470
+    },
+    {
+     "rule": "AG001",
+     "line": 599,
+     "col": 24,
+     "end_line": 599
+    },
+    {
+     "rule": "AG001",
+     "line": 601,
+     "col": 20,
+     "end_line": 601
+    },
+    {
+     "rule": "AG001",
+     "line": 681,
+     "col": 24,
+     "end_line": 681
+    },
+    {
+     "rule": "AG001",
+     "line": 707,
+     "col": 23,
+     "end_line": 707
+    },
+    {
+     "rule": "AG001",
+     "line": 753,
+     "col": 19,
+     "end_line": 753
+    }
+   ]
+  },
+  {
+   "id": "dmatrix/spark-declarative-pipelines:src/py/sdp/daily_orders/scripts/query_tables.py",
+   "framework": "pyspark",
+   "repo": "dmatrix/spark-declarative-pipelines",
+   "lines": 182,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 35,
+     "col": 20,
+     "end_line": 35
+    }
+   ]
+  },
+  {
+   "id": "khalidmammadov/polarspark:polarspark/testing/connectutils.py",
+   "framework": "pyspark",
+   "repo": "khalidmammadov/polarspark",
+   "lines": 195,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "MTSWebServices/syncmaster:syncmaster/worker/handlers/db/base.py",
+   "framework": "pyspark",
+   "repo": "MTSWebServices/syncmaster",
+   "lines": 162,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mdshihabullah/restaurant-chain-datavault-lakehouse-analytics:src/raw_vault/transformations/hub_menu_item.py",
+   "framework": "pyspark",
+   "repo": "mdshihabullah/restaurant-chain-datavault-lakehouse-analytics",
+   "lines": 55,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jorvik-io/jorvik:jorvik/storage/isolation_providers.py",
+   "framework": "pyspark",
+   "repo": "jorvik-io/jorvik",
+   "lines": 100,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "StabRise/ScaleDP:scaledp/models/detectors/HasDetectLineOrientation.py",
+   "framework": "pyspark",
+   "repo": "StabRise/ScaleDP",
+   "lines": 92,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "MTSWebServices/syncmaster:syncmaster/worker/handlers/file/ftps.py",
+   "framework": "pyspark",
+   "repo": "MTSWebServices/syncmaster",
+   "lines": 43,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "opendp/tumult-analytics:src/tmlt/analytics/_neighboring_relation.py",
+   "framework": "pyspark",
+   "repo": "opendp/tumult-analytics",
+   "lines": 404,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "opendp/tumult-analytics:src/tmlt/analytics/keyset/_ops/_subtract.py",
+   "framework": "pyspark",
+   "repo": "opendp/tumult-analytics",
+   "lines": 126,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "fabricks-framework/fabricks:framework/fabricks/core/masks.py",
+   "framework": "pyspark",
+   "repo": "fabricks-framework/fabricks",
+   "lines": 58,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "analyticsdurgesh/FraudStream-Lakehouse:databricks/notebooks/02_silver_fraud_features.py",
+   "framework": "pyspark",
+   "repo": "analyticsdurgesh/FraudStream-Lakehouse",
+   "lines": 42,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "bazzi24/streamflow:etl/factMarketIndex.py",
+   "framework": "pyspark",
+   "repo": "bazzi24/streamflow",
+   "lines": 86,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 8,
+     "col": 35,
+     "end_line": 8
+    }
+   ]
+  },
+  {
+   "id": "mdshihabullah/restaurant-chain-datavault-lakehouse-analytics:src/business_vault/transformations/ref/ref_record_source.py",
+   "framework": "pyspark",
+   "repo": "mdshihabullah/restaurant-chain-datavault-lakehouse-analytics",
+   "lines": 82,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "StabRise/ScaleDP:scaledp/models/embeddings/TextEmbeddings.py",
+   "framework": "pyspark",
+   "repo": "StabRise/ScaleDP",
+   "lines": 255,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "LakeLogic/LakeLogic:lakelogic/core/evidence_tables.py",
+   "framework": "pyspark",
+   "repo": "LakeLogic/LakeLogic",
+   "lines": 282,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sadigaxund/Aqueduct:aqueduct/executor/spark/junction.py",
+   "framework": "pyspark",
+   "repo": "sadigaxund/Aqueduct",
+   "lines": 175,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_train_riot/playerlogs/delta_spark_batch_silver_train_v2.py",
+   "framework": "pyspark",
+   "repo": "f-lab-edu/league-of-legends-data-solution",
+   "lines": 58,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 13,
+     "col": 26,
+     "end_line": 13
+    },
+    {
+     "rule": "AG003",
+     "line": 16,
+     "col": 8,
+     "end_line": 16
+    }
+   ]
+  },
+  {
+   "id": "ubunye-ai-ecosystems/ubunye_engine:ubunye/backends/databricks_backend.py",
+   "framework": "pyspark",
+   "repo": "ubunye-ai-ecosystems/ubunye_engine",
+   "lines": 250,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "opendp/tumult-analytics:src/tmlt/analytics/keyset/_ops/_base.py",
+   "framework": "pyspark",
+   "repo": "opendp/tumult-analytics",
+   "lines": 80,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "taovietducofficial/APACHE-SPARK-MIDTERM:spstreaming.py",
+   "framework": "pyspark",
+   "repo": "taovietducofficial/APACHE-SPARK-MIDTERM",
+   "lines": 28,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 12,
+     "col": 20,
+     "end_line": 12
+    }
+   ]
+  },
+  {
+   "id": "dmatrix/spark-declarative-pipelines:src/py/sdp/oil_rigs/query_oil_rigs_tables.py",
+   "framework": "pyspark",
+   "repo": "dmatrix/spark-declarative-pipelines",
+   "lines": 60,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 8,
+     "col": 20,
+     "end_line": 8
+    }
+   ]
+  },
+  {
+   "id": "codsalah/SeismoFlow-Lambda-Architecture-System:spark-consumers/spark_wolf_seismic_consumer.py",
+   "framework": "pyspark",
+   "repo": "codsalah/SeismoFlow-Lambda-Architecture-System",
+   "lines": 191,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 14,
+     "col": 54,
+     "end_line": 14
+    },
+    {
+     "rule": "AG003",
+     "line": 15,
+     "col": 52,
+     "end_line": 15
+    }
+   ]
+  },
+  {
+   "id": "taovietducofficial/BIGDATA-ESSENSIAL-PROJECT:spark/sp.py",
+   "framework": "pyspark",
+   "repo": "taovietducofficial/BIGDATA-ESSENSIAL-PROJECT",
+   "lines": 22,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 2,
+     "col": 15,
+     "end_line": 2
+    },
+    {
+     "rule": "AG003",
+     "line": 16,
+     "col": 19,
+     "end_line": 16
+    }
+   ]
+  },
+  {
+   "id": "fdmorison/tiozin:tiozin/family/tio_spark/inputs/file_input.py",
+   "framework": "pyspark",
+   "repo": "fdmorison/tiozin",
+   "lines": 154,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "RaySatish/Market-Surveillance-System:streaming/spark_streaming_wash.py",
+   "framework": "pyspark",
+   "repo": "RaySatish/Market-Surveillance-System",
+   "lines": 297,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 113,
+     "col": 10,
+     "end_line": 113
+    }
+   ]
+  },
+  {
+   "id": "LakeLogic/LakeLogic:lakelogic/core/erasure.py",
+   "framework": "pyspark",
+   "repo": "LakeLogic/LakeLogic",
+   "lines": 788,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 152,
+     "col": 13,
+     "end_line": 152
+    },
+    {
+     "rule": "AG001",
+     "line": 358,
+     "col": 13,
+     "end_line": 358
+    }
+   ]
+  },
+  {
+   "id": "mdshihabullah/restaurant-chain-datavault-lakehouse-analytics:src/raw_vault/transformations/hub_order.py",
+   "framework": "pyspark",
+   "repo": "mdshihabullah/restaurant-chain-datavault-lakehouse-analytics",
+   "lines": 45,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform:services/create_datasets_service/src/spark_configs.py",
+   "framework": "pyspark",
+   "repo": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform",
+   "lines": 187,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alireza-heidarii/Real-Time-Data-Cleaning-Pipeline-for-Medical-and-Healthcare-Data:app/data_processing.py",
+   "framework": "pyspark",
+   "repo": "alireza-heidarii/Real-Time-Data-Cleaning-Pipeline-for-Medical-and-Healthcare-Data",
+   "lines": 111,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vishal-bulbule/google-cloud-data-engineering-hub:33-dataproc-serverless-pyspark/spark_job.py",
+   "framework": "pyspark",
+   "repo": "vishal-bulbule/google-cloud-data-engineering-hub",
+   "lines": 158,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 74,
+     "col": 12,
+     "end_line": 74
+    }
+   ]
+  },
+  {
+   "id": "fdmorison/tiozin:tiozin/api/metadata/schema/converters/spark.py",
+   "framework": "pyspark",
+   "repo": "fdmorison/tiozin",
+   "lines": 19,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "taovietducofficial/APACHE-SPARK-MIDTERM:friendcounts.py",
+   "framework": "pyspark",
+   "repo": "taovietducofficial/APACHE-SPARK-MIDTERM",
+   "lines": 21,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 2,
+     "col": 15,
+     "end_line": 2
+    }
+   ]
+  },
+  {
+   "id": "mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/bronze_streaming_job.py",
+   "framework": "pyspark",
+   "repo": "mdshihabullah/wikistream-event-data-pipeline-aws",
+   "lines": 413,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 321,
+     "col": 24,
+     "end_line": 321
+    },
+    {
+     "rule": "AG003",
+     "line": 398,
+     "col": 24,
+     "end_line": 398
+    }
+   ]
+  },
+  {
+   "id": "rahulsamant37/FraudDetection:src/inference/main.py",
+   "framework": "pyspark",
+   "repo": "rahulsamant37/FraudDetection",
+   "lines": 346,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 60,
+     "col": 35,
+     "end_line": 60
+    },
+    {
+     "rule": "AG003",
+     "line": 67,
+     "col": 32,
+     "end_line": 67
+    },
+    {
+     "rule": "AG003",
+     "line": 343,
+     "col": 40,
+     "end_line": 343
+    }
+   ]
+  },
+  {
+   "id": "fabricks-framework/fabricks:framework/fabricks/core/jobs/get_schedules.py",
+   "framework": "pyspark",
+   "repo": "fabricks-framework/fabricks",
+   "lines": 21,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dmatrix/spark-declarative-pipelines:src/py/sdp/utils/oil_gen_util.py",
+   "framework": "pyspark",
+   "repo": "dmatrix/spark-declarative-pipelines",
+   "lines": 231,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jorvik-io/jorvik:jorvik/pipelines/testing.py",
+   "framework": "pyspark",
+   "repo": "jorvik-io/jorvik",
+   "lines": 33,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "StabRise/ScaleDP:scaledp/pdf/PdfDataToDocument.py",
+   "framework": "pyspark",
+   "repo": "StabRise/ScaleDP",
+   "lines": 169,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacoolie/datacoolie:src/datacoolie/engines/_spark/iceberg/schema.py",
+   "framework": "pyspark",
+   "repo": "datacoolie/datacoolie",
+   "lines": 146,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 95,
+     "col": 15,
+     "end_line": 95
+    }
+   ]
+  },
+  {
+   "id": "datacompose/datacompose:datacompose/transformers/text/text/pyspark/pyspark_primitives.py",
+   "framework": "pyspark",
+   "repo": "datacompose/datacompose",
+   "lines": 1403,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacoolie/datacoolie:usecase-sim/runner/_runner_utils.py",
+   "framework": "pyspark",
+   "repo": "datacoolie/datacoolie",
+   "lines": 785,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacoolie/datacoolie:src/datacoolie/engines/spark_engine.py",
+   "framework": "pyspark",
+   "repo": "datacoolie/datacoolie",
+   "lines": 675,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "codsalah/SeismoFlow-Lambda-Architecture-System:scripts/read_delta_tables.py",
+   "framework": "pyspark",
+   "repo": "codsalah/SeismoFlow-Lambda-Architecture-System",
+   "lines": 102,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 42,
+     "col": 12,
+     "end_line": 42
+    },
+    {
+     "rule": "AG001",
+     "line": 84,
+     "col": 21,
+     "end_line": 84
+    }
+   ]
+  },
+  {
+   "id": "analyticsdurgesh/FraudStream-Lakehouse:databricks/notebooks/03_gold_alerts.py",
+   "framework": "pyspark",
+   "repo": "analyticsdurgesh/FraudStream-Lakehouse",
+   "lines": 25,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/dq/dq_checks.py",
+   "framework": "pyspark",
+   "repo": "mdshihabullah/wikistream-event-data-pipeline-aws",
+   "lines": 1214,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 230,
+     "col": 23,
+     "end_line": 230
+    },
+    {
+     "rule": "AG001",
+     "line": 704,
+     "col": 28,
+     "end_line": 706
+    }
+   ]
+  },
+  {
+   "id": "MTSWebServices/syncmaster:syncmaster/worker/handlers/db/clickhouse.py",
+   "framework": "pyspark",
+   "repo": "MTSWebServices/syncmaster",
+   "lines": 138,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "bassrehab/spark-llm-eval:examples/databricks_notebooks/03_agent_evaluation.py",
+   "framework": "pyspark",
+   "repo": "bassrehab/spark-llm-eval",
+   "lines": 420,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "GreatDataLabs/great-generator:great_generator/schemas/generation.py",
+   "framework": "pyspark",
+   "repo": "GreatDataLabs/great-generator",
+   "lines": 529,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ubunye-ai-ecosystems/ubunye_engine:ubunye/lineage/delta_store.py",
+   "framework": "pyspark",
+   "repo": "ubunye-ai-ecosystems/ubunye_engine",
+   "lines": 343,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 272,
+     "col": 15,
+     "end_line": 272
+    },
+    {
+     "rule": "AG001",
+     "line": 324,
+     "col": 15,
+     "end_line": 324
+    }
+   ]
+  },
+  {
+   "id": "ubunye-ai-ecosystems/ubunye_engine:ubunye/orchestration/spark_pipeline_exporter.py",
+   "framework": "pyspark",
+   "repo": "ubunye-ai-ecosystems/ubunye_engine",
+   "lines": 191,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ascii-supply-networks/ascii-hydra:src/pipelines/ascii_library_demo/pipeline_example/pipeline_example/step_2.py",
+   "framework": "pyspark",
+   "repo": "ascii-supply-networks/ascii-hydra",
+   "lines": 48,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 23,
+     "col": 34,
+     "end_line": 23
+    },
+    {
+     "rule": "AG001",
+     "line": 29,
+     "col": 20,
+     "end_line": 29
+    },
+    {
+     "rule": "AG001",
+     "line": 30,
+     "col": 26,
+     "end_line": 30
+    }
+   ]
+  },
+  {
+   "id": "sadigaxund/Aqueduct:aqueduct/executor/spark/metrics.py",
+   "framework": "pyspark",
+   "repo": "sadigaxund/Aqueduct",
+   "lines": 162,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ToGiaBaoKDL/mini-lakehouse:lakehouse/emr/src/emr_jobs/market_data/rest_curated.py",
+   "framework": "pyspark",
+   "repo": "ToGiaBaoKDL/mini-lakehouse",
+   "lines": 849,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 40,
+     "col": 19,
+     "end_line": 47
+    }
+   ]
+  },
+  {
+   "id": "vmariiechko/databricks-bundle-template:template/{{.project_name}}/src/jobs/ingest_to_raw.py",
+   "framework": "pyspark",
+   "repo": "vmariiechko/databricks-bundle-template",
+   "lines": 42,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vinodbavage31/airflow-mlflow-pipeline:ml_pipeline/model_training.py",
+   "framework": "pyspark",
+   "repo": "vinodbavage31/airflow-mlflow-pipeline",
+   "lines": 71,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "bassrehab/spark-llm-eval:spark_llm_eval/datasets/delta_dataset.py",
+   "framework": "pyspark",
+   "repo": "bassrehab/spark-llm-eval",
+   "lines": 253,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 131,
+     "col": 22,
+     "end_line": 131
+    }
+   ]
+  },
+  {
+   "id": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform:services/data_engineering_service/src/data_engineering.py",
+   "framework": "pyspark",
+   "repo": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform",
+   "lines": 704,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 186,
+     "col": 20,
+     "end_line": 191
+    },
+    {
+     "rule": "AG001",
+     "line": 216,
+     "col": 16,
+     "end_line": 219
+    },
+    {
+     "rule": "AG001",
+     "line": 380,
+     "col": 16,
+     "end_line": 384
+    }
+   ]
+  },
+  {
+   "id": "Biswajit107927/data-platform-quicksight:glue/etl_job.py",
+   "framework": "pyspark",
+   "repo": "Biswajit107927/data-platform-quicksight",
+   "lines": 185,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 154,
+     "col": 19,
+     "end_line": 154
+    }
+   ]
+  },
+  {
+   "id": "vuhuusy/data-lakehouse-platform:script/spark-stream-jobs/transaction/cdc-transaction.py",
+   "framework": "pyspark",
+   "repo": "vuhuusy/data-lakehouse-platform",
+   "lines": 106,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 8,
+     "col": 43,
+     "end_line": 8
+    },
+    {
+     "rule": "AG003",
+     "line": 9,
+     "col": 45,
+     "end_line": 9
+    },
+    {
+     "rule": "AG003",
+     "line": 43,
+     "col": 13,
+     "end_line": 43
+    },
+    {
+     "rule": "AG003",
+     "line": 44,
+     "col": 18,
+     "end_line": 44
+    },
+    {
+     "rule": "AG003",
+     "line": 59,
+     "col": 45,
+     "end_line": 59
+    },
+    {
+     "rule": "AG003",
+     "line": 62,
+     "col": 43,
+     "end_line": 62
+    }
+   ]
+  },
+  {
+   "id": "vmariiechko/databricks-bundle-template:assets/sdp-expectation-notifications/template/{{.target_dir}}/expectation_notifications_pipeline.py",
+   "framework": "pyspark",
+   "repo": "vmariiechko/databricks-bundle-template",
+   "lines": 298,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform:services/create_datasets_service/src/example_usage.py",
+   "framework": "pyspark",
+   "repo": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform",
+   "lines": 196,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jpgerek/pybujia:examples/user_retention/user_actions_job.py",
+   "framework": "pyspark",
+   "repo": "jpgerek/pybujia",
+   "lines": 73,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mdshihabullah/wikistream-event-data-pipeline-aws:spark/jobs/gold_batch_job.py",
+   "framework": "pyspark",
+   "repo": "mdshihabullah/wikistream-event-data-pipeline-aws",
+   "lines": 751,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 594,
+     "col": 19,
+     "end_line": 594
+    },
+    {
+     "rule": "AG001",
+     "line": 638,
+     "col": 17,
+     "end_line": 638
+    },
+    {
+     "rule": "AG001",
+     "line": 670,
+     "col": 20,
+     "end_line": 670
+    },
+    {
+     "rule": "AG001",
+     "line": 714,
+     "col": 24,
+     "end_line": 718
+    },
+    {
+     "rule": "AG001",
+     "line": 729,
+     "col": 16,
+     "end_line": 735
+    }
+   ]
+  },
+  {
+   "id": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read Streaming files.py",
+   "framework": "pyspark",
+   "repo": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark",
+   "lines": 44,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 30,
+     "col": 74,
+     "end_line": 30
+    },
+    {
+     "rule": "AG003",
+     "line": 34,
+     "col": 107,
+     "end_line": 34
+    },
+    {
+     "rule": "AG003",
+     "line": 39,
+     "col": 55,
+     "end_line": 39
+    }
+   ]
+  },
+  {
+   "id": "sadigaxund/Aqueduct:gallery/snippets/03_ingress_delta_incremental/populate_delta.py",
+   "framework": "pyspark",
+   "repo": "sadigaxund/Aqueduct",
+   "lines": 102,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vuhuusy/data-lakehouse-platform:script/airflow/dags/spark-jobs/optimize.py",
+   "framework": "pyspark",
+   "repo": "vuhuusy/data-lakehouse-platform",
+   "lines": 31,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 7,
+     "col": 43,
+     "end_line": 7
+    },
+    {
+     "rule": "AG003",
+     "line": 8,
+     "col": 45,
+     "end_line": 8
+    },
+    {
+     "rule": "AG001",
+     "line": 22,
+     "col": 12,
+     "end_line": 24
+    }
+   ]
+  },
+  {
+   "id": "karthikgarimella37/EPL_Fotmob:airflow/dags/load_to_staging.py",
+   "framework": "pyspark",
+   "repo": "karthikgarimella37/EPL_Fotmob",
+   "lines": 959,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 80,
+     "col": 34,
+     "end_line": 80
+    },
+    {
+     "rule": "AG003",
+     "line": 82,
+     "col": 83,
+     "end_line": 82
+    },
+    {
+     "rule": "AG003",
+     "line": 921,
+     "col": 15,
+     "end_line": 921
+    }
+   ]
+  },
+  {
+   "id": "ToGiaBaoKDL/mini-lakehouse:lakehouse/emr/src/emr_jobs/market_data/constituents.py",
+   "framework": "pyspark",
+   "repo": "ToGiaBaoKDL/mini-lakehouse",
+   "lines": 130,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/datasources/spark_source.py",
+   "framework": "pyspark",
+   "repo": "seadonggyun4/truthound",
+   "lines": 480,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 305,
+     "col": 20,
+     "end_line": 305
+    },
+    {
+     "rule": "AG001",
+     "line": 322,
+     "col": 15,
+     "end_line": 322
+    }
+   ]
+  },
+  {
+   "id": "f-lab-edu/league-of-legends-data-solution:Spark_Application/gold_riot/room_end_time/room_end_time.py",
+   "framework": "pyspark",
+   "repo": "f-lab-edu/league-of-legends-data-solution",
+   "lines": 56,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 13,
+     "col": 26,
+     "end_line": 13
+    },
+    {
+     "rule": "AG003",
+     "line": 16,
+     "col": 8,
+     "end_line": 16
+    }
+   ]
+  },
+  {
+   "id": "kalluripradeep/modern-etl-stack:spark/jobs/bronze.py",
+   "framework": "pyspark",
+   "repo": "kalluripradeep/modern-etl-stack",
+   "lines": 194,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 43,
+     "col": 13,
+     "end_line": 43
+    }
+   ]
+  },
+  {
+   "id": "fdmorison/tiozin:tiozin/family/tio_spark/typehints.py",
+   "framework": "pyspark",
+   "repo": "fdmorison/tiozin",
+   "lines": 48,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "bassrehab/spark-llm-eval:examples/databricks_notebooks/05_response_caching.py",
+   "framework": "pyspark",
+   "repo": "bassrehab/spark-llm-eval",
+   "lines": 401,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 60,
+     "col": 19,
+     "end_line": 60
+    },
+    {
+     "rule": "AG003",
+     "line": 102,
+     "col": 18,
+     "end_line": 102
+    }
+   ]
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/execution/distributed/aggregations.py",
+   "framework": "pyspark",
+   "repo": "seadonggyun4/truthound",
+   "lines": 732,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 404,
+     "col": 23,
+     "end_line": 404
+    },
+    {
+     "rule": "AG001",
+     "line": 411,
+     "col": 22,
+     "end_line": 411
+    },
+    {
+     "rule": "AG001",
+     "line": 449,
+     "col": 25,
+     "end_line": 449
+    },
+    {
+     "rule": "AG001",
+     "line": 615,
+     "col": 17,
+     "end_line": 615
+    }
+   ]
+  },
+  {
+   "id": "lucasgiurastante/erp-export-normalizer:core/io.py",
+   "framework": "pyspark",
+   "repo": "lucasgiurastante/erp-export-normalizer",
+   "lines": 102,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ToGiaBaoKDL/mini-lakehouse:lakehouse/emr/src/emr_jobs/t0_trading/landing.py",
+   "framework": "pyspark",
+   "repo": "ToGiaBaoKDL/mini-lakehouse",
+   "lines": 80,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacompose/datacompose:notebooks/test.py",
+   "framework": "pyspark",
+   "repo": "datacompose/datacompose",
+   "lines": 92,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "AhmetFurkanDEMIR/Sahibinden-Data-Engineering-Technical-Case-Study:Spark_MongoDB/spark_submit.py",
+   "framework": "pyspark",
+   "repo": "AhmetFurkanDEMIR/Sahibinden-Data-Engineering-Technical-Case-Study",
+   "lines": 50,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "f-lab-edu/league-of-legends-data-solution:Spark_Application/silver_analysis_riot/playerlogs/spark_batch_silver_analysis.py",
+   "framework": "pyspark",
+   "repo": "f-lab-edu/league-of-legends-data-solution",
+   "lines": 72,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 13,
+     "col": 26,
+     "end_line": 13
+    },
+    {
+     "rule": "AG003",
+     "line": 16,
+     "col": 8,
+     "end_line": 16
+    }
+   ]
+  },
+  {
+   "id": "NHSDigital/data-validation-engine:src/dve/parser/utilities.py",
+   "framework": "pyspark",
+   "repo": "NHSDigital/data-validation-engine",
+   "lines": 114,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "NHSDigital/data-validation-engine:src/dve/core_engine/backends/implementations/spark/rules.py",
+   "framework": "pyspark",
+   "repo": "NHSDigital/data-validation-engine",
+   "lines": 422,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 278,
+     "col": 22,
+     "end_line": 278
+    }
+   ]
+  },
+  {
+   "id": "bazzi24/streamflow:etl/dimSymbol.py",
+   "framework": "pyspark",
+   "repo": "bazzi24/streamflow",
+   "lines": 100,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 8,
+     "col": 35,
+     "end_line": 8
+    }
+   ]
+  },
+  {
+   "id": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark:Raw/Read_CSV_files.py",
+   "framework": "pyspark",
+   "repo": "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark",
+   "lines": 25,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 20,
+     "col": 26,
+     "end_line": 20
+    },
+    {
+     "rule": "AG003",
+     "line": 24,
+     "col": 124,
+     "end_line": 24
+    }
+   ]
+  },
+  {
+   "id": "datacompose/datacompose:transformers/pyspark/emails.py",
+   "framework": "pyspark",
+   "repo": "datacompose/datacompose",
+   "lines": 845,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "oracle-devrel/oci-automation-hub:hadoop-spark-oci-sample/native/use-cases/02-hadoop-cluster-analytics/sales_report.py",
+   "framework": "pyspark",
+   "repo": "oracle-devrel/oci-automation-hub",
+   "lines": 69,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alireza-heidarii/Real-Time-Data-Cleaning-Pipeline-for-Medical-and-Healthcare-Data:app/data_ingestion.py",
+   "framework": "pyspark",
+   "repo": "alireza-heidarii/Real-Time-Data-Cleaning-Pipeline-for-Medical-and-Healthcare-Data",
+   "lines": 28,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "analyticsdurgesh/data-engineering-book-field-kit:ch09-spark/spark_plans.py",
+   "framework": "pyspark",
+   "repo": "analyticsdurgesh/data-engineering-book-field-kit",
+   "lines": 179,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 88,
+     "col": 30,
+     "end_line": 88
+    },
+    {
+     "rule": "AG001",
+     "line": 134,
+     "col": 35,
+     "end_line": 134
+    },
+    {
+     "rule": "AG001",
+     "line": 149,
+     "col": 38,
+     "end_line": 149
+    }
+   ]
+  },
+  {
+   "id": "MinhKhoi3104/aws-end-to-end-data-lakehouse-analytics-platform:_002_src/orchestration/data_pipeline/_03_etl_jobs/_0303_gold/_030302_dim_category_append.py",
+   "framework": "pyspark",
+   "repo": "MinhKhoi3104/aws-end-to-end-data-lakehouse-analytics-platform",
+   "lines": 190,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "GregoryKogan/crypto-trading-data-pipeline:spark_processor/processor.py",
+   "framework": "pyspark",
+   "repo": "GregoryKogan/crypto-trading-data-pipeline",
+   "lines": 177,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 25,
+     "col": 55,
+     "end_line": 25
+    }
+   ]
+  },
+  {
+   "id": "vinodbavage31/airflow-mlflow-pipeline:ml_pipeline/feature_engineering.py",
+   "framework": "pyspark",
+   "repo": "vinodbavage31/airflow-mlflow-pipeline",
+   "lines": 118,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kalluripradeep/modern-etl-stack:spark/jobs/iceberg_maintenance.py",
+   "framework": "pyspark",
+   "repo": "kalluripradeep/modern-etl-stack",
+   "lines": 124,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kalluripradeep/modern-etl-stack:spark/jobs/transform_products.py",
+   "framework": "pyspark",
+   "repo": "kalluripradeep/modern-etl-stack",
+   "lines": 102,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "josephmachado/local_spark_setup:src/sample_pyspark_script.py",
+   "framework": "pyspark",
+   "repo": "josephmachado/local_spark_setup",
+   "lines": 145,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 25,
+     "col": 53,
+     "end_line": 25
+    }
+   ]
+  },
+  {
+   "id": "GreatDataLabs/great-generator:great_generator/engines/spark_engine.py",
+   "framework": "pyspark",
+   "repo": "GreatDataLabs/great-generator",
+   "lines": 822,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "nikkisora/PolarBT:examples/example_multi_asset.py",
+   "framework": "polars",
+   "repo": "nikkisora/PolarBT",
+   "lines": 99,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pdtpartners/typol:typol/types.py",
+   "framework": "polars",
+   "repo": "pdtpartners/typol",
+   "lines": 207,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/execution/polars_engine.py",
+   "framework": "polars",
+   "repo": "seadonggyun4/truthound",
+   "lines": 498,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 73,
+     "col": 17,
+     "end_line": 73
+    },
+    {
+     "rule": "AG001",
+     "line": 88,
+     "col": 17,
+     "end_line": 88
+    },
+    {
+     "rule": "AG001",
+     "line": 100,
+     "col": 17,
+     "end_line": 100
+    },
+    {
+     "rule": "AG001",
+     "line": 116,
+     "col": 17,
+     "end_line": 116
+    },
+    {
+     "rule": "AG001",
+     "line": 144,
+     "col": 17,
+     "end_line": 144
+    },
+    {
+     "rule": "AG001",
+     "line": 172,
+     "col": 17,
+     "end_line": 172
+    },
+    {
+     "rule": "AG001",
+     "line": 223,
+     "col": 17,
+     "end_line": 223
+    },
+    {
+     "rule": "AG001",
+     "line": 293,
+     "col": 21,
+     "end_line": 295
+    },
+    {
+     "rule": "AG001",
+     "line": 310,
+     "col": 12,
+     "end_line": 317
+    },
+    {
+     "rule": "AG001",
+     "line": 325,
+     "col": 12,
+     "end_line": 333
+    },
+    {
+     "rule": "AG001",
+     "line": 371,
+     "col": 17,
+     "end_line": 371
+    },
+    {
+     "rule": "AG001",
+     "line": 381,
+     "col": 12,
+     "end_line": 382
+    },
+    {
+     "rule": "AG001",
+     "line": 394,
+     "col": 17,
+     "end_line": 394
+    },
+    {
+     "rule": "AG001",
+     "line": 425,
+     "col": 15,
+     "end_line": 425
+    },
+    {
+     "rule": "AG001",
+     "line": 455,
+     "col": 15,
+     "end_line": 455
+    },
+    {
+     "rule": "AG001",
+     "line": 475,
+     "col": 18,
+     "end_line": 475
+    }
+   ]
+  },
+  {
+   "id": "mrmcmullan/flycatcher:examples/validation_modes.py",
+   "framework": "polars",
+   "repo": "mrmcmullan/flycatcher",
+   "lines": 172,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda-registry:mloda/community/feature_groups/data_operations/row_preserving/rank/polars_lazy_rank.py",
+   "framework": "polars",
+   "repo": "mloda-ai/mloda-registry",
+   "lines": 114,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/validators/ml_feature/base.py",
+   "framework": "polars",
+   "repo": "seadonggyun4/truthound",
+   "lines": 250,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/maskers.py",
+   "framework": "polars",
+   "repo": "seadonggyun4/truthound",
+   "lines": 249,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 69,
+     "col": 9,
+     "end_line": 69
+    }
+   ]
+  },
+  {
+   "id": "swadhinbiswas/eu-air-traffic:streamlit_app.py",
+   "framework": "polars",
+   "repo": "swadhinbiswas/eu-air-traffic",
+   "lines": 673,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 163,
+     "col": 20,
+     "end_line": 163
+    },
+    {
+     "rule": "AG001",
+     "line": 198,
+     "col": 20,
+     "end_line": 198
+    },
+    {
+     "rule": "AG001",
+     "line": 249,
+     "col": 16,
+     "end_line": 249
+    },
+    {
+     "rule": "AG001",
+     "line": 265,
+     "col": 12,
+     "end_line": 265
+    },
+    {
+     "rule": "AG001",
+     "line": 295,
+     "col": 16,
+     "end_line": 295
+    },
+    {
+     "rule": "AG001",
+     "line": 310,
+     "col": 16,
+     "end_line": 310
+    },
+    {
+     "rule": "AG001",
+     "line": 321,
+     "col": 12,
+     "end_line": 321
+    },
+    {
+     "rule": "AG001",
+     "line": 350,
+     "col": 16,
+     "end_line": 350
+    },
+    {
+     "rule": "AG001",
+     "line": 362,
+     "col": 16,
+     "end_line": 362
+    },
+    {
+     "rule": "AG001",
+     "line": 378,
+     "col": 12,
+     "end_line": 378
+    },
+    {
+     "rule": "AG001",
+     "line": 415,
+     "col": 16,
+     "end_line": 415
+    },
+    {
+     "rule": "AG001",
+     "line": 432,
+     "col": 16,
+     "end_line": 432
+    },
+    {
+     "rule": "AG001",
+     "line": 558,
+     "col": 29,
+     "end_line": 558
+    },
+    {
+     "rule": "AG001",
+     "line": 561,
+     "col": 22,
+     "end_line": 561
+    }
+   ]
+  },
+  {
+   "id": "jrasband-dev/polars-extensions:polars_extensions/biology.py",
+   "framework": "polars",
+   "repo": "jrasband-dev/polars-extensions",
+   "lines": 162,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "novis10813/factorium:src/factorium/universe/filters.py",
+   "framework": "polars",
+   "repo": "novis10813/factorium",
+   "lines": 80,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "rebase-energy/timedatamodel:timedatamodel/timeseriestable.py",
+   "framework": "polars",
+   "repo": "rebase-energy/timedatamodel",
+   "lines": 613,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 523,
+     "col": 15,
+     "end_line": 523
+    }
+   ]
+  },
+  {
+   "id": "sukesan7/astra:hyperopt/sweep_runner.py",
+   "framework": "polars",
+   "repo": "sukesan7/astra",
+   "lines": 1008,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "CangyuanLi/checkedframe:src/checkedframe/selectors.py",
+   "framework": "polars",
+   "repo": "CangyuanLi/checkedframe",
+   "lines": 964,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pmgraham/datagrunt:src/datagrunt/core/csv_io/csvcomponents.py",
+   "framework": "polars",
+   "repo": "pmgraham/datagrunt",
+   "lines": 593,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda-registry:mloda/community/feature_groups/data_operations/row_preserving/arithmetic/polars_mixin.py",
+   "framework": "polars",
+   "repo": "mloda-ai/mloda-registry",
+   "lines": 40,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aleksey-karasev/Ultimate-Macroeconomics-Dashboard:app/pages/01_basic_indicators.py",
+   "framework": "polars",
+   "repo": "aleksey-karasev/Ultimate-Macroeconomics-Dashboard",
+   "lines": 483,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 335,
+     "col": 14,
+     "end_line": 335
+    }
+   ]
+  },
+  {
+   "id": "OutSquareCapital/belugas:scripts/fn_generator/_schemas.py",
+   "framework": "polars",
+   "repo": "OutSquareCapital/belugas",
+   "lines": 116,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 26,
+     "col": 8,
+     "end_line": 27
+    }
+   ]
+  },
+  {
+   "id": "aleksey-karasev/Ultimate-Macroeconomics-Dashboard:app/pages/09_education_human_capital.py",
+   "framework": "polars",
+   "repo": "aleksey-karasev/Ultimate-Macroeconomics-Dashboard",
+   "lines": 285,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 101,
+     "col": 14,
+     "end_line": 101
+    },
+    {
+     "rule": "AG001",
+     "line": 218,
+     "col": 18,
+     "end_line": 218
+    },
+    {
+     "rule": "AG001",
+     "line": 228,
+     "col": 18,
+     "end_line": 233
+    }
+   ]
+  },
+  {
+   "id": "BhavyaDoriya/Project-Prism:core_ml/prism_ml/train/trainer.py",
+   "framework": "polars",
+   "repo": "BhavyaDoriya/Project-Prism",
+   "lines": 393,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 35,
+     "col": 14,
+     "end_line": 35
+    },
+    {
+     "rule": "AG001",
+     "line": 143,
+     "col": 23,
+     "end_line": 143
+    }
+   ]
+  },
+  {
+   "id": "vansh0016/options-chain-features:src/ocf/features/skew_smile.py",
+   "framework": "polars",
+   "repo": "vansh0016/options-chain-features",
+   "lines": 96,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "novis10813/factorium:src/factorium/data/aggregator.py",
+   "framework": "polars",
+   "repo": "novis10813/factorium",
+   "lines": 600,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ptimizeroracle/ondine:ondine/stages/data_loader_stage.py",
+   "framework": "polars",
+   "repo": "ptimizeroracle/ondine",
+   "lines": 212,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sukesan7/astra:hyperopt/results_analyzer.py",
+   "framework": "polars",
+   "repo": "sukesan7/astra",
+   "lines": 704,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda-registry:mloda/community/feature_groups/data_operations/polars_mode_helpers.py",
+   "framework": "polars",
+   "repo": "mloda-ai/mloda-registry",
+   "lines": 70,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "novis10813/factorium:src/factorium/factors/engine.py",
+   "framework": "polars",
+   "repo": "novis10813/factorium",
+   "lines": 269,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 226,
+     "col": 23,
+     "end_line": 226
+    },
+    {
+     "rule": "AG001",
+     "line": 263,
+     "col": 15,
+     "end_line": 263
+    }
+   ]
+  },
+  {
+   "id": "talkpython/polars-for-power-users-course:code/timing/bear.py",
+   "framework": "polars",
+   "repo": "talkpython/polars-for-power-users-course",
+   "lines": 17,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vansh0016/options-chain-features:src/ocf/features/liquidity.py",
+   "framework": "polars",
+   "repo": "vansh0016/options-chain-features",
+   "lines": 93,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gefgu/fastmob:benchmarks/trajectory/speed_suite.py",
+   "framework": "polars",
+   "repo": "gefgu/fastmob",
+   "lines": 530,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ptimizeroracle/ondine:scripts/smoke_bare_install.py",
+   "framework": "polars",
+   "repo": "ptimizeroracle/ondine",
+   "lines": 205,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gefgu/fastmob:benchmarks/collective_yjmob_large_scale.py",
+   "framework": "polars",
+   "repo": "gefgu/fastmob",
+   "lines": 116,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mihiarc/pyfia:src/pyfia/estimation/estimators/area.py",
+   "framework": "polars",
+   "repo": "mihiarc/pyfia",
+   "lines": 853,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 251,
+     "col": 30,
+     "end_line": 251
+    },
+    {
+     "rule": "AG001",
+     "line": 276,
+     "col": 35,
+     "end_line": 276
+    },
+    {
+     "rule": "AG001",
+     "line": 378,
+     "col": 24,
+     "end_line": 378
+    }
+   ]
+  },
+  {
+   "id": "gpenessot/baribal:src/baribal/viz.py",
+   "framework": "polars",
+   "repo": "gpenessot/baribal",
+   "lines": 68,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 28,
+     "col": 13,
+     "end_line": 28
+    }
+   ]
+  },
+  {
+   "id": "mihiarc/pyfia:src/pyfia/estimation/estimators/tree_metrics.py",
+   "framework": "polars",
+   "repo": "mihiarc/pyfia",
+   "lines": 311,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 178,
+     "col": 21,
+     "end_line": 178
+    },
+    {
+     "rule": "AG001",
+     "line": 180,
+     "col": 21,
+     "end_line": 180
+    }
+   ]
+  },
+  {
+   "id": "OutSquareCapital/belugas:scripts/fn_generator/_rules.py",
+   "framework": "polars",
+   "repo": "OutSquareCapital/belugas",
+   "lines": 275,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 12,
+     "col": 12,
+     "end_line": 12
+    },
+    {
+     "rule": "AG001",
+     "line": 19,
+     "col": 4,
+     "end_line": 20
+    }
+   ]
+  },
+  {
+   "id": "sukesan7/astra:simulator/reports.py",
+   "framework": "polars",
+   "repo": "sukesan7/astra",
+   "lines": 359,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ptimizeroracle/ondine:ondine/api/enrich.py",
+   "framework": "polars",
+   "repo": "ptimizeroracle/ondine",
+   "lines": 162,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 137,
+     "col": 54,
+     "end_line": 137
+    },
+    {
+     "rule": "AG001",
+     "line": 149,
+     "col": 15,
+     "end_line": 149
+    },
+    {
+     "rule": "AG001",
+     "line": 160,
+     "col": 16,
+     "end_line": 160
+    }
+   ]
+  },
+  {
+   "id": "jrycw/turtle-island:src/turtle_island/exprs/common.py",
+   "framework": "polars",
+   "repo": "jrycw/turtle-island",
+   "lines": 490,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "panodata/omniload:src/omniload/codec/reshape.py",
+   "framework": "polars",
+   "repo": "panodata/omniload",
+   "lines": 346,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 245,
+     "col": 17,
+     "end_line": 245
+    }
+   ]
+  },
+  {
+   "id": "Yvictor/polars_backtest_extension:polars_backtest/python/polars_backtest/wide.py",
+   "framework": "polars",
+   "repo": "Yvictor/polars_backtest_extension",
+   "lines": 1453,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 1054,
+     "col": 15,
+     "end_line": 1054
+    }
+   ]
+  },
+  {
+   "id": "JoelPasapera/ExpertAdvisory:ExpertAdvisory.py",
+   "framework": "polars",
+   "repo": "JoelPasapera/ExpertAdvisory",
+   "lines": 948,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG000",
+     "line": 548,
+     "col": 0,
+     "end_line": 548
+    }
+   ]
+  },
+  {
+   "id": "dashdeckers/polars_list_utils:examples/showcase.py",
+   "framework": "polars",
+   "repo": "dashdeckers/polars_list_utils",
+   "lines": 85,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Neural-Dragon-AI/Cynde:cynde/functional/analyze/topic_analysis_polars.py",
+   "framework": "polars",
+   "repo": "Neural-Dragon-AI/Cynde",
+   "lines": 1391,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "NHSDigital/data-validation-engine:src/dve/core_engine/backends/readers/csv.py",
+   "framework": "polars",
+   "repo": "NHSDigital/data-validation-engine",
+   "lines": 279,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pmgraham/datagrunt:src/datagrunt/excel_api/excelreader.py",
+   "framework": "polars",
+   "repo": "pmgraham/datagrunt",
+   "lines": 119,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Point72/gamma-lake:gammalake/abstract.py",
+   "framework": "polars",
+   "repo": "Point72/gamma-lake",
+   "lines": 222,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 190,
+     "col": 67,
+     "end_line": 190
+    },
+    {
+     "rule": "AG001",
+     "line": 196,
+     "col": 17,
+     "end_line": 196
+    }
+   ]
+  },
+  {
+   "id": "swadhinbiswas/eu-air-traffic:ingestion/flights/collector.py",
+   "framework": "polars",
+   "repo": "swadhinbiswas/eu-air-traffic",
+   "lines": 148,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sutro-sh/sutro:sutro/cli.py",
+   "framework": "polars",
+   "repo": "sutro-sh/sutro",
+   "lines": 493,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Neural-Dragon-AI/Cynde:cynde/functional/results.py",
+   "framework": "polars",
+   "repo": "Neural-Dragon-AI/Cynde",
+   "lines": 75,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Edwardvaneechoud/pl-fuzzy-frame-match:pl_fuzzy_frame_match/matcher.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/pl-fuzzy-frame-match",
+   "lines": 905,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG002",
+     "line": 187,
+     "col": 11,
+     "end_line": 187
+    },
+    {
+     "rule": "AG001",
+     "line": 564,
+     "col": 37,
+     "end_line": 564
+    }
+   ]
+  },
+  {
+   "id": "oelarnes/spells:spells/draft_model.py",
+   "framework": "polars",
+   "repo": "oelarnes/spells",
+   "lines": 529,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 312,
+     "col": 15,
+     "end_line": 312
+    }
+   ]
+  },
+  {
+   "id": "jrycw/turtle-island:src/turtle_island/exprs/core.py",
+   "framework": "polars",
+   "repo": "jrycw/turtle-island",
+   "lines": 50,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gefgu/fastmob:benchmarks/individual_yjmob_large_scale.py",
+   "framework": "polars",
+   "repo": "gefgu/fastmob",
+   "lines": 133,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "NHSDigital/data-validation-engine:src/dve/core_engine/backends/implementations/duckdb/auditing.py",
+   "framework": "polars",
+   "repo": "NHSDigital/data-validation-engine",
+   "lines": 233,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "joaopn/social-data-pipeline:social_data_pipeline/classifiers/lingua.py",
+   "framework": "polars",
+   "repo": "joaopn/social-data-pipeline",
+   "lines": 391,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 143,
+     "col": 15,
+     "end_line": 143
+    }
+   ]
+  },
+  {
+   "id": "pdtpartners/typol:typol/frame.py",
+   "framework": "polars",
+   "repo": "pdtpartners/typol",
+   "lines": 851,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 269,
+     "col": 15,
+     "end_line": 269
+    },
+    {
+     "rule": "AG001",
+     "line": 295,
+     "col": 15,
+     "end_line": 295
+    },
+    {
+     "rule": "AG001",
+     "line": 303,
+     "col": 15,
+     "end_line": 303
+    },
+    {
+     "rule": "AG001",
+     "line": 322,
+     "col": 15,
+     "end_line": 322
+    },
+    {
+     "rule": "AG001",
+     "line": 345,
+     "col": 15,
+     "end_line": 345
+    },
+    {
+     "rule": "AG001",
+     "line": 351,
+     "col": 15,
+     "end_line": 351
+    },
+    {
+     "rule": "AG001",
+     "line": 365,
+     "col": 15,
+     "end_line": 365
+    },
+    {
+     "rule": "AG001",
+     "line": 376,
+     "col": 15,
+     "end_line": 376
+    },
+    {
+     "rule": "AG001",
+     "line": 386,
+     "col": 12,
+     "end_line": 386
+    },
+    {
+     "rule": "AG001",
+     "line": 465,
+     "col": 15,
+     "end_line": 465
+    },
+    {
+     "rule": "AG001",
+     "line": 596,
+     "col": 16,
+     "end_line": 596
+    },
+    {
+     "rule": "AG001",
+     "line": 740,
+     "col": 15,
+     "end_line": 740
+    },
+    {
+     "rule": "AG001",
+     "line": 822,
+     "col": 15,
+     "end_line": 822
+    }
+   ]
+  },
+  {
+   "id": "Neural-Dragon-AI/Cynde:cynde/functional/generate/generate_oai.py",
+   "framework": "polars",
+   "repo": "Neural-Dragon-AI/Cynde",
+   "lines": 190,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mihiarc/pyfia:src/pyfia/filtering/filters.py",
+   "framework": "polars",
+   "repo": "mihiarc/pyfia",
+   "lines": 327,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mrmcmullan/flycatcher:src/flycatcher/validators/datetime.py",
+   "framework": "polars",
+   "repo": "mrmcmullan/flycatcher",
+   "lines": 178,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aleksey-karasev/Ultimate-Macroeconomics-Dashboard:app/core/postgres_client.py",
+   "framework": "polars",
+   "repo": "aleksey-karasev/Ultimate-Macroeconomics-Dashboard",
+   "lines": 436,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "guillermodotn/flowview:examples/record_demo.py",
+   "framework": "polars",
+   "repo": "guillermodotn/flowview",
+   "lines": 54,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vansh0016/options-chain-features:src/ocf/io/writers.py",
+   "framework": "polars",
+   "repo": "vansh0016/options-chain-features",
+   "lines": 39,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "NHSDigital/data-validation-engine:src/dve/core_engine/backends/implementations/duckdb/readers/csv.py",
+   "framework": "polars",
+   "repo": "NHSDigital/data-validation-engine",
+   "lines": 289,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "guillermodotn/flowview:flowview/tracer.py",
+   "framework": "polars",
+   "repo": "guillermodotn/flowview",
+   "lines": 176,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aaryanrwt/Tidely:benchmarks/run_validation_vii.py",
+   "framework": "polars",
+   "repo": "aaryanrwt/Tidely",
+   "lines": 232,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 14,
+     "col": 11,
+     "end_line": 14
+    },
+    {
+     "rule": "AG003",
+     "line": 15,
+     "col": 15,
+     "end_line": 15
+    },
+    {
+     "rule": "AG001",
+     "line": 122,
+     "col": 24,
+     "end_line": 122
+    }
+   ]
+  },
+  {
+   "id": "Alfredomg7/StockMarketAnalytics:portfolio_dashboard/callbacks.py",
+   "framework": "polars",
+   "repo": "Alfredomg7/StockMarketAnalytics",
+   "lines": 89,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "nikkisora/PolarBT:examples/example_advanced_analysis.py",
+   "framework": "polars",
+   "repo": "nikkisora/PolarBT",
+   "lines": 384,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "jrasband-dev/polars-extensions:polars_extensions/string.py",
+   "framework": "polars",
+   "repo": "jrasband-dev/polars-extensions",
+   "lines": 95,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "OutSquareCapital/belugas:src/belugas/_frame.py",
+   "framework": "polars",
+   "repo": "OutSquareCapital/belugas",
+   "lines": 940,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 215,
+     "col": 12,
+     "end_line": 215
+    },
+    {
+     "rule": "AG001",
+     "line": 613,
+     "col": 12,
+     "end_line": 614
+    },
+    {
+     "rule": "AG001",
+     "line": 806,
+     "col": 27,
+     "end_line": 806
+    }
+   ]
+  },
+  {
+   "id": "swadhinbiswas/eu-air-traffic:scripts/fetch_eurostat.py",
+   "framework": "polars",
+   "repo": "swadhinbiswas/eu-air-traffic",
+   "lines": 140,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pmgraham/datagrunt:src/datagrunt/core/csv_io/engines.py",
+   "framework": "polars",
+   "repo": "pmgraham/datagrunt",
+   "lines": 1069,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacoolie/datacoolie:src/datacoolie/engines/_polars/registration.py",
+   "framework": "polars",
+   "repo": "datacoolie/datacoolie",
+   "lines": 173,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacoolie/datacoolie:usecase-sim/scripts/prepare_polars_qualified_sql.py",
+   "framework": "polars",
+   "repo": "datacoolie/datacoolie",
+   "lines": 173,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "KenyonY/dtflow:dtflow/storage/io.py",
+   "framework": "polars",
+   "repo": "KenyonY/dtflow",
+   "lines": 865,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 658,
+     "col": 9,
+     "end_line": 658
+    },
+    {
+     "rule": "AG001",
+     "line": 664,
+     "col": 9,
+     "end_line": 664
+    },
+    {
+     "rule": "AG001",
+     "line": 670,
+     "col": 9,
+     "end_line": 670
+    },
+    {
+     "rule": "AG001",
+     "line": 725,
+     "col": 9,
+     "end_line": 725
+    },
+    {
+     "rule": "AG001",
+     "line": 736,
+     "col": 9,
+     "end_line": 736
+    },
+    {
+     "rule": "AG001",
+     "line": 747,
+     "col": 9,
+     "end_line": 747
+    }
+   ]
+  },
+  {
+   "id": "Kenzy-Zero/kenze:bench/_engine.py",
+   "framework": "polars",
+   "repo": "Kenzy-Zero/kenze",
+   "lines": 95,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mayaradaher/michelin-app:pages/app_en.py",
+   "framework": "polars",
+   "repo": "mayaradaher/michelin-app",
+   "lines": 554,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "louisbrulenaudet/pizzly:src/pizzly/data/edgar.py",
+   "framework": "polars",
+   "repo": "louisbrulenaudet/pizzly",
+   "lines": 137,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Yvictor/polars_backtest_extension:polars_backtest/scripts/load_data.py",
+   "framework": "polars",
+   "repo": "Yvictor/polars_backtest_extension",
+   "lines": 233,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 29,
+     "col": 28,
+     "end_line": 29
+    },
+    {
+     "rule": "AG003",
+     "line": 61,
+     "col": 21,
+     "end_line": 61
+    },
+    {
+     "rule": "AG001",
+     "line": 139,
+     "col": 13,
+     "end_line": 139
+    },
+    {
+     "rule": "AG001",
+     "line": 167,
+     "col": 13,
+     "end_line": 167
+    },
+    {
+     "rule": "AG001",
+     "line": 169,
+     "col": 13,
+     "end_line": 169
+    },
+    {
+     "rule": "AG001",
+     "line": 220,
+     "col": 12,
+     "end_line": 220
+    }
+   ]
+  },
+  {
+   "id": "BhavyaDoriya/Project-Prism:core_ml/prism_ml/feature/engineer.py",
+   "framework": "polars",
+   "repo": "BhavyaDoriya/Project-Prism",
+   "lines": 294,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 111,
+     "col": 28,
+     "end_line": 111
+    },
+    {
+     "rule": "AG001",
+     "line": 160,
+     "col": 14,
+     "end_line": 160
+    },
+    {
+     "rule": "AG001",
+     "line": 265,
+     "col": 22,
+     "end_line": 265
+    }
+   ]
+  },
+  {
+   "id": "aaryanrwt/Tidely:src/tidely/core/clean_engine.py",
+   "framework": "polars",
+   "repo": "aaryanrwt/Tidely",
+   "lines": 302,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 232,
+     "col": 21,
+     "end_line": 232
+    },
+    {
+     "rule": "AG001",
+     "line": 234,
+     "col": 21,
+     "end_line": 234
+    },
+    {
+     "rule": "AG001",
+     "line": 297,
+     "col": 19,
+     "end_line": 297
+    }
+   ]
+  },
+  {
+   "id": "guillermodotn/flowview:examples/realistic_pipeline.py",
+   "framework": "polars",
+   "repo": "guillermodotn/flowview",
+   "lines": 178,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "provero-org/provero:provero-flyte/src/provero/flyte/type_transformer.py",
+   "framework": "polars",
+   "repo": "provero-org/provero",
+   "lines": 250,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "zg-and-coffee/data_fingerprint:data_fingerprint/src/utils.py",
+   "framework": "polars",
+   "repo": "zg-and-coffee/data_fingerprint",
+   "lines": 256,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "LakeLogic/LakeLogic:examples/external_logic/_template.py",
+   "framework": "polars",
+   "repo": "LakeLogic/LakeLogic",
+   "lines": 130,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 99,
+     "col": 12,
+     "end_line": 99
+    },
+    {
+     "rule": "AG001",
+     "line": 100,
+     "col": 12,
+     "end_line": 100
+    },
+    {
+     "rule": "AG001",
+     "line": 121,
+     "col": 12,
+     "end_line": 121
+    },
+    {
+     "rule": "AG001",
+     "line": 122,
+     "col": 12,
+     "end_line": 122
+    }
+   ]
+  },
+  {
+   "id": "zg-and-coffee/data_fingerprint:main.py",
+   "framework": "polars",
+   "repo": "zg-and-coffee/data_fingerprint",
+   "lines": 21,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "datacoolie/datacoolie:src/datacoolie/engines/_polars/type_mapping.py",
+   "framework": "polars",
+   "repo": "datacoolie/datacoolie",
+   "lines": 313,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Point72/gamma-lake:gammalake/_topo.py",
+   "framework": "polars",
+   "repo": "Point72/gamma-lake",
+   "lines": 50,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aaryanrwt/Tidely:src/tidely/core/rules.py",
+   "framework": "polars",
+   "repo": "aaryanrwt/Tidely",
+   "lines": 578,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 483,
+     "col": 20,
+     "end_line": 483
+    }
+   ]
+  },
+  {
+   "id": "Point72/gamma-lake:gammalake/gamma_feature_lake.py",
+   "framework": "polars",
+   "repo": "Point72/gamma-lake",
+   "lines": 1477,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 185,
+     "col": 13,
+     "end_line": 185
+    },
+    {
+     "rule": "AG001",
+     "line": 353,
+     "col": 35,
+     "end_line": 353
+    },
+    {
+     "rule": "AG001",
+     "line": 484,
+     "col": 12,
+     "end_line": 484
+    },
+    {
+     "rule": "AG001",
+     "line": 539,
+     "col": 11,
+     "end_line": 539
+    },
+    {
+     "rule": "AG001",
+     "line": 696,
+     "col": 19,
+     "end_line": 696
+    },
+    {
+     "rule": "AG001",
+     "line": 788,
+     "col": 12,
+     "end_line": 788
+    },
+    {
+     "rule": "AG001",
+     "line": 901,
+     "col": 35,
+     "end_line": 901
+    },
+    {
+     "rule": "AG001",
+     "line": 908,
+     "col": 15,
+     "end_line": 908
+    },
+    {
+     "rule": "AG001",
+     "line": 933,
+     "col": 27,
+     "end_line": 933
+    },
+    {
+     "rule": "AG001",
+     "line": 944,
+     "col": 15,
+     "end_line": 944
+    },
+    {
+     "rule": "AG001",
+     "line": 1013,
+     "col": 12,
+     "end_line": 1013
+    },
+    {
+     "rule": "AG001",
+     "line": 1074,
+     "col": 27,
+     "end_line": 1074
+    },
+    {
+     "rule": "AG001",
+     "line": 1075,
+     "col": 25,
+     "end_line": 1075
+    },
+    {
+     "rule": "AG001",
+     "line": 1218,
+     "col": 12,
+     "end_line": 1218
+    },
+    {
+     "rule": "AG001",
+     "line": 1235,
+     "col": 12,
+     "end_line": 1235
+    },
+    {
+     "rule": "AG001",
+     "line": 1313,
+     "col": 33,
+     "end_line": 1313
+    },
+    {
+     "rule": "AG001",
+     "line": 1343,
+     "col": 12,
+     "end_line": 1343
+    },
+    {
+     "rule": "AG001",
+     "line": 1476,
+     "col": 15,
+     "end_line": 1476
+    }
+   ]
+  },
+  {
+   "id": "jrasband-dev/polars-extensions:polars_extensions/mssql/writer.py",
+   "framework": "polars",
+   "repo": "jrasband-dev/polars-extensions",
+   "lines": 276,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "nikkisora/PolarBT:examples/example_ml_strategy.py",
+   "framework": "polars",
+   "repo": "nikkisora/PolarBT",
+   "lines": 177,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "oelarnes/spells:spells/filter.py",
+   "framework": "polars",
+   "repo": "oelarnes/spells",
+   "lines": 138,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "cpprhtn/miniEDA:utils/io_utils.py",
+   "framework": "polars",
+   "repo": "cpprhtn/miniEDA",
+   "lines": 30,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "OncoAtlas/susflow:susflow/reader.py",
+   "framework": "polars",
+   "repo": "OncoAtlas/susflow",
+   "lines": 149,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "CangyuanLi/checkedframe:src/checkedframe/_config.py",
+   "framework": "polars",
+   "repo": "CangyuanLi/checkedframe",
+   "lines": 95,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mgillr/crdt-merge:crdt_merge/cli/_output.py",
+   "framework": "polars",
+   "repo": "mgillr/crdt-merge",
+   "lines": 359,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alvarodiez20/pysuricata:pysuricata/compute/orchestration/engine.py",
+   "framework": "polars",
+   "repo": "alvarodiez20/pysuricata",
+   "lines": 729,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 261,
+     "col": 27,
+     "end_line": 261
+    },
+    {
+     "rule": "AG001",
+     "line": 439,
+     "col": 25,
+     "end_line": 439
+    }
+   ]
+  },
+  {
+   "id": "oelarnes/spells:spells/cache.py",
+   "framework": "polars",
+   "repo": "oelarnes/spells",
+   "lines": 304,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 100,
+     "col": 17,
+     "end_line": 102
+    },
+    {
+     "rule": "AG001",
+     "line": 119,
+     "col": 8,
+     "end_line": 119
+    },
+    {
+     "rule": "AG001",
+     "line": 123,
+     "col": 14,
+     "end_line": 123
+    }
+   ]
+  },
+  {
+   "id": "Edwardvaneechoud/pl-fuzzy-frame-match:performance_test/performance_test.py",
+   "framework": "polars",
+   "repo": "Edwardvaneechoud/pl-fuzzy-frame-match",
+   "lines": 187,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sutro-sh/sutro:sutro/templates/evals.py",
+   "framework": "polars",
+   "repo": "sutro-sh/sutro",
+   "lines": 341,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "CangyuanLi/checkedframe:src/checkedframe/_schema_generation.py",
+   "framework": "polars",
+   "repo": "CangyuanLi/checkedframe",
+   "lines": 168,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "leonardovida/duckdb-sqlalchemy:duckdb_sqlalchemy/_bulk_insert.py",
+   "framework": "pandas",
+   "repo": "leonardovida/duckdb-sqlalchemy",
+   "lines": 201,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DevDizzle/gammarips-engine:backtesting_and_research/v4_backtest.py",
+   "framework": "pandas",
+   "repo": "DevDizzle/gammarips-engine",
+   "lines": 298,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 289,
+     "col": 15,
+     "end_line": 289
+    }
+   ]
+  },
+  {
+   "id": "getdango/dango:dango/ingestion/dlt_sources/stripe_analytics/metrics.py",
+   "framework": "pandas",
+   "repo": "getdango/dango",
+   "lines": 96,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ptimizeroracle/ondine:examples/04_with_cost_control.py",
+   "framework": "pandas",
+   "repo": "ptimizeroracle/ondine",
+   "lines": 77,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pablo-reyes8/colombia-tourism-ml-forecasting:apps/streamlit_app.py",
+   "framework": "pandas",
+   "repo": "pablo-reyes8/colombia-tourism-ml-forecasting",
+   "lines": 136,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "guruvaidev/avaloka:app/infra/run_ray_smoketest.py",
+   "framework": "pandas",
+   "repo": "guruvaidev/avaloka",
+   "lines": 85,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 55,
+     "col": 8,
+     "end_line": 55
+    }
+   ]
+  },
+  {
+   "id": "ptimizeroracle/ondine:examples/13_custom_client.py",
+   "framework": "pandas",
+   "repo": "ptimizeroracle/ondine",
+   "lines": 190,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "evgeniimatveev/data-pipeline-etl-project:scripts/etl.py",
+   "framework": "pandas",
+   "repo": "evgeniimatveev/data-pipeline-etl-project",
+   "lines": 31,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "stemmatics/paneldx:validation/harness/cases.py",
+   "framework": "pandas",
+   "repo": "stemmatics/paneldx",
+   "lines": 711,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Bhavesh716/JAL-VAANI:SCRIPTS/detect_recharge_outliers.py",
+   "framework": "pandas",
+   "repo": "Bhavesh716/JAL-VAANI",
+   "lines": 18,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform:services/retraining_service/src/utils.py",
+   "framework": "pandas",
+   "repo": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform",
+   "lines": 22,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "guruvaidev/avaloka:app/agents/mta_v2/local_trainer.py",
+   "framework": "pandas",
+   "repo": "guruvaidev/avaloka",
+   "lines": 1405,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 174,
+     "col": 15,
+     "end_line": 174
+    },
+    {
+     "rule": "AG003",
+     "line": 1144,
+     "col": 21,
+     "end_line": 1144
+    }
+   ]
+  },
+  {
+   "id": "Furkan5E/GamePrice-Index:src/gameprice_index/api.py",
+   "framework": "pandas",
+   "repo": "Furkan5E/GamePrice-Index",
+   "lines": 185,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sadigaxund/Aqueduct:gallery/snippets/04_ingress_jdbc_postgres/inspect_results.py",
+   "framework": "pandas",
+   "repo": "sadigaxund/Aqueduct",
+   "lines": 34,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alfredshingai/SokoData:src/sokodata/datasets/climate/clean.py",
+   "framework": "pandas",
+   "repo": "alfredshingai/SokoData",
+   "lines": 46,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "guruvaidev/avaloka:scripts/manual/coder_execution_demo.py",
+   "framework": "pandas",
+   "repo": "guruvaidev/avaloka",
+   "lines": 100,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 37,
+     "col": 24,
+     "end_line": 37
+    }
+   ]
+  },
+  {
+   "id": "alfredshingai/SokoData:src/sokodata/datasets/mining/fetch.py",
+   "framework": "pandas",
+   "repo": "alfredshingai/SokoData",
+   "lines": 90,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ashishallu/fraud-detection-pipeline:graph/graph_builder.py",
+   "framework": "pandas",
+   "repo": "ashishallu/fraud-detection-pipeline",
+   "lines": 314,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mixpanel/mixpanel-headless:specs/009-workspace/contracts/workspace_api.py",
+   "framework": "pandas",
+   "repo": "mixpanel/mixpanel-headless",
+   "lines": 806,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ptimizeroracle/ondine:examples/09_system_prompts.py",
+   "framework": "pandas",
+   "repo": "ptimizeroracle/ondine",
+   "lines": 305,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hiero-hackers/analytics:src/hiero_analytics/analysis/contributor_churn.py",
+   "framework": "pandas",
+   "repo": "hiero-hackers/analytics",
+   "lines": 83,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vuhuusy/data-lakehouse-platform:script/airflow/census_api/census_etl.py",
+   "framework": "pandas",
+   "repo": "vuhuusy/data-lakehouse-platform",
+   "lines": 147,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "NadirAliOfficial/dim-account-audit:lib/report.py",
+   "framework": "pandas",
+   "repo": "NadirAliOfficial/dim-account-audit",
+   "lines": 139,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sidequery/dlt-iceberg:examples/usgs_earthquakes.py",
+   "framework": "pandas",
+   "repo": "sidequery/dlt-iceberg",
+   "lines": 235,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 214,
+     "col": 9,
+     "end_line": 214
+    }
+   ]
+  },
+  {
+   "id": "vishal-bulbule/google-cloud-data-engineering-hub:34-data-quality-validation-framework/main.py",
+   "framework": "pandas",
+   "repo": "vishal-bulbule/google-cloud-data-engineering-hub",
+   "lines": 74,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "BusySloths/mlox:mlox/view/services/gcp/sheet.py",
+   "framework": "pandas",
+   "repo": "BusySloths/mlox",
+   "lines": 72,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "lieblm/thanksgiving-alpha:src/tgalpha/cli.py",
+   "framework": "pandas",
+   "repo": "lieblm/thanksgiving-alpha",
+   "lines": 149,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hiero-hackers/analytics:src/hiero_analytics/export/chart_data.py",
+   "framework": "pandas",
+   "repo": "hiero-hackers/analytics",
+   "lines": 528,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "badhope/urban-pulse:notebooks/03_CAUSAL_INFERENCE.py",
+   "framework": "pandas",
+   "repo": "badhope/urban-pulse",
+   "lines": 310,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gefgu/fastmob:benchmarks/model_statistical_baseline.py",
+   "framework": "pandas",
+   "repo": "gefgu/fastmob",
+   "lines": 562,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "kalluripradeep/modern-etl-stack:scripts/prepare_spark_test.py",
+   "framework": "pandas",
+   "repo": "kalluripradeep/modern-etl-stack",
+   "lines": 36,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "IsaacCheng9/order-book-simulator:src/order_book_simulator/ui/components/trade_history.py",
+   "framework": "pandas",
+   "repo": "IsaacCheng9/order-book-simulator",
+   "lines": 277,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alfredshingai/SokoData:src/sokodata/datasets/economy/fetch.py",
+   "framework": "pandas",
+   "repo": "alfredshingai/SokoData",
+   "lines": 233,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "OAI-Labs/xfmr-zem:src/xfmr_zem/servers/nemo_curator/server.py",
+   "framework": "pandas",
+   "repo": "OAI-Labs/xfmr-zem",
+   "lines": 119,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vishal-bulbule/google-cloud-data-engineering-hub:10-gcs-high-throughput-transfer/pandas_gcs.py",
+   "framework": "pandas",
+   "repo": "vishal-bulbule/google-cloud-data-engineering-hub",
+   "lines": 82,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 26,
+     "col": 13,
+     "end_line": 26
+    }
+   ]
+  },
+  {
+   "id": "aeonasoft/audioflow:dags/audiofiles.py",
+   "framework": "pandas",
+   "repo": "aeonasoft/audioflow",
+   "lines": 293,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "ashishallu/fraud-detection-pipeline:producer/kafka_producer.py",
+   "framework": "pandas",
+   "repo": "ashishallu/fraud-detection-pipeline",
+   "lines": 265,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "gefgu/fastmob:benchmarks/integration_poi_event_speed.py",
+   "framework": "pandas",
+   "repo": "gefgu/fastmob",
+   "lines": 141,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DevDizzle/gammarips-engine:backtesting_and_research/analyze_entry_time.py",
+   "framework": "pandas",
+   "repo": "DevDizzle/gammarips-engine",
+   "lines": 17,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "khalidmammadov/polarspark:polarspark/testing/utils.py",
+   "framework": "pandas",
+   "repo": "khalidmammadov/polarspark",
+   "lines": 934,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 897,
+     "col": 22,
+     "end_line": 897
+    },
+    {
+     "rule": "AG001",
+     "line": 902,
+     "col": 24,
+     "end_line": 902
+    }
+   ]
+  },
+  {
+   "id": "Rayyan9477/MLOps-Pipeline-for-USD-Forecasting:src/api/main.py",
+   "framework": "pandas",
+   "repo": "Rayyan9477/MLOps-Pipeline-for-USD-Forecasting",
+   "lines": 762,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Furkan5E/GamePrice-Index:src/gameprice_index/cli.py",
+   "framework": "pandas",
+   "repo": "Furkan5E/GamePrice-Index",
+   "lines": 330,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "spiraldb/raincloud:examples/kepler_exoplanets.py",
+   "framework": "pandas",
+   "repo": "spiraldb/raincloud",
+   "lines": 94,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 43,
+     "col": 13,
+     "end_line": 43
+    }
+   ]
+  },
+  {
+   "id": "BusySloths/mlox:mlox/view/services/openbao.py",
+   "framework": "pandas",
+   "repo": "BusySloths/mlox",
+   "lines": 484,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "OncoAtlas/susflow:susflow/systems/siasus.py",
+   "framework": "pandas",
+   "repo": "OncoAtlas/susflow",
+   "lines": 135,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Bhavesh716/JAL-VAANI:BACKEND/prediction_engine.py",
+   "framework": "pandas",
+   "repo": "Bhavesh716/JAL-VAANI",
+   "lines": 230,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DevDizzle/gammarips-engine:backtesting_and_research/premium_eda.py",
+   "framework": "pandas",
+   "repo": "DevDizzle/gammarips-engine",
+   "lines": 96,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "2233admin/opencli-Razormind:compat/kats_runtime/engine.py",
+   "framework": "pandas",
+   "repo": "2233admin/opencli-Razormind",
+   "lines": 878,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "hiero-hackers/analytics:src/hiero_analytics/analysis/repo_growth.py",
+   "framework": "pandas",
+   "repo": "hiero-hackers/analytics",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "IsaacCheng9/order-book-simulator:src/order_book_simulator/ui/components/order_book.py",
+   "framework": "pandas",
+   "repo": "IsaacCheng9/order-book-simulator",
+   "lines": 98,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "LakeLogic/LakeLogic:lakelogic/engines/snowflake.py",
+   "framework": "pandas",
+   "repo": "LakeLogic/LakeLogic",
+   "lines": 958,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform:services/training_service/src/load_from_datalake.py",
+   "framework": "pandas",
+   "repo": "DanielePioGenovese/Autonomous-Anomaly-Detection-and-Response-Platform",
+   "lines": 78,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "BusySloths/mlox:mlox/view/repositories.py",
+   "framework": "pandas",
+   "repo": "BusySloths/mlox",
+   "lines": 107,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "novis10813/factorium:src/factorium/backtest/metrics.py",
+   "framework": "pandas",
+   "repo": "novis10813/factorium",
+   "lines": 103,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "badhope/urban-pulse:backend/core/analyzer.py",
+   "framework": "pandas",
+   "repo": "badhope/urban-pulse",
+   "lines": 380,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aaryanrwt/Tidely:src/tidely/result.py",
+   "framework": "pandas",
+   "repo": "aaryanrwt/Tidely",
+   "lines": 457,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Rayyan9477/MLOps-Pipeline-for-USD-Forecasting:pages/2_Predictions.py",
+   "framework": "pandas",
+   "repo": "Rayyan9477/MLOps-Pipeline-for-USD-Forecasting",
+   "lines": 614,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aaryanrwt/Tidely:examples/massive_scale.py",
+   "framework": "pandas",
+   "repo": "aaryanrwt/Tidely",
+   "lines": 52,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "leonardovida/duckdb-sqlalchemy:benchmarks/run.py",
+   "framework": "pandas",
+   "repo": "leonardovida/duckdb-sqlalchemy",
+   "lines": 253,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "GreatDataLabs/great-generator:great_generator/domains/public_sector.py",
+   "framework": "pandas",
+   "repo": "GreatDataLabs/great-generator",
+   "lines": 159,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG000",
+     "line": 1,
+     "col": 0,
+     "end_line": 1
+    }
+   ]
+  },
+  {
+   "id": "mgillr/crdt-merge:crdt_merge/cli/_wizard.py",
+   "framework": "pandas",
+   "repo": "mgillr/crdt-merge",
+   "lines": 544,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "shahabsalehi/HVAC-Fault-Detection-with-Anomaly-Pipeline:src/dashboard_app.py",
+   "framework": "pandas",
+   "repo": "shahabsalehi/HVAC-Fault-Detection-with-Anomaly-Pipeline",
+   "lines": 441,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "iQuantC/Airflow-Pipeline-Docker-Kubernetes:app.py",
+   "framework": "pandas",
+   "repo": "iQuantC/Airflow-Pipeline-Docker-Kubernetes",
+   "lines": 25,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 6,
+     "col": 13,
+     "end_line": 6
+    }
+   ]
+  },
+  {
+   "id": "namesjoe/ai_digest_finance:articles.py",
+   "framework": "pandas",
+   "repo": "namesjoe/ai_digest_finance",
+   "lines": 105,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "lmuffato/jiboia-gpu:jiboia_gpu/dataframe/df_utils.py",
+   "framework": "pandas",
+   "repo": "lmuffato/jiboia-gpu",
+   "lines": 308,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "seadonggyun4/truthound:src/truthound/execution/distributed/dask_engine.py",
+   "framework": "pandas",
+   "repo": "seadonggyun4/truthound",
+   "lines": 977,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda-registry:mloda/community/feature_groups/data_operations/row_preserving/offset/pandas_offset.py",
+   "framework": "pandas",
+   "repo": "mloda-ai/mloda-registry",
+   "lines": 66,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alvarodiez20/pysuricata:benchmarks/check_docs.py",
+   "framework": "pandas",
+   "repo": "alvarodiez20/pysuricata",
+   "lines": 916,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "dqflow/dqflow:examples/infer-refine/infer_and_validate.py",
+   "framework": "pandas",
+   "repo": "dqflow/dqflow",
+   "lines": 38,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "stiles/hangarbay:hangarbay/api.py",
+   "framework": "pandas",
+   "repo": "stiles/hangarbay",
+   "lines": 426,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "JACKSKYHADES0910/University-Application-Information-Scraper:utils/data_saver.py",
+   "framework": "pandas",
+   "repo": "JACKSKYHADES0910/University-Application-Information-Scraper",
+   "lines": 406,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "badhope/urban-pulse:backend/data/macro_data.py",
+   "framework": "pandas",
+   "repo": "badhope/urban-pulse",
+   "lines": 147,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "nathadriele/data-engineering-zoomcamp:03-data-warehouse/scripts/load-data-to-db.py",
+   "framework": "pandas",
+   "repo": "nathadriele/data-engineering-zoomcamp",
+   "lines": 81,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 35,
+     "col": 13,
+     "end_line": 35
+    },
+    {
+     "rule": "AG001",
+     "line": 49,
+     "col": 23,
+     "end_line": 49
+    }
+   ]
+  },
+  {
+   "id": "bryanmg20/secop2-etl-pipeline:main.py",
+   "framework": "pandas",
+   "repo": "bryanmg20/secop2-etl-pipeline",
+   "lines": 128,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mbari-org/aidata:mbari_aidata/plugins/extractors/tap_cfe_media.py",
+   "framework": "pandas",
+   "repo": "mbari-org/aidata",
+   "lines": 187,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "analyticsdurgesh/FraudStream-Lakehouse:fraudstream/dashboard/data.py",
+   "framework": "pandas",
+   "repo": "analyticsdurgesh/FraudStream-Lakehouse",
+   "lines": 15,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pablo-reyes8/colombia-tourism-ml-forecasting:src/colombia_tourism/preprocessing/text.py",
+   "framework": "pandas",
+   "repo": "pablo-reyes8/colombia-tourism-ml-forecasting",
+   "lines": 58,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mbari-org/aidata:mbari_aidata/plugins/extractors/tap_sony_media.py",
+   "framework": "pandas",
+   "repo": "mbari-org/aidata",
+   "lines": 121,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "LeastAction-Labs/LeastAction:backend/onboarding_setup/operators/Postgresql/PostgresqlGenerateHtmlTableReport.py",
+   "framework": "pandas",
+   "repo": "LeastAction-Labs/LeastAction",
+   "lines": 1197,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "cacelass/dskit:template/agents/tools/dataframe_analysis_tool.py",
+   "framework": "pandas",
+   "repo": "cacelass/dskit",
+   "lines": 171,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "aaryanrwt/Tidely:examples/validation.py",
+   "framework": "pandas",
+   "repo": "aaryanrwt/Tidely",
+   "lines": 29,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "alvarodiez20/pysuricata:scripts/contact_sheet.py",
+   "framework": "pandas",
+   "repo": "alvarodiez20/pysuricata",
+   "lines": 111,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 39,
+     "col": 34,
+     "end_line": 39
+    }
+   ]
+  },
+  {
+   "id": "GreatDataLabs/great-generator:great_generator/domains/automotive.py",
+   "framework": "pandas",
+   "repo": "GreatDataLabs/great-generator",
+   "lines": 161,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG000",
+     "line": 1,
+     "col": 0,
+     "end_line": 1
+    }
+   ]
+  },
+  {
+   "id": "dmitriiweb/airow:airow/backends/pandas.py",
+   "framework": "pandas",
+   "repo": "dmitriiweb/airow",
+   "lines": 51,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "vishal-bulbule/google-cloud-data-engineering-hub:01-bq-csv-ingestion-pipeline/ingest_formats.py",
+   "framework": "pandas",
+   "repo": "vishal-bulbule/google-cloud-data-engineering-hub",
+   "lines": 116,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG003",
+     "line": 71,
+     "col": 10,
+     "end_line": 71
+    },
+    {
+     "rule": "AG003",
+     "line": 96,
+     "col": 10,
+     "end_line": 96
+    }
+   ]
+  },
+  {
+   "id": "LeastAction-Labs/LeastAction-Lite:backend/onboarding_setup/operators/Postgresql/PostgresqlGenerateHtmlReport.py",
+   "framework": "pandas",
+   "repo": "LeastAction-Labs/LeastAction-Lite",
+   "lines": 1039,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "The-Pulse-Engine/Pulse-Engine_Market_Intelligence_Platform:pulseengine/local/data.py",
+   "framework": "pandas",
+   "repo": "The-Pulse-Engine/Pulse-Engine_Market_Intelligence_Platform",
+   "lines": 173,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sadigaxund/Aqueduct:gallery/snippets/40_error_types_quality/inspect_results.py",
+   "framework": "pandas",
+   "repo": "sadigaxund/Aqueduct",
+   "lines": 74,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "sadigaxund/Aqueduct:gallery/snippets/41_enabled_conditional/inspect_results.py",
+   "framework": "pandas",
+   "repo": "sadigaxund/Aqueduct",
+   "lines": 46,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mixpanel/mixpanel-headless:scripts/qa/qa_bookmarks_api.py",
+   "framework": "pandas",
+   "repo": "mixpanel/mixpanel-headless",
+   "lines": 979,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "davidjosipovic/news-trend-analysis:api/prediction_api.py",
+   "framework": "pandas",
+   "repo": "davidjosipovic/news-trend-analysis",
+   "lines": 532,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Bhavesh716/JAL-VAANI:BACKEND/analysis_engine.py",
+   "framework": "pandas",
+   "repo": "Bhavesh716/JAL-VAANI",
+   "lines": 109,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "cacelass/dskit:template/{{ project_slug }}/visualization/visualize.py",
+   "framework": "pandas",
+   "repo": "cacelass/dskit",
+   "lines": 893,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG000",
+     "line": 1,
+     "col": 0,
+     "end_line": 1
+    }
+   ]
+  },
+  {
+   "id": "Rayyan9477/MLOps-Pipeline-for-USD-Forecasting:src/monitoring/drift.py",
+   "framework": "pandas",
+   "repo": "Rayyan9477/MLOps-Pipeline-for-USD-Forecasting",
+   "lines": 228,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "pablo-reyes8/colombia-tourism-ml-forecasting:src/colombia_tourism/preprocessing/crime.py",
+   "framework": "pandas",
+   "repo": "pablo-reyes8/colombia-tourism-ml-forecasting",
+   "lines": 33,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "k3XD16/netflix-data-insights:streamlit_app/pages/6_Quality_Scorecard.py",
+   "framework": "pandas",
+   "repo": "k3XD16/netflix-data-insights",
+   "lines": 365,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "Furkan5E/GamePrice-Index:src/gameprice_index/validation.py",
+   "framework": "pandas",
+   "repo": "Furkan5E/GamePrice-Index",
+   "lines": 87,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "mloda-ai/mloda-registry:mloda/testing/feature_groups/data_operations/mixins/pandas.py",
+   "framework": "pandas",
+   "repo": "mloda-ai/mloda-registry",
+   "lines": 38,
+   "missing": false,
+   "findings": [
+    {
+     "rule": "AG001",
+     "line": 18,
+     "col": 15,
+     "end_line": 18
+    }
+   ]
+  },
+  {
+   "id": "JB-Analytica/model2data:model2data/metrics/values.py",
+   "framework": "pandas",
+   "repo": "JB-Analytica/model2data",
+   "lines": 285,
+   "missing": false,
+   "findings": []
+  },
+  {
+   "id": "OutSquareCapital/belugas:src/belugas/_scans.py",
+   "framework": "pandas",
+   "repo": "OutSquareCapital/belugas",
+   "lines": 270,
+   "missing": false,
+   "findings": []
+  }
+ ]
+}

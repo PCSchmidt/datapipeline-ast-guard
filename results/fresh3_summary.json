@@ -1,0 +1,51 @@
+{
+ "findings_reported_by_only_one_version": 0,
+ "AG003": {
+  "n": 59,
+  "faithful": [
+   59,
+   59,
+   0.9388685202159079,
+   1.0000000000000002
+  ],
+  "actionable": [
+   13,
+   59,
+   0.13354072524323757,
+   0.3413294244665089
+  ],
+  "repos": 24,
+  "actionable_repos": 7
+ },
+ "AG002": {
+  "n": 1,
+  "faithful": [
+   1,
+   1,
+   0.20654329147389294,
+   1.0
+  ],
+  "actionable": [
+   0,
+   1,
+   0.0,
+   0.7934567085261071
+  ],
+  "repos": 1,
+  "actionable_repos": 0
+ },
+ "largest_repositories": [
+  [
+   "vuhuusy/data-lakehouse-platform",
+   8
+  ],
+  [
+   "f-lab-edu/league-of-legends-data-solution",
+   6
+  ],
+  [
+   "AbhishekGit-hash/Real-Time-Delta-Lake-with-Pyspark",
+   5
+  ]
+ ]
+}

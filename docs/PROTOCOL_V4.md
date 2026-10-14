@@ -46,4 +46,5 @@ One rater who wrote the tool. F3 is a convenience sample of new repositories; fi
 
 ## Deviations
 
-(none yet)
+1. **F3 is defined by creation date, not by sort order (2026-10-13, before the tool was run on it).** `gh search repos` cannot sort by creation date. F3 therefore uses repositories **created on or after 2025-06-01**, in the same 20 to 500 star band, sorted by most recently updated, all other rules as written. The aim (newer repositories, more likely to contain AI-assisted code) is unchanged.
+2. **The F3 population was widened a second time, still before the tool was run on it (2026-10-13).** Repositories created on or after 2025-06-01 yielded only 13 usable repositories and 25 files, too few. F3 is therefore repositories **created on or after 2024-01-01 with 5 to 500 stars** (the star floor lowered from 20), sorted by most recently updated. Result: 300 files (100 per stratum) from 133 repositories; 570 earlier repositories excluded.
